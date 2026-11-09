@@ -1,0 +1,3 @@
+CREATE TABLE IF NOT EXISTS workspace_events(seq INTEGER PRIMARY KEY,event_id TEXT UNIQUE NOT NULL,request_key TEXT UNIQUE NOT NULL,request_hash TEXT NOT NULL,actor_id TEXT NOT NULL,role TEXT NOT NULL,branch_id TEXT NOT NULL,kind TEXT NOT NULL,at TEXT NOT NULL,payload TEXT NOT NULL,previous_signature TEXT NOT NULL,signature TEXT NOT NULL);
+CREATE TRIGGER IF NOT EXISTS workspace_no_update BEFORE UPDATE ON workspace_events BEGIN SELECT RAISE(ABORT,'Workspace events are immutable'); END;
+CREATE TRIGGER IF NOT EXISTS workspace_no_delete BEFORE DELETE ON workspace_events BEGIN SELECT RAISE(ABORT,'Workspace events are immutable'); END;

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "sheet": "entries",
+  "max_bytes": 20971520,
+  "max_rows": 100000,
+  "columns": {
+    "branch_id": "branch_id",
+    "document_id": "document_id",
+    "line_number": "line_number",
+    "recognized_date": "recognized_date",
+    "category": "category",
+    "amount_vnd": "amount_vnd",
+    "source": "source"
+  }
+}

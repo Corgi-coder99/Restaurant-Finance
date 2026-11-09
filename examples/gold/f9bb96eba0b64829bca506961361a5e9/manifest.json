@@ -1,0 +1,17 @@
+{
+  "snapshot_id": "f9bb96eba0b64829bca506961361a5e9",
+  "pipeline_version": "medallion-1.0",
+  "currency": "VND",
+  "created_at": "2026-11-08T13:45:43.173353",
+  "fact_rows": 72,
+  "active_sources": [
+    {
+      "source_id": "demo_2024_2025",
+      "file_hash": "3c5fe4e93e2de58d9092cf879f0f6d3394d8139993f998ea97a2e6c88941bbf8",
+      "config_hash": "5344b5ea67909d8331c30554e1f6bf5825a0d1d1fb9dd3636a05b920999b4296",
+      "version": "medallion-1.0",
+      "run_id": "bd0a39c8f1bd40e880ba493b3e5e24f1"
+    }
+  ],
+  "basis": "recognized net entries; operating profit before depreciation, interest and tax"
+}

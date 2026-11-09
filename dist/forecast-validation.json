@@ -1,0 +1,313 @@
+{
+  "mode": "synthetic_historical_validation",
+  "history": "2024-01 to 2025-12",
+  "cutoff": "2026-01-01",
+  "branches": {
+    "q1": {
+      "method": "validated_component_selection",
+      "currency": "VND",
+      "status": "validated_baseline",
+      "as_of": "2026-01-01",
+      "history_end": "2025-12",
+      "forecast": [
+        {
+          "month": "2026-01",
+          "revenue_vnd": 647010000,
+          "food_vnd": 219817500,
+          "labor_vnd": 170000000,
+          "rent_vnd": 85000000,
+          "other_vnd": 85725600,
+          "operating_profit_vnd": 86466900
+        },
+        {
+          "month": "2026-02",
+          "revenue_vnd": 589680000,
+          "food_vnd": 200340000,
+          "labor_vnd": 170000000,
+          "rent_vnd": 85000000,
+          "other_vnd": 83020800,
+          "operating_profit_vnd": 51319200
+        },
+        {
+          "month": "2026-03",
+          "revenue_vnd": 720720000,
+          "food_vnd": 244860000,
+          "labor_vnd": 170000000,
+          "rent_vnd": 85000000,
+          "other_vnd": 89203200,
+          "operating_profit_vnd": 131656800
+        }
+      ],
+      "model_selection": {
+        "revenue_vnd": {
+          "method": "seasonal_12",
+          "rolling_selection_mae": {
+            "last_value": 87360000.0,
+            "mean_last_3": 90077619.04761904,
+            "seasonal_12": 35192857.14285714
+          },
+          "origins": 7
+        },
+        "food_vnd": {
+          "method": "seasonal_12",
+          "rolling_selection_mae": {
+            "last_value": 29680000.0,
+            "mean_last_3": 30603293.666666668,
+            "seasonal_12": 11956547.61904762
+          },
+          "origins": 7
+        },
+        "labor_vnd": {
+          "method": "last_value",
+          "rolling_selection_mae": {
+            "last_value": 0.0,
+            "mean_last_3": 0.0,
+            "seasonal_12": 0.0
+          },
+          "origins": 7
+        },
+        "rent_vnd": {
+          "method": "last_value",
+          "rolling_selection_mae": {
+            "last_value": 0.0,
+            "mean_last_3": 0.0,
+            "seasonal_12": 0.0
+          },
+          "origins": 7
+        },
+        "other_vnd": {
+          "method": "seasonal_12",
+          "rolling_selection_mae": {
+            "last_value": 4121600.0,
+            "mean_last_3": 4249815.857142857,
+            "seasonal_12": 1660380.9523809524
+          },
+          "origins": 7
+        }
+      },
+      "backtest": {
+        "test_months": 3,
+        "months": [
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "revenue_mae_vnd": 41080000.0,
+        "revenue_wape_pct": 4.761904761904762,
+        "profit_mae_vnd": 25185200.0
+      },
+      "reviewed_months": 24,
+      "warnings": [],
+      "limitations": [
+        "Model chosen only on rolling-origin selection data; final horizon-sized block excluded from selection. Scores are historical, not a guarantee.",
+        "No calibrated prediction interval; a short final holdout is insufficient to establish reliable future coverage.",
+        "Only three baseline models compared. Future accuracy is not guaranteed.",
+        "Completeness approval is a human assertion, not automatic proof of genuine invoices."
+      ]
+    },
+    "td": {
+      "method": "validated_component_selection",
+      "currency": "VND",
+      "status": "validated_baseline",
+      "as_of": "2026-01-01",
+      "history_end": "2025-12",
+      "forecast": [
+        {
+          "month": "2026-01",
+          "revenue_vnd": 539175000,
+          "food_vnd": 194103000,
+          "labor_vnd": 155000000,
+          "rent_vnd": 78000000,
+          "other_vnd": 77339400,
+          "operating_profit_vnd": 34732600
+        },
+        {
+          "month": "2026-02",
+          "revenue_vnd": 491400000,
+          "food_vnd": 176904000,
+          "labor_vnd": 155000000,
+          "rent_vnd": 78000000,
+          "other_vnd": 74899200,
+          "operating_profit_vnd": 6596800
+        },
+        {
+          "month": "2026-03",
+          "revenue_vnd": 600600000,
+          "food_vnd": 216216000,
+          "labor_vnd": 155000000,
+          "rent_vnd": 78000000,
+          "other_vnd": 80476800,
+          "operating_profit_vnd": 70907200
+        }
+      ],
+      "model_selection": {
+        "revenue_vnd": {
+          "method": "seasonal_12",
+          "rolling_selection_mae": {
+            "last_value": 72800000.0,
+            "mean_last_3": 75064682.52380952,
+            "seasonal_12": 29327380.95238095
+          },
+          "origins": 7
+        },
+        "food_vnd": {
+          "method": "seasonal_12",
+          "rolling_selection_mae": {
+            "last_value": 26208000.0,
+            "mean_last_3": 27023285.714285713,
+            "seasonal_12": 10557857.142857144
+          },
+          "origins": 7
+        },
+        "labor_vnd": {
+          "method": "last_value",
+          "rolling_selection_mae": {
+            "last_value": 0.0,
+            "mean_last_3": 0.0,
+            "seasonal_12": 0.0
+          },
+          "origins": 7
+        },
+        "rent_vnd": {
+          "method": "last_value",
+          "rolling_selection_mae": {
+            "last_value": 0.0,
+            "mean_last_3": 0.0,
+            "seasonal_12": 0.0
+          },
+          "origins": 7
+        },
+        "other_vnd": {
+          "method": "seasonal_12",
+          "rolling_selection_mae": {
+            "last_value": 3718400.0,
+            "mean_last_3": 3834073.0,
+            "seasonal_12": 1497952.380952381
+          },
+          "origins": 7
+        }
+      },
+      "backtest": {
+        "test_months": 3,
+        "months": [
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "revenue_mae_vnd": 34233333.333333336,
+        "revenue_wape_pct": 4.761904761904762,
+        "profit_mae_vnd": 20160800.0
+      },
+      "reviewed_months": 24,
+      "warnings": [],
+      "limitations": [
+        "Model chosen only on rolling-origin selection data; final horizon-sized block excluded from selection. Scores are historical, not a guarantee.",
+        "No calibrated prediction interval; a short final holdout is insufficient to establish reliable future coverage.",
+        "Only three baseline models compared. Future accuracy is not guaranteed.",
+        "Completeness approval is a human assertion, not automatic proof of genuine invoices."
+      ]
+    },
+    "dn": {
+      "method": "validated_component_selection",
+      "currency": "VND",
+      "status": "validated_baseline",
+      "as_of": "2026-01-01",
+      "history_end": "2025-12",
+      "forecast": [
+        {
+          "month": "2026-01",
+          "revenue_vnd": 389865000,
+          "food_vnd": 124425000,
+          "labor_vnd": 105000000,
+          "rent_vnd": 42000000,
+          "other_vnd": 58703400,
+          "operating_profit_vnd": 59736600
+        },
+        {
+          "month": "2026-02",
+          "revenue_vnd": 355320000,
+          "food_vnd": 113400000,
+          "labor_vnd": 105000000,
+          "rent_vnd": 42000000,
+          "other_vnd": 56851200,
+          "operating_profit_vnd": 38068800
+        },
+        {
+          "month": "2026-03",
+          "revenue_vnd": 434280000,
+          "food_vnd": 138600000,
+          "labor_vnd": 105000000,
+          "rent_vnd": 42000000,
+          "other_vnd": 61084800,
+          "operating_profit_vnd": 87595200
+        }
+      ],
+      "model_selection": {
+        "revenue_vnd": {
+          "method": "seasonal_12",
+          "rolling_selection_mae": {
+            "last_value": 52640000.0,
+            "mean_last_3": 54277539.666666664,
+            "seasonal_12": 21205952.38095238
+          },
+          "origins": 7
+        },
+        "food_vnd": {
+          "method": "seasonal_12",
+          "rolling_selection_mae": {
+            "last_value": 16800000.0,
+            "mean_last_3": 17322619.04761905,
+            "seasonal_12": 6767857.142857143
+          },
+          "origins": 7
+        },
+        "labor_vnd": {
+          "method": "last_value",
+          "rolling_selection_mae": {
+            "last_value": 0.0,
+            "mean_last_3": 0.0,
+            "seasonal_12": 0.0
+          },
+          "origins": 7
+        },
+        "rent_vnd": {
+          "method": "last_value",
+          "rolling_selection_mae": {
+            "last_value": 0.0,
+            "mean_last_3": 0.0,
+            "seasonal_12": 0.0
+          },
+          "origins": 7
+        },
+        "other_vnd": {
+          "method": "seasonal_12",
+          "rolling_selection_mae": {
+            "last_value": 2822400.0,
+            "mean_last_3": 2910200.0,
+            "seasonal_12": 1137000.0
+          },
+          "origins": 7
+        }
+      },
+      "backtest": {
+        "test_months": 3,
+        "months": [
+          "2025-10",
+          "2025-11",
+          "2025-12"
+        ],
+        "revenue_mae_vnd": 24753333.333333332,
+        "revenue_wape_pct": 4.761904761904762,
+        "profit_mae_vnd": 15526133.333333334
+      },
+      "reviewed_months": 24,
+      "warnings": [],
+      "limitations": [
+        "Model chosen only on rolling-origin selection data; final horizon-sized block excluded from selection. Scores are historical, not a guarantee.",
+        "No calibrated prediction interval; a short final holdout is insufficient to establish reliable future coverage.",
+        "Only three baseline models compared. Future accuracy is not guaranteed.",
+        "Completeness approval is a human assertion, not automatic proof of genuine invoices."
+      ]
+    }
+  }
+}

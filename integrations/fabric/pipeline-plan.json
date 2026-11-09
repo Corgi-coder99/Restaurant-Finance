@@ -1,0 +1,17 @@
+{
+  "kind": "design_spec_not_importable_fabric_pipeline_definition",
+  "name": "bep_finance_medallion",
+  "deployment_status": "not_deployed",
+  "parameters": ["source_id", "source_uri", "schema_version", "replace_revision", "approved_snapshot_id"],
+  "activities": [
+    {"name":"receive_bronze", "engine":"Copy activity + manifest", "depends_on":[], "rule":"Retain raw bytes, checksum, source id and ingestion time; never overwrite original evidence"},
+    {"name":"extract", "engine":"Python notebook or document extraction service", "depends_on":["receive_bronze"], "rule":"CSV/XLSX adapter; PDF text extraction; scanned images -> OCR adapter -> review queue"},
+    {"name":"review_pdf", "engine":"Approval workflow to implement", "depends_on":["extract"], "rule":"Pause PDF-derived records until accounting reviewer approves mapped fields and totals"},
+    {"name":"validate_silver", "engine":"Python/PySpark notebook", "depends_on":["extract"], "rule":"Wait for review_pdf for PDF-derived inputs; validate schema, branch, currency, dates, duplicates and totals; quarantine entire invalid batch"},
+    {"name":"publish_gold", "engine":"Delta transactions per table + versioned publish manifest", "depends_on":["validate_silver"], "rule":"Enforce unique business keys; revision scoped to source_id; publish one complete snapshot only"},
+    {"name":"refresh_semantic_model", "engine":"Power BI model operation to configure", "depends_on":["publish_gold"], "rule":"Only after all snapshot tables reconcile and publication succeeds"}
+  ],
+  "retry_policy": {"transient_network_or_throttling":"Configure bounded retries and increasing delays after inspecting service errors", "data_validation_or_missing_approval":"Do not retry automatically; route to review", "conflict":"Re-read source version before retry"},
+  "operations": ["run id and source checksum on every stage", "row counts and VND totals at boundaries", "persist failed stage and error reason", "replay from retained bronze with pinned code/config version", "alert on failures and stale approved snapshot", "single publisher lock or lease per dataset", "separate dev/test/prod workspaces", "test schema changes before promotion"],
+  "local_coverage": "backend.pipeline.runner executes local Bronze/Silver/SQL Gold; template notebook imports approved Gold snapshot into Fabric. Full native cloud orchestration is not implemented."
+}

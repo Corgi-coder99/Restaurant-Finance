@@ -1,0 +1,6 @@
+(function(root){
+const branches=[{name:'Bếp Quận 1',city:'TP. Hồ Chí Minh',revenue:780,food:265,labor:170,rent:85,other:92},{name:'Bếp Thảo Điền',city:'TP. Hồ Chí Minh',revenue:650,food:234,labor:155,rent:78,other:83},{name:'Bếp Đà Nẵng',city:'Đà Nẵng',revenue:470,food:150,labor:105,rent:42,other:63}];
+function total(rows){return rows.reduce((a,b)=>{for(const k of ['revenue','food','labor','rent','other'])a[k]+=b[k];return a},{revenue:0,food:0,labor:0,rent:0,other:0})}
+function calc(b,s={}){const price=s.price||0,volume=s.volume||0,food=s.food||0,rent=s.rent===undefined?b.rent:s.rent,labor=s.labor||0;const revenue=b.revenue*(1+price/100)*(1+volume/100),costFood=b.food*(1+food/100)*(1+volume/100),costLabor=b.labor*(1+labor/100),costOther=b.other*(.6+.4*(1+volume/100)),cost=costFood+costLabor+rent+costOther;const contribution=1-(costFood+b.other*.4*(1+volume/100))/revenue;return {revenue,food:costFood,labor:costLabor,rent,other:costOther,cost,profit:revenue-cost,margin:revenue?(revenue-cost)/revenue*100:0,breakeven:contribution>0?(costLabor+rent+b.other*.6)/contribution:null}}
+const api={branches,total,calc};root.Finance=api;if(typeof module!=='undefined')module.exports=api;
+})(typeof window!=='undefined'?window:globalThis);

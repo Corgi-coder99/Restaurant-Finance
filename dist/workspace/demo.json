@@ -1,0 +1,4126 @@
+{
+  "mode": "read_only_synthetic_role_preview",
+  "notice": "Ba vai trò minh họa. Chấm công và ghi giao dịch thật cần backend; dữ liệu dưới đây không phải ca đang diễn ra.",
+  "cashier": {
+    "session": {
+      "user_id": "cashier-demo",
+      "name": "Minh Anh",
+      "role": "cashier",
+      "employee_id": "e1",
+      "branches": [
+        "q1"
+      ],
+      "branch_id": "q1",
+      "currency": "GBP",
+      "minor_digits": 2,
+      "receipt_profile": {
+        "address": "London · United Kingdom",
+        "merchant_name": "Bếp Bistro · DEMO",
+        "vat_number": "DEMO"
+      },
+      "server_now": "2026-11-08T12:00:00+00:00",
+      "timezone": "Europe/London",
+      "active_shift": {
+        "branch_id": "q1",
+        "employee_id": "e1",
+        "employee_name": "Minh Anh",
+        "handover_from": null,
+        "hourly_minor": 1500,
+        "opening_cash_minor": 0,
+        "opening_confirmed": true,
+        "shift_id": "5eeffcf4eaa04a4795bf4e0a473e88b1",
+        "started_at": "2026-11-08T09:00:00+00:00",
+        "timezone": "Europe/London",
+        "ended_at": null,
+        "reviewed": false,
+        "opening_difference_minor": 0
+      },
+      "my_shifts": [
+        {
+          "branch_id": "q1",
+          "employee_id": "e1",
+          "employee_name": "Minh Anh",
+          "handover_from": null,
+          "hourly_minor": 1500,
+          "opening_cash_minor": 0,
+          "opening_confirmed": true,
+          "shift_id": "5eeffcf4eaa04a4795bf4e0a473e88b1",
+          "started_at": "2026-11-08T09:00:00+00:00",
+          "timezone": "Europe/London",
+          "ended_at": null,
+          "reviewed": false,
+          "opening_difference_minor": 0
+        }
+      ],
+      "handover_recipients": [
+        {
+          "employee_id": "e2",
+          "name": "Hoàng Nam"
+        }
+      ],
+      "catalog": [
+        {
+          "active": true,
+          "branch_id": "q1",
+          "category": "main",
+          "components": [],
+          "icon": "rice",
+          "id": "rice_chicken",
+          "name": "Chicken rice",
+          "names": {
+            "de": "Hähnchen mit Reis",
+            "en": "Chicken rice",
+            "fr": "Riz au poulet",
+            "vi": "Cơm gà"
+          },
+          "price_minor": 1200,
+          "vat_bps": 2000
+        },
+        {
+          "active": true,
+          "branch_id": "q1",
+          "category": "main",
+          "components": [],
+          "icon": "chicken",
+          "id": "grilled_chicken",
+          "name": "Grilled chicken",
+          "names": {
+            "de": "Gegrilltes Hähnchen",
+            "en": "Grilled chicken",
+            "fr": "Poulet grillé",
+            "vi": "Gà nướng"
+          },
+          "price_minor": 1600,
+          "vat_bps": 2000
+        },
+        {
+          "active": true,
+          "branch_id": "q1",
+          "category": "drink",
+          "components": [],
+          "icon": "drink",
+          "id": "sparkling_water",
+          "name": "Sparkling water",
+          "names": {
+            "de": "Mineralwasser",
+            "en": "Sparkling water",
+            "fr": "Eau pétillante",
+            "vi": "Nước có ga"
+          },
+          "price_minor": 350,
+          "vat_bps": 2000
+        },
+        {
+          "active": true,
+          "branch_id": "q1",
+          "category": "combo",
+          "components": [
+            {
+              "product_id": "rice_chicken",
+              "quantity": 1
+            },
+            {
+              "product_id": "sparkling_water",
+              "quantity": 1
+            }
+          ],
+          "icon": "combo",
+          "id": "rice_duo",
+          "name": "Chicken rice & water",
+          "names": {
+            "de": "Hähnchen-Reis-Menü mit Wasser",
+            "en": "Chicken rice & water",
+            "fr": "Menu riz au poulet et eau",
+            "vi": "Combo cơm gà & nước"
+          },
+          "price_minor": 1450,
+          "vat_bps": 2000
+        }
+      ],
+      "tables": [
+        {
+          "id": "T1",
+          "label": "T1",
+          "seats": 4,
+          "x": 9,
+          "y": 10
+        },
+        {
+          "id": "T2",
+          "label": "T2",
+          "seats": 4,
+          "x": 39,
+          "y": 10
+        },
+        {
+          "id": "T3",
+          "label": "T3",
+          "seats": 4,
+          "x": 69,
+          "y": 10
+        },
+        {
+          "id": "T4",
+          "label": "T4",
+          "seats": 4,
+          "x": 9,
+          "y": 59
+        },
+        {
+          "id": "T5",
+          "label": "T5",
+          "seats": 2,
+          "x": 39,
+          "y": 59
+        },
+        {
+          "id": "T6",
+          "label": "T6",
+          "seats": 2,
+          "x": 69,
+          "y": 59
+        }
+      ],
+      "orders": [],
+      "campaigns": [
+        {
+          "branch_id": "q1",
+          "campaign_id": "lunch",
+          "discount_bps": 2000,
+          "enabled": true,
+          "ends_at": "2026-11-08T17:00:00+00:00",
+          "name": "Ưu đãi bữa trưa",
+          "starts_at": "2026-11-08T09:00:00+00:00"
+        }
+      ]
+    },
+    "summary": {
+      "server_now": "2026-11-08T12:00:00+00:00",
+      "currency": "GBP",
+      "shifts": [
+        {
+          "branch_id": "q1",
+          "employee_id": "e1",
+          "employee_name": "Minh Anh",
+          "handover_from": null,
+          "hourly_minor": 1500,
+          "opening_cash_minor": 0,
+          "opening_confirmed": true,
+          "shift_id": "5eeffcf4eaa04a4795bf4e0a473e88b1",
+          "started_at": "2026-11-08T09:00:00+00:00",
+          "timezone": "Europe/London",
+          "ended_at": null,
+          "reviewed": false,
+          "opening_difference_minor": 0,
+          "expected_cash_minor": 96000,
+          "sales": [
+            {
+              "document_id": "8b2454e3a730489d95393b99811802fb",
+              "kind": "sale",
+              "date": "2026-11-08",
+              "net_minor": 80000,
+              "tax_minor": 16000,
+              "gross_minor": 96000,
+              "subtotal_minor": 120000,
+              "discount_minor": 24000,
+              "discount_bps": 2000,
+              "sale_lines": [
+                {
+                  "product_id": "rice_chicken",
+                  "name": "Chicken rice",
+                  "names": {
+                    "de": "Hähnchen mit Reis",
+                    "en": "Chicken rice",
+                    "fr": "Riz au poulet",
+                    "vi": "Cơm gà"
+                  },
+                  "quantity": 100,
+                  "unit_price_minor": 1200,
+                  "subtotal_minor": 120000,
+                  "vat_bps": 2000,
+                  "discount_minor": 24000,
+                  "net_minor": 80000,
+                  "tax_minor": 16000,
+                  "gross_minor": 96000
+                }
+              ],
+              "promotion_id": "lunch",
+              "receipt_profile": {
+                "address": "London · United Kingdom",
+                "merchant_name": "Bếp Bistro · DEMO",
+                "vat_number": "DEMO"
+              },
+              "payment_method": "cash",
+              "shift_id": "5eeffcf4eaa04a4795bf4e0a473e88b1"
+            }
+          ],
+          "daily_hours": []
+        }
+      ]
+    },
+    "receipt": {
+      "document_id": "8b2454e3a730489d95393b99811802fb",
+      "date": "2026-11-08",
+      "branch_id": "q1",
+      "currency": "GBP",
+      "receipt_type": "Non-fiscal sales receipt; not a certified VAT invoice",
+      "net_minor": 80000,
+      "tax_minor": 16000,
+      "gross_minor": 96000,
+      "subtotal_minor": 120000,
+      "discount_minor": 24000,
+      "discount_bps": 2000,
+      "sale_lines": [
+        {
+          "product_id": "rice_chicken",
+          "name": "Chicken rice",
+          "names": {
+            "de": "Hähnchen mit Reis",
+            "en": "Chicken rice",
+            "fr": "Riz au poulet",
+            "vi": "Cơm gà"
+          },
+          "quantity": 100,
+          "unit_price_minor": 1200,
+          "subtotal_minor": 120000,
+          "vat_bps": 2000,
+          "discount_minor": 24000,
+          "net_minor": 80000,
+          "tax_minor": 16000,
+          "gross_minor": 96000
+        }
+      ],
+      "promotion_id": "lunch",
+      "receipt_profile": {
+        "address": "London · United Kingdom",
+        "merchant_name": "Bếp Bistro · DEMO",
+        "vat_number": "DEMO"
+      },
+      "payment_method": "cash"
+    }
+  },
+  "manager": {
+    "currency": "GBP",
+    "minor_digits": 2,
+    "branch_id": "q1",
+    "month": "2026-11",
+    "day": "2026-11-08",
+    "timezone": "Europe/London",
+    "receipt_profile": {
+      "address": "London · United Kingdom",
+      "merchant_name": "Bếp Bistro · DEMO",
+      "vat_number": "DEMO"
+    },
+    "catalog": [
+      {
+        "active": true,
+        "branch_id": "q1",
+        "category": "main",
+        "components": [],
+        "icon": "rice",
+        "id": "rice_chicken",
+        "name": "Chicken rice",
+        "names": {
+          "de": "Hähnchen mit Reis",
+          "en": "Chicken rice",
+          "fr": "Riz au poulet",
+          "vi": "Cơm gà"
+        },
+        "price_minor": 1200,
+        "recipe": [
+          {
+            "item_id": "rice",
+            "quantity": 100
+          },
+          {
+            "item_id": "chicken",
+            "quantity": 150
+          }
+        ],
+        "vat_bps": 2000
+      },
+      {
+        "active": true,
+        "branch_id": "q1",
+        "category": "main",
+        "components": [],
+        "icon": "chicken",
+        "id": "grilled_chicken",
+        "name": "Grilled chicken",
+        "names": {
+          "de": "Gegrilltes Hähnchen",
+          "en": "Grilled chicken",
+          "fr": "Poulet grillé",
+          "vi": "Gà nướng"
+        },
+        "price_minor": 1600,
+        "recipe": [
+          {
+            "item_id": "chicken",
+            "quantity": 200
+          }
+        ],
+        "vat_bps": 2000
+      },
+      {
+        "active": true,
+        "branch_id": "q1",
+        "category": "drink",
+        "components": [],
+        "icon": "drink",
+        "id": "sparkling_water",
+        "name": "Sparkling water",
+        "names": {
+          "de": "Mineralwasser",
+          "en": "Sparkling water",
+          "fr": "Eau pétillante",
+          "vi": "Nước có ga"
+        },
+        "price_minor": 350,
+        "recipe": [],
+        "vat_bps": 2000
+      },
+      {
+        "active": true,
+        "branch_id": "q1",
+        "category": "combo",
+        "components": [
+          {
+            "product_id": "rice_chicken",
+            "quantity": 1
+          },
+          {
+            "product_id": "sparkling_water",
+            "quantity": 1
+          }
+        ],
+        "icon": "combo",
+        "id": "rice_duo",
+        "name": "Chicken rice & water",
+        "names": {
+          "de": "Hähnchen-Reis-Menü mit Wasser",
+          "en": "Chicken rice & water",
+          "fr": "Menu riz au poulet et eau",
+          "vi": "Combo cơm gà & nước"
+        },
+        "price_minor": 1450,
+        "recipe": [],
+        "vat_bps": 2000
+      }
+    ],
+    "tables": [
+      {
+        "id": "T1",
+        "label": "T1",
+        "seats": 4,
+        "x": 9,
+        "y": 10
+      },
+      {
+        "id": "T2",
+        "label": "T2",
+        "seats": 4,
+        "x": 39,
+        "y": 10
+      },
+      {
+        "id": "T3",
+        "label": "T3",
+        "seats": 4,
+        "x": 69,
+        "y": 10
+      },
+      {
+        "id": "T4",
+        "label": "T4",
+        "seats": 4,
+        "x": 9,
+        "y": 59
+      },
+      {
+        "id": "T5",
+        "label": "T5",
+        "seats": 2,
+        "x": 39,
+        "y": 59
+      },
+      {
+        "id": "T6",
+        "label": "T6",
+        "seats": 2,
+        "x": 69,
+        "y": 59
+      }
+    ],
+    "financial": {
+      "liabilities_breakdown": {
+        "payroll_payable_minor": 20850,
+        "other_payable_minor": 0
+      },
+      "integrity": {
+        "verified": true,
+        "signed_documents": 10,
+        "checks": [
+          "master_data_hmac",
+          "document_hmac_chain",
+          "journal_balance",
+          "stock_reconciliation",
+          "period_locks"
+        ],
+        "limits": "Does not detect rollback to an earlier valid full database snapshot; use separately protected external anchors and backups."
+      },
+      "currency": "GBP",
+      "jurisdiction": "GB",
+      "minor_digits": 2,
+      "branch_id": "q1",
+      "from": "2026-11-01",
+      "as_of": "2026-11-30",
+      "pnl": {
+        "revenue_minor": 100000,
+        "food_minor": 48000,
+        "labor_minor": 20850,
+        "rent_minor": 10000,
+        "other_minor": 3000,
+        "operating_profit_before_depreciation_minor": 18150,
+        "depreciation_minor": 0,
+        "profit_before_interest_tax_minor": 18150
+      },
+      "liquidity": {
+        "cash_minor": 120000,
+        "bank_minor": 407000,
+        "reserve_target_minor": 0,
+        "liquidity_after_reserve_minor": 527000
+      },
+      "trial_balance": [
+        {
+          "account": "1000",
+          "name": "Tiền mặt",
+          "kind": "asset",
+          "debit_balance_minor": 120000,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "1010",
+          "name": "Ngân hàng",
+          "kind": "asset",
+          "debit_balance_minor": 407000,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "1100",
+          "name": "Phải thu khách hàng",
+          "kind": "asset",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "1200",
+          "name": "Kho nguyên liệu",
+          "kind": "asset",
+          "debit_balance_minor": 32000,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "1300",
+          "name": "Thuế đầu vào chờ đối soát",
+          "kind": "asset",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "1500",
+          "name": "Tài sản thiết bị",
+          "kind": "asset",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "1590",
+          "name": "Khấu hao lũy kế",
+          "kind": "contra_asset",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "2000",
+          "name": "Phải trả nhà cung cấp",
+          "kind": "liability",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 20850
+        },
+        {
+          "account": "2100",
+          "name": "Thuế đầu ra chờ đối soát",
+          "kind": "liability",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 20000
+        },
+        {
+          "account": "3000",
+          "name": "Vốn góp",
+          "kind": "equity",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 500000
+        },
+        {
+          "account": "4000",
+          "name": "Doanh thu thuần",
+          "kind": "income",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 100000
+        },
+        {
+          "account": "5000",
+          "name": "Giá vốn món ăn",
+          "kind": "expense",
+          "debit_balance_minor": 48000,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "5100",
+          "name": "Nhân sự",
+          "kind": "expense",
+          "debit_balance_minor": 20850,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "5200",
+          "name": "Thuê mặt bằng",
+          "kind": "expense",
+          "debit_balance_minor": 10000,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "5300",
+          "name": "Vận hành khác",
+          "kind": "expense",
+          "debit_balance_minor": 3000,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "5400",
+          "name": "Khấu hao",
+          "kind": "expense",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 0
+        }
+      ],
+      "balanced": true,
+      "stock": [
+        {
+          "item_id": "chicken",
+          "name": "Thịt gà",
+          "unit": "g",
+          "quantity": 12000,
+          "value_minor": 24000
+        },
+        {
+          "item_id": "rice",
+          "name": "Gạo",
+          "unit": "g",
+          "quantity": 8000,
+          "value_minor": 8000
+        }
+      ],
+      "assets": [],
+      "documents": [
+        {
+          "id": "d9d6464e685340c8b173eae143e23a52",
+          "kind": "capital",
+          "business_date": "2026-11-08",
+          "branch_id": "q1",
+          "actor": "local-owner",
+          "payload": {
+            "kind": "capital",
+            "branch_id": "q1",
+            "date": "2026-11-08",
+            "amount_minor": 500000
+          },
+          "due_minor": 0,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 0,
+          "lines": [
+            {
+              "account": "1010",
+              "debit": 500000,
+              "credit": 0
+            },
+            {
+              "account": "3000",
+              "debit": 0,
+              "credit": 500000
+            }
+          ]
+        },
+        {
+          "id": "03d21361c9994934b410594173753c1f",
+          "kind": "purchase",
+          "business_date": "2026-11-08",
+          "branch_id": "q1",
+          "actor": "local-owner",
+          "payload": {
+            "kind": "purchase",
+            "branch_id": "q1",
+            "date": "2026-11-08",
+            "item_id": "rice",
+            "quantity": 20000,
+            "net_minor": 20000,
+            "payment": "credit"
+          },
+          "due_minor": 20000,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 0,
+          "lines": [
+            {
+              "account": "1200",
+              "debit": 20000,
+              "credit": 0
+            },
+            {
+              "account": "2000",
+              "debit": 0,
+              "credit": 20000
+            }
+          ]
+        },
+        {
+          "id": "87ac9337f7b74b5aafc6c072f8b15e70",
+          "kind": "pay",
+          "business_date": "2026-11-08",
+          "branch_id": "q1",
+          "actor": "local-owner",
+          "payload": {
+            "kind": "pay",
+            "branch_id": "q1",
+            "date": "2026-11-08",
+            "invoice_id": "03d21361c9994934b410594173753c1f",
+            "amount_minor": 20000,
+            "payment": "bank"
+          },
+          "due_minor": 0,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 0,
+          "lines": [
+            {
+              "account": "2000",
+              "debit": 20000,
+              "credit": 0
+            },
+            {
+              "account": "1010",
+              "debit": 0,
+              "credit": 20000
+            }
+          ]
+        },
+        {
+          "id": "4ec7e50e7d084fa4a1494e9d160cc3c4",
+          "kind": "purchase",
+          "business_date": "2026-11-08",
+          "branch_id": "q1",
+          "actor": "local-owner",
+          "payload": {
+            "kind": "purchase",
+            "branch_id": "q1",
+            "date": "2026-11-08",
+            "item_id": "chicken",
+            "quantity": 30000,
+            "net_minor": 60000,
+            "payment": "credit"
+          },
+          "due_minor": 60000,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 0,
+          "lines": [
+            {
+              "account": "1200",
+              "debit": 60000,
+              "credit": 0
+            },
+            {
+              "account": "2000",
+              "debit": 0,
+              "credit": 60000
+            }
+          ]
+        },
+        {
+          "id": "f8eb352245f94d1cbc8a73657370e29b",
+          "kind": "pay",
+          "business_date": "2026-11-08",
+          "branch_id": "q1",
+          "actor": "local-owner",
+          "payload": {
+            "kind": "pay",
+            "branch_id": "q1",
+            "date": "2026-11-08",
+            "invoice_id": "4ec7e50e7d084fa4a1494e9d160cc3c4",
+            "amount_minor": 60000,
+            "payment": "bank"
+          },
+          "due_minor": 0,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 0,
+          "lines": [
+            {
+              "account": "2000",
+              "debit": 60000,
+              "credit": 0
+            },
+            {
+              "account": "1010",
+              "debit": 0,
+              "credit": 60000
+            }
+          ]
+        },
+        {
+          "id": "8b2454e3a730489d95393b99811802fb",
+          "kind": "sale",
+          "business_date": "2026-11-08",
+          "branch_id": "q1",
+          "actor": "cashier-demo",
+          "payload": {
+            "kind": "sale",
+            "branch_id": "q1",
+            "date": "2026-11-08",
+            "items": [
+              {
+                "product_id": "rice_chicken",
+                "quantity": 100
+              }
+            ],
+            "payment": "cash",
+            "tax_minor": 16000,
+            "computed": {
+              "net_minor": 80000,
+              "tax_minor": 16000,
+              "gross_minor": 96000,
+              "cost_minor": 40000,
+              "subtotal_minor": 120000,
+              "discount_minor": 24000,
+              "discount_bps": 2000,
+              "sale_lines": [
+                {
+                  "product_id": "rice_chicken",
+                  "name": "Chicken rice",
+                  "names": {
+                    "de": "Hähnchen mit Reis",
+                    "en": "Chicken rice",
+                    "fr": "Riz au poulet",
+                    "vi": "Cơm gà"
+                  },
+                  "quantity": 100,
+                  "unit_price_minor": 1200,
+                  "subtotal_minor": 120000,
+                  "vat_bps": 2000,
+                  "discount_minor": 24000,
+                  "net_minor": 80000,
+                  "tax_minor": 16000,
+                  "gross_minor": 96000
+                }
+              ],
+              "promotion_id": "lunch",
+              "receipt_profile": {
+                "address": "London · United Kingdom",
+                "merchant_name": "Bếp Bistro · DEMO",
+                "vat_number": "DEMO"
+              },
+              "payment_method": "cash",
+              "shift_id": "5eeffcf4eaa04a4795bf4e0a473e88b1"
+            }
+          },
+          "due_minor": 0,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 0,
+          "lines": [
+            {
+              "account": "1000",
+              "debit": 96000,
+              "credit": 0
+            },
+            {
+              "account": "4000",
+              "debit": 0,
+              "credit": 80000
+            },
+            {
+              "account": "2100",
+              "debit": 0,
+              "credit": 16000
+            },
+            {
+              "account": "5000",
+              "debit": 40000,
+              "credit": 0
+            },
+            {
+              "account": "1200",
+              "debit": 0,
+              "credit": 40000
+            }
+          ]
+        },
+        {
+          "id": "b25bd84007984ca29a6cde619c15f207",
+          "kind": "sale",
+          "business_date": "2026-11-08",
+          "branch_id": "q1",
+          "actor": "cashier-2-demo",
+          "payload": {
+            "kind": "sale",
+            "branch_id": "q1",
+            "date": "2026-11-08",
+            "items": [
+              {
+                "product_id": "rice_chicken",
+                "quantity": 20
+              }
+            ],
+            "payment": "cash",
+            "tax_minor": 4000,
+            "computed": {
+              "net_minor": 20000,
+              "tax_minor": 4000,
+              "gross_minor": 24000,
+              "cost_minor": 8000,
+              "subtotal_minor": 24000,
+              "discount_minor": 0,
+              "discount_bps": 0,
+              "sale_lines": [
+                {
+                  "product_id": "rice_chicken",
+                  "name": "Chicken rice",
+                  "names": {
+                    "de": "Hähnchen mit Reis",
+                    "en": "Chicken rice",
+                    "fr": "Riz au poulet",
+                    "vi": "Cơm gà"
+                  },
+                  "quantity": 20,
+                  "unit_price_minor": 1200,
+                  "subtotal_minor": 24000,
+                  "vat_bps": 2000,
+                  "discount_minor": 0,
+                  "net_minor": 20000,
+                  "tax_minor": 4000,
+                  "gross_minor": 24000
+                }
+              ],
+              "receipt_profile": {
+                "address": "London · United Kingdom",
+                "merchant_name": "Bếp Bistro · DEMO",
+                "vat_number": "DEMO"
+              },
+              "payment_method": "cash",
+              "shift_id": "157968f8c41b4c68a2a82c19c3006a43"
+            }
+          },
+          "due_minor": 0,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 0,
+          "lines": [
+            {
+              "account": "1000",
+              "debit": 24000,
+              "credit": 0
+            },
+            {
+              "account": "4000",
+              "debit": 0,
+              "credit": 20000
+            },
+            {
+              "account": "2100",
+              "debit": 0,
+              "credit": 4000
+            },
+            {
+              "account": "5000",
+              "debit": 8000,
+              "credit": 0
+            },
+            {
+              "account": "1200",
+              "debit": 0,
+              "credit": 8000
+            }
+          ]
+        },
+        {
+          "id": "a0ac611e380c4c9784d9081d43e8dd9c",
+          "kind": "expense",
+          "business_date": "2026-11-08",
+          "branch_id": "q1",
+          "actor": "local-owner",
+          "payload": {
+            "kind": "expense",
+            "branch_id": "q1",
+            "date": "2026-11-08",
+            "category": "rent",
+            "net_minor": 10000,
+            "payment": "bank"
+          },
+          "due_minor": 0,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 0,
+          "lines": [
+            {
+              "account": "5200",
+              "debit": 10000,
+              "credit": 0
+            },
+            {
+              "account": "1010",
+              "debit": 0,
+              "credit": 10000
+            }
+          ]
+        },
+        {
+          "id": "03ce9da5a61c475c83a4fd0f089502b0",
+          "kind": "expense",
+          "business_date": "2026-11-08",
+          "branch_id": "q1",
+          "actor": "local-owner",
+          "payload": {
+            "kind": "expense",
+            "branch_id": "q1",
+            "date": "2026-11-08",
+            "category": "other",
+            "net_minor": 3000,
+            "payment": "bank"
+          },
+          "due_minor": 0,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 0,
+          "lines": [
+            {
+              "account": "5300",
+              "debit": 3000,
+              "credit": 0
+            },
+            {
+              "account": "1010",
+              "debit": 0,
+              "credit": 3000
+            }
+          ]
+        },
+        {
+          "id": "3272159a166f413db99a867c967812ef",
+          "kind": "expense",
+          "business_date": "2026-11-30",
+          "branch_id": "q1",
+          "actor": "manager-demo",
+          "payload": {
+            "kind": "expense",
+            "branch_id": "q1",
+            "date": "2026-11-30",
+            "category": "labor",
+            "net_minor": 20850,
+            "tax_minor": 0,
+            "payment": "credit",
+            "computed": {
+              "payroll_id": "305c4d1e538f4f6ca73d3950e6ed0057",
+              "month": "2026-11",
+              "basis": "approved_gross_hourly_pay"
+            }
+          },
+          "due_minor": 20850,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 20850,
+          "lines": [
+            {
+              "account": "5100",
+              "debit": 20850,
+              "credit": 0
+            },
+            {
+              "account": "2000",
+              "debit": 0,
+              "credit": 20850
+            }
+          ]
+        }
+      ],
+      "closed_periods": []
+    },
+    "daily": {
+      "liabilities_breakdown": {
+        "payroll_payable_minor": 0,
+        "other_payable_minor": 0
+      },
+      "integrity": {
+        "verified": true,
+        "signed_documents": 10,
+        "checks": [
+          "master_data_hmac",
+          "document_hmac_chain",
+          "journal_balance",
+          "stock_reconciliation",
+          "period_locks"
+        ],
+        "limits": "Does not detect rollback to an earlier valid full database snapshot; use separately protected external anchors and backups."
+      },
+      "currency": "GBP",
+      "jurisdiction": "GB",
+      "minor_digits": 2,
+      "branch_id": "q1",
+      "from": "2026-11-08",
+      "as_of": "2026-11-08",
+      "pnl": {
+        "revenue_minor": 100000,
+        "food_minor": 48000,
+        "labor_minor": 0,
+        "rent_minor": 10000,
+        "other_minor": 3000,
+        "operating_profit_before_depreciation_minor": 39000,
+        "depreciation_minor": 0,
+        "profit_before_interest_tax_minor": 39000
+      },
+      "liquidity": {
+        "cash_minor": 120000,
+        "bank_minor": 407000,
+        "reserve_target_minor": 0,
+        "liquidity_after_reserve_minor": 527000
+      },
+      "trial_balance": [
+        {
+          "account": "1000",
+          "name": "Tiền mặt",
+          "kind": "asset",
+          "debit_balance_minor": 120000,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "1010",
+          "name": "Ngân hàng",
+          "kind": "asset",
+          "debit_balance_minor": 407000,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "1100",
+          "name": "Phải thu khách hàng",
+          "kind": "asset",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "1200",
+          "name": "Kho nguyên liệu",
+          "kind": "asset",
+          "debit_balance_minor": 32000,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "1300",
+          "name": "Thuế đầu vào chờ đối soát",
+          "kind": "asset",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "1500",
+          "name": "Tài sản thiết bị",
+          "kind": "asset",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "1590",
+          "name": "Khấu hao lũy kế",
+          "kind": "contra_asset",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "2000",
+          "name": "Phải trả nhà cung cấp",
+          "kind": "liability",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "2100",
+          "name": "Thuế đầu ra chờ đối soát",
+          "kind": "liability",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 20000
+        },
+        {
+          "account": "3000",
+          "name": "Vốn góp",
+          "kind": "equity",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 500000
+        },
+        {
+          "account": "4000",
+          "name": "Doanh thu thuần",
+          "kind": "income",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 100000
+        },
+        {
+          "account": "5000",
+          "name": "Giá vốn món ăn",
+          "kind": "expense",
+          "debit_balance_minor": 48000,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "5100",
+          "name": "Nhân sự",
+          "kind": "expense",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "5200",
+          "name": "Thuê mặt bằng",
+          "kind": "expense",
+          "debit_balance_minor": 10000,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "5300",
+          "name": "Vận hành khác",
+          "kind": "expense",
+          "debit_balance_minor": 3000,
+          "credit_balance_minor": 0
+        },
+        {
+          "account": "5400",
+          "name": "Khấu hao",
+          "kind": "expense",
+          "debit_balance_minor": 0,
+          "credit_balance_minor": 0
+        }
+      ],
+      "balanced": true,
+      "stock": [
+        {
+          "item_id": "chicken",
+          "name": "Thịt gà",
+          "unit": "g",
+          "quantity": 12000,
+          "value_minor": 24000
+        },
+        {
+          "item_id": "rice",
+          "name": "Gạo",
+          "unit": "g",
+          "quantity": 8000,
+          "value_minor": 8000
+        }
+      ],
+      "assets": [],
+      "documents": [
+        {
+          "id": "d9d6464e685340c8b173eae143e23a52",
+          "kind": "capital",
+          "business_date": "2026-11-08",
+          "branch_id": "q1",
+          "actor": "local-owner",
+          "payload": {
+            "kind": "capital",
+            "branch_id": "q1",
+            "date": "2026-11-08",
+            "amount_minor": 500000
+          },
+          "due_minor": 0,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 0,
+          "lines": [
+            {
+              "account": "1010",
+              "debit": 500000,
+              "credit": 0
+            },
+            {
+              "account": "3000",
+              "debit": 0,
+              "credit": 500000
+            }
+          ]
+        },
+        {
+          "id": "03d21361c9994934b410594173753c1f",
+          "kind": "purchase",
+          "business_date": "2026-11-08",
+          "branch_id": "q1",
+          "actor": "local-owner",
+          "payload": {
+            "kind": "purchase",
+            "branch_id": "q1",
+            "date": "2026-11-08",
+            "item_id": "rice",
+            "quantity": 20000,
+            "net_minor": 20000,
+            "payment": "credit"
+          },
+          "due_minor": 20000,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 0,
+          "lines": [
+            {
+              "account": "1200",
+              "debit": 20000,
+              "credit": 0
+            },
+            {
+              "account": "2000",
+              "debit": 0,
+              "credit": 20000
+            }
+          ]
+        },
+        {
+          "id": "87ac9337f7b74b5aafc6c072f8b15e70",
+          "kind": "pay",
+          "business_date": "2026-11-08",
+          "branch_id": "q1",
+          "actor": "local-owner",
+          "payload": {
+            "kind": "pay",
+            "branch_id": "q1",
+            "date": "2026-11-08",
+            "invoice_id": "03d21361c9994934b410594173753c1f",
+            "amount_minor": 20000,
+            "payment": "bank"
+          },
+          "due_minor": 0,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 0,
+          "lines": [
+            {
+              "account": "2000",
+              "debit": 20000,
+              "credit": 0
+            },
+            {
+              "account": "1010",
+              "debit": 0,
+              "credit": 20000
+            }
+          ]
+        },
+        {
+          "id": "4ec7e50e7d084fa4a1494e9d160cc3c4",
+          "kind": "purchase",
+          "business_date": "2026-11-08",
+          "branch_id": "q1",
+          "actor": "local-owner",
+          "payload": {
+            "kind": "purchase",
+            "branch_id": "q1",
+            "date": "2026-11-08",
+            "item_id": "chicken",
+            "quantity": 30000,
+            "net_minor": 60000,
+            "payment": "credit"
+          },
+          "due_minor": 60000,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 0,
+          "lines": [
+            {
+              "account": "1200",
+              "debit": 60000,
+              "credit": 0
+            },
+            {
+              "account": "2000",
+              "debit": 0,
+              "credit": 60000
+            }
+          ]
+        },
+        {
+          "id": "f8eb352245f94d1cbc8a73657370e29b",
+          "kind": "pay",
+          "business_date": "2026-11-08",
+          "branch_id": "q1",
+          "actor": "local-owner",
+          "payload": {
+            "kind": "pay",
+            "branch_id": "q1",
+            "date": "2026-11-08",
+            "invoice_id": "4ec7e50e7d084fa4a1494e9d160cc3c4",
+            "amount_minor": 60000,
+            "payment": "bank"
+          },
+          "due_minor": 0,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 0,
+          "lines": [
+            {
+              "account": "2000",
+              "debit": 60000,
+              "credit": 0
+            },
+            {
+              "account": "1010",
+              "debit": 0,
+              "credit": 60000
+            }
+          ]
+        },
+        {
+          "id": "8b2454e3a730489d95393b99811802fb",
+          "kind": "sale",
+          "business_date": "2026-11-08",
+          "branch_id": "q1",
+          "actor": "cashier-demo",
+          "payload": {
+            "kind": "sale",
+            "branch_id": "q1",
+            "date": "2026-11-08",
+            "items": [
+              {
+                "product_id": "rice_chicken",
+                "quantity": 100
+              }
+            ],
+            "payment": "cash",
+            "tax_minor": 16000,
+            "computed": {
+              "net_minor": 80000,
+              "tax_minor": 16000,
+              "gross_minor": 96000,
+              "cost_minor": 40000,
+              "subtotal_minor": 120000,
+              "discount_minor": 24000,
+              "discount_bps": 2000,
+              "sale_lines": [
+                {
+                  "product_id": "rice_chicken",
+                  "name": "Chicken rice",
+                  "names": {
+                    "de": "Hähnchen mit Reis",
+                    "en": "Chicken rice",
+                    "fr": "Riz au poulet",
+                    "vi": "Cơm gà"
+                  },
+                  "quantity": 100,
+                  "unit_price_minor": 1200,
+                  "subtotal_minor": 120000,
+                  "vat_bps": 2000,
+                  "discount_minor": 24000,
+                  "net_minor": 80000,
+                  "tax_minor": 16000,
+                  "gross_minor": 96000
+                }
+              ],
+              "promotion_id": "lunch",
+              "receipt_profile": {
+                "address": "London · United Kingdom",
+                "merchant_name": "Bếp Bistro · DEMO",
+                "vat_number": "DEMO"
+              },
+              "payment_method": "cash",
+              "shift_id": "5eeffcf4eaa04a4795bf4e0a473e88b1"
+            }
+          },
+          "due_minor": 0,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 0,
+          "lines": [
+            {
+              "account": "1000",
+              "debit": 96000,
+              "credit": 0
+            },
+            {
+              "account": "4000",
+              "debit": 0,
+              "credit": 80000
+            },
+            {
+              "account": "2100",
+              "debit": 0,
+              "credit": 16000
+            },
+            {
+              "account": "5000",
+              "debit": 40000,
+              "credit": 0
+            },
+            {
+              "account": "1200",
+              "debit": 0,
+              "credit": 40000
+            }
+          ]
+        },
+        {
+          "id": "b25bd84007984ca29a6cde619c15f207",
+          "kind": "sale",
+          "business_date": "2026-11-08",
+          "branch_id": "q1",
+          "actor": "cashier-2-demo",
+          "payload": {
+            "kind": "sale",
+            "branch_id": "q1",
+            "date": "2026-11-08",
+            "items": [
+              {
+                "product_id": "rice_chicken",
+                "quantity": 20
+              }
+            ],
+            "payment": "cash",
+            "tax_minor": 4000,
+            "computed": {
+              "net_minor": 20000,
+              "tax_minor": 4000,
+              "gross_minor": 24000,
+              "cost_minor": 8000,
+              "subtotal_minor": 24000,
+              "discount_minor": 0,
+              "discount_bps": 0,
+              "sale_lines": [
+                {
+                  "product_id": "rice_chicken",
+                  "name": "Chicken rice",
+                  "names": {
+                    "de": "Hähnchen mit Reis",
+                    "en": "Chicken rice",
+                    "fr": "Riz au poulet",
+                    "vi": "Cơm gà"
+                  },
+                  "quantity": 20,
+                  "unit_price_minor": 1200,
+                  "subtotal_minor": 24000,
+                  "vat_bps": 2000,
+                  "discount_minor": 0,
+                  "net_minor": 20000,
+                  "tax_minor": 4000,
+                  "gross_minor": 24000
+                }
+              ],
+              "receipt_profile": {
+                "address": "London · United Kingdom",
+                "merchant_name": "Bếp Bistro · DEMO",
+                "vat_number": "DEMO"
+              },
+              "payment_method": "cash",
+              "shift_id": "157968f8c41b4c68a2a82c19c3006a43"
+            }
+          },
+          "due_minor": 0,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 0,
+          "lines": [
+            {
+              "account": "1000",
+              "debit": 24000,
+              "credit": 0
+            },
+            {
+              "account": "4000",
+              "debit": 0,
+              "credit": 20000
+            },
+            {
+              "account": "2100",
+              "debit": 0,
+              "credit": 4000
+            },
+            {
+              "account": "5000",
+              "debit": 8000,
+              "credit": 0
+            },
+            {
+              "account": "1200",
+              "debit": 0,
+              "credit": 8000
+            }
+          ]
+        },
+        {
+          "id": "a0ac611e380c4c9784d9081d43e8dd9c",
+          "kind": "expense",
+          "business_date": "2026-11-08",
+          "branch_id": "q1",
+          "actor": "local-owner",
+          "payload": {
+            "kind": "expense",
+            "branch_id": "q1",
+            "date": "2026-11-08",
+            "category": "rent",
+            "net_minor": 10000,
+            "payment": "bank"
+          },
+          "due_minor": 0,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 0,
+          "lines": [
+            {
+              "account": "5200",
+              "debit": 10000,
+              "credit": 0
+            },
+            {
+              "account": "1010",
+              "debit": 0,
+              "credit": 10000
+            }
+          ]
+        },
+        {
+          "id": "03ce9da5a61c475c83a4fd0f089502b0",
+          "kind": "expense",
+          "business_date": "2026-11-08",
+          "branch_id": "q1",
+          "actor": "local-owner",
+          "payload": {
+            "kind": "expense",
+            "branch_id": "q1",
+            "date": "2026-11-08",
+            "category": "other",
+            "net_minor": 3000,
+            "payment": "bank"
+          },
+          "due_minor": 0,
+          "reverses_id": null,
+          "created_at": "2026-11-09 11:41:39",
+          "remaining_minor": 0,
+          "lines": [
+            {
+              "account": "5300",
+              "debit": 3000,
+              "credit": 0
+            },
+            {
+              "account": "1010",
+              "debit": 0,
+              "credit": 3000
+            }
+          ]
+        }
+      ],
+      "closed_periods": []
+    },
+    "payroll": {
+      "month": "2026-11",
+      "employees": [
+        {
+          "employee_id": "e1",
+          "name": "Minh Anh",
+          "paid_seconds": 27000,
+          "days": {
+            "2026-11-08": 27000
+          },
+          "gross_minor": 11250
+        },
+        {
+          "employee_id": "e2",
+          "name": "Hoàng Nam",
+          "paid_seconds": 21600,
+          "days": {
+            "2026-11-08": 21600
+          },
+          "gross_minor": 9600
+        }
+      ],
+      "gross_minor": 20850,
+      "blocked_shift_ids": [],
+      "shift_ids": [
+        "157968f8c41b4c68a2a82c19c3006a43",
+        "5eeffcf4eaa04a4795bf4e0a473e88b1"
+      ],
+      "accrued": {
+        "document_id": "3272159a166f413db99a867c967812ef",
+        "gross_minor": 20850,
+        "month": "2026-11",
+        "payroll_id": "305c4d1e538f4f6ca73d3950e6ed0057",
+        "shift_ids": [
+          "157968f8c41b4c68a2a82c19c3006a43",
+          "5eeffcf4eaa04a4795bf4e0a473e88b1"
+        ]
+      },
+      "basis": "Gross hourly pay only; no overtime, holiday, pension, NI, income-tax or statutory payroll deductions"
+    },
+    "employees": [
+      {
+        "branch_id": "q1",
+        "employee_id": "e1",
+        "hourly_minor": 1500,
+        "inactive_from": "2026-11-10",
+        "name": "Minh Anh",
+        "updated_at": "2026-11-09T10:00:00+00:00"
+      },
+      {
+        "branch_id": "q1",
+        "employee_id": "e2",
+        "hourly_minor": 1600,
+        "inactive_from": null,
+        "name": "Hoàng Nam",
+        "updated_at": "2026-11-08T09:00:00+00:00"
+      }
+    ],
+    "shifts": [
+      {
+        "branch_id": "q1",
+        "employee_id": "e1",
+        "employee_name": "Minh Anh",
+        "handover_from": null,
+        "hourly_minor": 1500,
+        "opening_cash_minor": 0,
+        "opening_confirmed": true,
+        "shift_id": "5eeffcf4eaa04a4795bf4e0a473e88b1",
+        "started_at": "2026-11-08T09:00:00+00:00",
+        "timezone": "Europe/London",
+        "ended_at": "2026-11-08T17:00:00+00:00",
+        "reviewed": true,
+        "opening_difference_minor": 0,
+        "break_seconds": 1800,
+        "cash_difference_minor": -100,
+        "counted_cash_minor": 95900,
+        "expected_cash_minor": 96000,
+        "handover_to": "e2",
+        "needs_review": false,
+        "note": "Chênh lệch tiền mặt £1 cần đối soát.",
+        "paid_seconds": 27000,
+        "review_reason": "Đã đối chiếu giờ công và bàn giao"
+      },
+      {
+        "branch_id": "q1",
+        "employee_id": "e2",
+        "employee_name": "Hoàng Nam",
+        "handover_from": "5eeffcf4eaa04a4795bf4e0a473e88b1",
+        "hourly_minor": 1600,
+        "opening_cash_minor": 95900,
+        "opening_confirmed": true,
+        "shift_id": "157968f8c41b4c68a2a82c19c3006a43",
+        "started_at": "2026-11-08T17:00:00+00:00",
+        "timezone": "Europe/London",
+        "ended_at": "2026-11-08T23:00:00+00:00",
+        "reviewed": true,
+        "opening_difference_minor": 0,
+        "break_seconds": 0,
+        "cash_difference_minor": 0,
+        "counted_cash_minor": 119900,
+        "expected_cash_minor": 119900,
+        "handover_to": null,
+        "needs_review": false,
+        "note": "",
+        "paid_seconds": 21600,
+        "review_reason": "Đã đối chiếu giờ công và bàn giao"
+      }
+    ],
+    "purchases": [
+      {
+        "document_id": "03d21361c9994934b410594173753c1f",
+        "date": "2026-11-08",
+        "kind": "purchase",
+        "branch_id": "q1",
+        "item_id": "rice",
+        "quantity": 20000,
+        "net_minor": 20000,
+        "payment": "credit",
+        "price_per_kg_minor": 1000
+      },
+      {
+        "document_id": "4ec7e50e7d084fa4a1494e9d160cc3c4",
+        "date": "2026-11-08",
+        "kind": "purchase",
+        "branch_id": "q1",
+        "item_id": "chicken",
+        "quantity": 30000,
+        "net_minor": 60000,
+        "payment": "credit",
+        "price_per_kg_minor": 2000
+      }
+    ],
+    "shopping": [
+      {
+        "item_id": "chicken",
+        "name": "Thịt gà",
+        "current_quantity": 12000,
+        "unit": "g",
+        "today_buy": 8000,
+        "week_buy": 38000,
+        "daily_target": 20000,
+        "minimum": 15000,
+        "weekly_target": 50000
+      },
+      {
+        "item_id": "rice",
+        "name": "Gạo",
+        "current_quantity": 8000,
+        "unit": "g",
+        "today_buy": 12000,
+        "week_buy": 42000,
+        "daily_target": 20000,
+        "minimum": 15000,
+        "weekly_target": 50000
+      }
+    ],
+    "campaigns": [
+      {
+        "branch_id": "q1",
+        "campaign_id": "lunch",
+        "discount_bps": 2000,
+        "enabled": true,
+        "ends_at": "2026-11-08T17:00:00+00:00",
+        "name": "Ưu đãi bữa trưa",
+        "starts_at": "2026-11-08T09:00:00+00:00"
+      }
+    ],
+    "grants": [
+      {
+        "branch_id": "q1",
+        "campaign_fingerprint": "5224669d0970c91755288eca13b32163e4392f8e70f0af0bba37ceccee89ee3f",
+        "campaign_id": "lunch",
+        "employee_id": "e1",
+        "expires_at": "2026-11-08T09:15:00+00:00",
+        "grant_id": "3113602316364878820ac24ae73f6e66",
+        "used": true
+      }
+    ],
+    "daily_gross_hours_minor": 20850,
+    "estimated_daily_profit_after_hours_minor": 18150,
+    "estimated_tax_minor": 3630,
+    "estimated_after_tax_minor": 14520,
+    "tax_basis": "Owner-configured scenario only; not statutory corporation-tax calculation",
+    "unposted_payroll_gross_minor": 0,
+    "staffing_notice": "Inactive dates stop new check-ins only. Past shifts and wages remain payable. Staffing changes affect costs/profit, not sales revenue."
+  },
+  "owner": {
+    "currency": "GBP",
+    "month": "2026-11",
+    "branches": [
+      {
+        "currency": "GBP",
+        "minor_digits": 2,
+        "branch_id": "q1",
+        "month": "2026-11",
+        "day": "2026-12-01",
+        "timezone": "Europe/London",
+        "receipt_profile": {
+          "address": "London · United Kingdom",
+          "merchant_name": "Bếp Bistro · DEMO",
+          "vat_number": "DEMO"
+        },
+        "catalog": [
+          {
+            "active": true,
+            "branch_id": "q1",
+            "category": "main",
+            "components": [],
+            "icon": "rice",
+            "id": "rice_chicken",
+            "name": "Chicken rice",
+            "names": {
+              "de": "Hähnchen mit Reis",
+              "en": "Chicken rice",
+              "fr": "Riz au poulet",
+              "vi": "Cơm gà"
+            },
+            "price_minor": 1200,
+            "recipe": [
+              {
+                "item_id": "rice",
+                "quantity": 100
+              },
+              {
+                "item_id": "chicken",
+                "quantity": 150
+              }
+            ],
+            "vat_bps": 2000
+          },
+          {
+            "active": true,
+            "branch_id": "q1",
+            "category": "main",
+            "components": [],
+            "icon": "chicken",
+            "id": "grilled_chicken",
+            "name": "Grilled chicken",
+            "names": {
+              "de": "Gegrilltes Hähnchen",
+              "en": "Grilled chicken",
+              "fr": "Poulet grillé",
+              "vi": "Gà nướng"
+            },
+            "price_minor": 1600,
+            "recipe": [
+              {
+                "item_id": "chicken",
+                "quantity": 200
+              }
+            ],
+            "vat_bps": 2000
+          },
+          {
+            "active": true,
+            "branch_id": "q1",
+            "category": "drink",
+            "components": [],
+            "icon": "drink",
+            "id": "sparkling_water",
+            "name": "Sparkling water",
+            "names": {
+              "de": "Mineralwasser",
+              "en": "Sparkling water",
+              "fr": "Eau pétillante",
+              "vi": "Nước có ga"
+            },
+            "price_minor": 350,
+            "recipe": [],
+            "vat_bps": 2000
+          },
+          {
+            "active": true,
+            "branch_id": "q1",
+            "category": "combo",
+            "components": [
+              {
+                "product_id": "rice_chicken",
+                "quantity": 1
+              },
+              {
+                "product_id": "sparkling_water",
+                "quantity": 1
+              }
+            ],
+            "icon": "combo",
+            "id": "rice_duo",
+            "name": "Chicken rice & water",
+            "names": {
+              "de": "Hähnchen-Reis-Menü mit Wasser",
+              "en": "Chicken rice & water",
+              "fr": "Menu riz au poulet et eau",
+              "vi": "Combo cơm gà & nước"
+            },
+            "price_minor": 1450,
+            "recipe": [],
+            "vat_bps": 2000
+          }
+        ],
+        "tables": [
+          {
+            "id": "T1",
+            "label": "T1",
+            "seats": 4,
+            "x": 9,
+            "y": 10
+          },
+          {
+            "id": "T2",
+            "label": "T2",
+            "seats": 4,
+            "x": 39,
+            "y": 10
+          },
+          {
+            "id": "T3",
+            "label": "T3",
+            "seats": 4,
+            "x": 69,
+            "y": 10
+          },
+          {
+            "id": "T4",
+            "label": "T4",
+            "seats": 4,
+            "x": 9,
+            "y": 59
+          },
+          {
+            "id": "T5",
+            "label": "T5",
+            "seats": 2,
+            "x": 39,
+            "y": 59
+          },
+          {
+            "id": "T6",
+            "label": "T6",
+            "seats": 2,
+            "x": 69,
+            "y": 59
+          }
+        ],
+        "financial": {
+          "liabilities_breakdown": {
+            "payroll_payable_minor": 20850,
+            "other_payable_minor": 0
+          },
+          "integrity": {
+            "verified": true,
+            "signed_documents": 10,
+            "checks": [
+              "master_data_hmac",
+              "document_hmac_chain",
+              "journal_balance",
+              "stock_reconciliation",
+              "period_locks"
+            ],
+            "limits": "Does not detect rollback to an earlier valid full database snapshot; use separately protected external anchors and backups."
+          },
+          "currency": "GBP",
+          "jurisdiction": "GB",
+          "minor_digits": 2,
+          "branch_id": "q1",
+          "from": "2026-11-01",
+          "as_of": "2026-11-30",
+          "pnl": {
+            "revenue_minor": 100000,
+            "food_minor": 48000,
+            "labor_minor": 20850,
+            "rent_minor": 10000,
+            "other_minor": 3000,
+            "operating_profit_before_depreciation_minor": 18150,
+            "depreciation_minor": 0,
+            "profit_before_interest_tax_minor": 18150
+          },
+          "liquidity": {
+            "cash_minor": 120000,
+            "bank_minor": 407000,
+            "reserve_target_minor": 0,
+            "liquidity_after_reserve_minor": 527000
+          },
+          "trial_balance": [
+            {
+              "account": "1000",
+              "name": "Tiền mặt",
+              "kind": "asset",
+              "debit_balance_minor": 120000,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1010",
+              "name": "Ngân hàng",
+              "kind": "asset",
+              "debit_balance_minor": 407000,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1100",
+              "name": "Phải thu khách hàng",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1200",
+              "name": "Kho nguyên liệu",
+              "kind": "asset",
+              "debit_balance_minor": 32000,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1300",
+              "name": "Thuế đầu vào chờ đối soát",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1500",
+              "name": "Tài sản thiết bị",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1590",
+              "name": "Khấu hao lũy kế",
+              "kind": "contra_asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "2000",
+              "name": "Phải trả nhà cung cấp",
+              "kind": "liability",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 20850
+            },
+            {
+              "account": "2100",
+              "name": "Thuế đầu ra chờ đối soát",
+              "kind": "liability",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 20000
+            },
+            {
+              "account": "3000",
+              "name": "Vốn góp",
+              "kind": "equity",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 500000
+            },
+            {
+              "account": "4000",
+              "name": "Doanh thu thuần",
+              "kind": "income",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 100000
+            },
+            {
+              "account": "5000",
+              "name": "Giá vốn món ăn",
+              "kind": "expense",
+              "debit_balance_minor": 48000,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5100",
+              "name": "Nhân sự",
+              "kind": "expense",
+              "debit_balance_minor": 20850,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5200",
+              "name": "Thuê mặt bằng",
+              "kind": "expense",
+              "debit_balance_minor": 10000,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5300",
+              "name": "Vận hành khác",
+              "kind": "expense",
+              "debit_balance_minor": 3000,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5400",
+              "name": "Khấu hao",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            }
+          ],
+          "balanced": true,
+          "stock": [
+            {
+              "item_id": "chicken",
+              "name": "Thịt gà",
+              "unit": "g",
+              "quantity": 12000,
+              "value_minor": 24000
+            },
+            {
+              "item_id": "rice",
+              "name": "Gạo",
+              "unit": "g",
+              "quantity": 8000,
+              "value_minor": 8000
+            }
+          ],
+          "assets": [],
+          "documents": [
+            {
+              "id": "d9d6464e685340c8b173eae143e23a52",
+              "kind": "capital",
+              "business_date": "2026-11-08",
+              "branch_id": "q1",
+              "actor": "local-owner",
+              "payload": {
+                "kind": "capital",
+                "branch_id": "q1",
+                "date": "2026-11-08",
+                "amount_minor": 500000
+              },
+              "due_minor": 0,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 0,
+              "lines": [
+                {
+                  "account": "1010",
+                  "debit": 500000,
+                  "credit": 0
+                },
+                {
+                  "account": "3000",
+                  "debit": 0,
+                  "credit": 500000
+                }
+              ]
+            },
+            {
+              "id": "03d21361c9994934b410594173753c1f",
+              "kind": "purchase",
+              "business_date": "2026-11-08",
+              "branch_id": "q1",
+              "actor": "local-owner",
+              "payload": {
+                "kind": "purchase",
+                "branch_id": "q1",
+                "date": "2026-11-08",
+                "item_id": "rice",
+                "quantity": 20000,
+                "net_minor": 20000,
+                "payment": "credit"
+              },
+              "due_minor": 20000,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 0,
+              "lines": [
+                {
+                  "account": "1200",
+                  "debit": 20000,
+                  "credit": 0
+                },
+                {
+                  "account": "2000",
+                  "debit": 0,
+                  "credit": 20000
+                }
+              ]
+            },
+            {
+              "id": "87ac9337f7b74b5aafc6c072f8b15e70",
+              "kind": "pay",
+              "business_date": "2026-11-08",
+              "branch_id": "q1",
+              "actor": "local-owner",
+              "payload": {
+                "kind": "pay",
+                "branch_id": "q1",
+                "date": "2026-11-08",
+                "invoice_id": "03d21361c9994934b410594173753c1f",
+                "amount_minor": 20000,
+                "payment": "bank"
+              },
+              "due_minor": 0,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 0,
+              "lines": [
+                {
+                  "account": "2000",
+                  "debit": 20000,
+                  "credit": 0
+                },
+                {
+                  "account": "1010",
+                  "debit": 0,
+                  "credit": 20000
+                }
+              ]
+            },
+            {
+              "id": "4ec7e50e7d084fa4a1494e9d160cc3c4",
+              "kind": "purchase",
+              "business_date": "2026-11-08",
+              "branch_id": "q1",
+              "actor": "local-owner",
+              "payload": {
+                "kind": "purchase",
+                "branch_id": "q1",
+                "date": "2026-11-08",
+                "item_id": "chicken",
+                "quantity": 30000,
+                "net_minor": 60000,
+                "payment": "credit"
+              },
+              "due_minor": 60000,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 0,
+              "lines": [
+                {
+                  "account": "1200",
+                  "debit": 60000,
+                  "credit": 0
+                },
+                {
+                  "account": "2000",
+                  "debit": 0,
+                  "credit": 60000
+                }
+              ]
+            },
+            {
+              "id": "f8eb352245f94d1cbc8a73657370e29b",
+              "kind": "pay",
+              "business_date": "2026-11-08",
+              "branch_id": "q1",
+              "actor": "local-owner",
+              "payload": {
+                "kind": "pay",
+                "branch_id": "q1",
+                "date": "2026-11-08",
+                "invoice_id": "4ec7e50e7d084fa4a1494e9d160cc3c4",
+                "amount_minor": 60000,
+                "payment": "bank"
+              },
+              "due_minor": 0,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 0,
+              "lines": [
+                {
+                  "account": "2000",
+                  "debit": 60000,
+                  "credit": 0
+                },
+                {
+                  "account": "1010",
+                  "debit": 0,
+                  "credit": 60000
+                }
+              ]
+            },
+            {
+              "id": "8b2454e3a730489d95393b99811802fb",
+              "kind": "sale",
+              "business_date": "2026-11-08",
+              "branch_id": "q1",
+              "actor": "cashier-demo",
+              "payload": {
+                "kind": "sale",
+                "branch_id": "q1",
+                "date": "2026-11-08",
+                "items": [
+                  {
+                    "product_id": "rice_chicken",
+                    "quantity": 100
+                  }
+                ],
+                "payment": "cash",
+                "tax_minor": 16000,
+                "computed": {
+                  "net_minor": 80000,
+                  "tax_minor": 16000,
+                  "gross_minor": 96000,
+                  "cost_minor": 40000,
+                  "subtotal_minor": 120000,
+                  "discount_minor": 24000,
+                  "discount_bps": 2000,
+                  "sale_lines": [
+                    {
+                      "product_id": "rice_chicken",
+                      "name": "Chicken rice",
+                      "names": {
+                        "de": "Hähnchen mit Reis",
+                        "en": "Chicken rice",
+                        "fr": "Riz au poulet",
+                        "vi": "Cơm gà"
+                      },
+                      "quantity": 100,
+                      "unit_price_minor": 1200,
+                      "subtotal_minor": 120000,
+                      "vat_bps": 2000,
+                      "discount_minor": 24000,
+                      "net_minor": 80000,
+                      "tax_minor": 16000,
+                      "gross_minor": 96000
+                    }
+                  ],
+                  "promotion_id": "lunch",
+                  "receipt_profile": {
+                    "address": "London · United Kingdom",
+                    "merchant_name": "Bếp Bistro · DEMO",
+                    "vat_number": "DEMO"
+                  },
+                  "payment_method": "cash",
+                  "shift_id": "5eeffcf4eaa04a4795bf4e0a473e88b1"
+                }
+              },
+              "due_minor": 0,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 0,
+              "lines": [
+                {
+                  "account": "1000",
+                  "debit": 96000,
+                  "credit": 0
+                },
+                {
+                  "account": "4000",
+                  "debit": 0,
+                  "credit": 80000
+                },
+                {
+                  "account": "2100",
+                  "debit": 0,
+                  "credit": 16000
+                },
+                {
+                  "account": "5000",
+                  "debit": 40000,
+                  "credit": 0
+                },
+                {
+                  "account": "1200",
+                  "debit": 0,
+                  "credit": 40000
+                }
+              ]
+            },
+            {
+              "id": "b25bd84007984ca29a6cde619c15f207",
+              "kind": "sale",
+              "business_date": "2026-11-08",
+              "branch_id": "q1",
+              "actor": "cashier-2-demo",
+              "payload": {
+                "kind": "sale",
+                "branch_id": "q1",
+                "date": "2026-11-08",
+                "items": [
+                  {
+                    "product_id": "rice_chicken",
+                    "quantity": 20
+                  }
+                ],
+                "payment": "cash",
+                "tax_minor": 4000,
+                "computed": {
+                  "net_minor": 20000,
+                  "tax_minor": 4000,
+                  "gross_minor": 24000,
+                  "cost_minor": 8000,
+                  "subtotal_minor": 24000,
+                  "discount_minor": 0,
+                  "discount_bps": 0,
+                  "sale_lines": [
+                    {
+                      "product_id": "rice_chicken",
+                      "name": "Chicken rice",
+                      "names": {
+                        "de": "Hähnchen mit Reis",
+                        "en": "Chicken rice",
+                        "fr": "Riz au poulet",
+                        "vi": "Cơm gà"
+                      },
+                      "quantity": 20,
+                      "unit_price_minor": 1200,
+                      "subtotal_minor": 24000,
+                      "vat_bps": 2000,
+                      "discount_minor": 0,
+                      "net_minor": 20000,
+                      "tax_minor": 4000,
+                      "gross_minor": 24000
+                    }
+                  ],
+                  "receipt_profile": {
+                    "address": "London · United Kingdom",
+                    "merchant_name": "Bếp Bistro · DEMO",
+                    "vat_number": "DEMO"
+                  },
+                  "payment_method": "cash",
+                  "shift_id": "157968f8c41b4c68a2a82c19c3006a43"
+                }
+              },
+              "due_minor": 0,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 0,
+              "lines": [
+                {
+                  "account": "1000",
+                  "debit": 24000,
+                  "credit": 0
+                },
+                {
+                  "account": "4000",
+                  "debit": 0,
+                  "credit": 20000
+                },
+                {
+                  "account": "2100",
+                  "debit": 0,
+                  "credit": 4000
+                },
+                {
+                  "account": "5000",
+                  "debit": 8000,
+                  "credit": 0
+                },
+                {
+                  "account": "1200",
+                  "debit": 0,
+                  "credit": 8000
+                }
+              ]
+            },
+            {
+              "id": "a0ac611e380c4c9784d9081d43e8dd9c",
+              "kind": "expense",
+              "business_date": "2026-11-08",
+              "branch_id": "q1",
+              "actor": "local-owner",
+              "payload": {
+                "kind": "expense",
+                "branch_id": "q1",
+                "date": "2026-11-08",
+                "category": "rent",
+                "net_minor": 10000,
+                "payment": "bank"
+              },
+              "due_minor": 0,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 0,
+              "lines": [
+                {
+                  "account": "5200",
+                  "debit": 10000,
+                  "credit": 0
+                },
+                {
+                  "account": "1010",
+                  "debit": 0,
+                  "credit": 10000
+                }
+              ]
+            },
+            {
+              "id": "03ce9da5a61c475c83a4fd0f089502b0",
+              "kind": "expense",
+              "business_date": "2026-11-08",
+              "branch_id": "q1",
+              "actor": "local-owner",
+              "payload": {
+                "kind": "expense",
+                "branch_id": "q1",
+                "date": "2026-11-08",
+                "category": "other",
+                "net_minor": 3000,
+                "payment": "bank"
+              },
+              "due_minor": 0,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 0,
+              "lines": [
+                {
+                  "account": "5300",
+                  "debit": 3000,
+                  "credit": 0
+                },
+                {
+                  "account": "1010",
+                  "debit": 0,
+                  "credit": 3000
+                }
+              ]
+            },
+            {
+              "id": "3272159a166f413db99a867c967812ef",
+              "kind": "expense",
+              "business_date": "2026-11-30",
+              "branch_id": "q1",
+              "actor": "manager-demo",
+              "payload": {
+                "kind": "expense",
+                "branch_id": "q1",
+                "date": "2026-11-30",
+                "category": "labor",
+                "net_minor": 20850,
+                "tax_minor": 0,
+                "payment": "credit",
+                "computed": {
+                  "payroll_id": "305c4d1e538f4f6ca73d3950e6ed0057",
+                  "month": "2026-11",
+                  "basis": "approved_gross_hourly_pay"
+                }
+              },
+              "due_minor": 20850,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 20850,
+              "lines": [
+                {
+                  "account": "5100",
+                  "debit": 20850,
+                  "credit": 0
+                },
+                {
+                  "account": "2000",
+                  "debit": 0,
+                  "credit": 20850
+                }
+              ]
+            }
+          ],
+          "closed_periods": []
+        },
+        "daily": {
+          "liabilities_breakdown": {
+            "payroll_payable_minor": 20850,
+            "other_payable_minor": 0
+          },
+          "integrity": {
+            "verified": true,
+            "signed_documents": 10,
+            "checks": [
+              "master_data_hmac",
+              "document_hmac_chain",
+              "journal_balance",
+              "stock_reconciliation",
+              "period_locks"
+            ],
+            "limits": "Does not detect rollback to an earlier valid full database snapshot; use separately protected external anchors and backups."
+          },
+          "currency": "GBP",
+          "jurisdiction": "GB",
+          "minor_digits": 2,
+          "branch_id": "q1",
+          "from": "2026-12-01",
+          "as_of": "2026-12-01",
+          "pnl": {
+            "revenue_minor": 0,
+            "food_minor": 0,
+            "labor_minor": 0,
+            "rent_minor": 0,
+            "other_minor": 0,
+            "operating_profit_before_depreciation_minor": 0,
+            "depreciation_minor": 0,
+            "profit_before_interest_tax_minor": 0
+          },
+          "liquidity": {
+            "cash_minor": 120000,
+            "bank_minor": 407000,
+            "reserve_target_minor": 0,
+            "liquidity_after_reserve_minor": 527000
+          },
+          "trial_balance": [
+            {
+              "account": "1000",
+              "name": "Tiền mặt",
+              "kind": "asset",
+              "debit_balance_minor": 120000,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1010",
+              "name": "Ngân hàng",
+              "kind": "asset",
+              "debit_balance_minor": 407000,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1100",
+              "name": "Phải thu khách hàng",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1200",
+              "name": "Kho nguyên liệu",
+              "kind": "asset",
+              "debit_balance_minor": 32000,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1300",
+              "name": "Thuế đầu vào chờ đối soát",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1500",
+              "name": "Tài sản thiết bị",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1590",
+              "name": "Khấu hao lũy kế",
+              "kind": "contra_asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "2000",
+              "name": "Phải trả nhà cung cấp",
+              "kind": "liability",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 20850
+            },
+            {
+              "account": "2100",
+              "name": "Thuế đầu ra chờ đối soát",
+              "kind": "liability",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 20000
+            },
+            {
+              "account": "3000",
+              "name": "Vốn góp",
+              "kind": "equity",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 500000
+            },
+            {
+              "account": "4000",
+              "name": "Doanh thu thuần",
+              "kind": "income",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 100000
+            },
+            {
+              "account": "5000",
+              "name": "Giá vốn món ăn",
+              "kind": "expense",
+              "debit_balance_minor": 48000,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5100",
+              "name": "Nhân sự",
+              "kind": "expense",
+              "debit_balance_minor": 20850,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5200",
+              "name": "Thuê mặt bằng",
+              "kind": "expense",
+              "debit_balance_minor": 10000,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5300",
+              "name": "Vận hành khác",
+              "kind": "expense",
+              "debit_balance_minor": 3000,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5400",
+              "name": "Khấu hao",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            }
+          ],
+          "balanced": true,
+          "stock": [
+            {
+              "item_id": "chicken",
+              "name": "Thịt gà",
+              "unit": "g",
+              "quantity": 12000,
+              "value_minor": 24000
+            },
+            {
+              "item_id": "rice",
+              "name": "Gạo",
+              "unit": "g",
+              "quantity": 8000,
+              "value_minor": 8000
+            }
+          ],
+          "assets": [],
+          "documents": [
+            {
+              "id": "d9d6464e685340c8b173eae143e23a52",
+              "kind": "capital",
+              "business_date": "2026-11-08",
+              "branch_id": "q1",
+              "actor": "local-owner",
+              "payload": {
+                "kind": "capital",
+                "branch_id": "q1",
+                "date": "2026-11-08",
+                "amount_minor": 500000
+              },
+              "due_minor": 0,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 0,
+              "lines": [
+                {
+                  "account": "1010",
+                  "debit": 500000,
+                  "credit": 0
+                },
+                {
+                  "account": "3000",
+                  "debit": 0,
+                  "credit": 500000
+                }
+              ]
+            },
+            {
+              "id": "03d21361c9994934b410594173753c1f",
+              "kind": "purchase",
+              "business_date": "2026-11-08",
+              "branch_id": "q1",
+              "actor": "local-owner",
+              "payload": {
+                "kind": "purchase",
+                "branch_id": "q1",
+                "date": "2026-11-08",
+                "item_id": "rice",
+                "quantity": 20000,
+                "net_minor": 20000,
+                "payment": "credit"
+              },
+              "due_minor": 20000,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 0,
+              "lines": [
+                {
+                  "account": "1200",
+                  "debit": 20000,
+                  "credit": 0
+                },
+                {
+                  "account": "2000",
+                  "debit": 0,
+                  "credit": 20000
+                }
+              ]
+            },
+            {
+              "id": "87ac9337f7b74b5aafc6c072f8b15e70",
+              "kind": "pay",
+              "business_date": "2026-11-08",
+              "branch_id": "q1",
+              "actor": "local-owner",
+              "payload": {
+                "kind": "pay",
+                "branch_id": "q1",
+                "date": "2026-11-08",
+                "invoice_id": "03d21361c9994934b410594173753c1f",
+                "amount_minor": 20000,
+                "payment": "bank"
+              },
+              "due_minor": 0,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 0,
+              "lines": [
+                {
+                  "account": "2000",
+                  "debit": 20000,
+                  "credit": 0
+                },
+                {
+                  "account": "1010",
+                  "debit": 0,
+                  "credit": 20000
+                }
+              ]
+            },
+            {
+              "id": "4ec7e50e7d084fa4a1494e9d160cc3c4",
+              "kind": "purchase",
+              "business_date": "2026-11-08",
+              "branch_id": "q1",
+              "actor": "local-owner",
+              "payload": {
+                "kind": "purchase",
+                "branch_id": "q1",
+                "date": "2026-11-08",
+                "item_id": "chicken",
+                "quantity": 30000,
+                "net_minor": 60000,
+                "payment": "credit"
+              },
+              "due_minor": 60000,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 0,
+              "lines": [
+                {
+                  "account": "1200",
+                  "debit": 60000,
+                  "credit": 0
+                },
+                {
+                  "account": "2000",
+                  "debit": 0,
+                  "credit": 60000
+                }
+              ]
+            },
+            {
+              "id": "f8eb352245f94d1cbc8a73657370e29b",
+              "kind": "pay",
+              "business_date": "2026-11-08",
+              "branch_id": "q1",
+              "actor": "local-owner",
+              "payload": {
+                "kind": "pay",
+                "branch_id": "q1",
+                "date": "2026-11-08",
+                "invoice_id": "4ec7e50e7d084fa4a1494e9d160cc3c4",
+                "amount_minor": 60000,
+                "payment": "bank"
+              },
+              "due_minor": 0,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 0,
+              "lines": [
+                {
+                  "account": "2000",
+                  "debit": 60000,
+                  "credit": 0
+                },
+                {
+                  "account": "1010",
+                  "debit": 0,
+                  "credit": 60000
+                }
+              ]
+            },
+            {
+              "id": "8b2454e3a730489d95393b99811802fb",
+              "kind": "sale",
+              "business_date": "2026-11-08",
+              "branch_id": "q1",
+              "actor": "cashier-demo",
+              "payload": {
+                "kind": "sale",
+                "branch_id": "q1",
+                "date": "2026-11-08",
+                "items": [
+                  {
+                    "product_id": "rice_chicken",
+                    "quantity": 100
+                  }
+                ],
+                "payment": "cash",
+                "tax_minor": 16000,
+                "computed": {
+                  "net_minor": 80000,
+                  "tax_minor": 16000,
+                  "gross_minor": 96000,
+                  "cost_minor": 40000,
+                  "subtotal_minor": 120000,
+                  "discount_minor": 24000,
+                  "discount_bps": 2000,
+                  "sale_lines": [
+                    {
+                      "product_id": "rice_chicken",
+                      "name": "Chicken rice",
+                      "names": {
+                        "de": "Hähnchen mit Reis",
+                        "en": "Chicken rice",
+                        "fr": "Riz au poulet",
+                        "vi": "Cơm gà"
+                      },
+                      "quantity": 100,
+                      "unit_price_minor": 1200,
+                      "subtotal_minor": 120000,
+                      "vat_bps": 2000,
+                      "discount_minor": 24000,
+                      "net_minor": 80000,
+                      "tax_minor": 16000,
+                      "gross_minor": 96000
+                    }
+                  ],
+                  "promotion_id": "lunch",
+                  "receipt_profile": {
+                    "address": "London · United Kingdom",
+                    "merchant_name": "Bếp Bistro · DEMO",
+                    "vat_number": "DEMO"
+                  },
+                  "payment_method": "cash",
+                  "shift_id": "5eeffcf4eaa04a4795bf4e0a473e88b1"
+                }
+              },
+              "due_minor": 0,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 0,
+              "lines": [
+                {
+                  "account": "1000",
+                  "debit": 96000,
+                  "credit": 0
+                },
+                {
+                  "account": "4000",
+                  "debit": 0,
+                  "credit": 80000
+                },
+                {
+                  "account": "2100",
+                  "debit": 0,
+                  "credit": 16000
+                },
+                {
+                  "account": "5000",
+                  "debit": 40000,
+                  "credit": 0
+                },
+                {
+                  "account": "1200",
+                  "debit": 0,
+                  "credit": 40000
+                }
+              ]
+            },
+            {
+              "id": "b25bd84007984ca29a6cde619c15f207",
+              "kind": "sale",
+              "business_date": "2026-11-08",
+              "branch_id": "q1",
+              "actor": "cashier-2-demo",
+              "payload": {
+                "kind": "sale",
+                "branch_id": "q1",
+                "date": "2026-11-08",
+                "items": [
+                  {
+                    "product_id": "rice_chicken",
+                    "quantity": 20
+                  }
+                ],
+                "payment": "cash",
+                "tax_minor": 4000,
+                "computed": {
+                  "net_minor": 20000,
+                  "tax_minor": 4000,
+                  "gross_minor": 24000,
+                  "cost_minor": 8000,
+                  "subtotal_minor": 24000,
+                  "discount_minor": 0,
+                  "discount_bps": 0,
+                  "sale_lines": [
+                    {
+                      "product_id": "rice_chicken",
+                      "name": "Chicken rice",
+                      "names": {
+                        "de": "Hähnchen mit Reis",
+                        "en": "Chicken rice",
+                        "fr": "Riz au poulet",
+                        "vi": "Cơm gà"
+                      },
+                      "quantity": 20,
+                      "unit_price_minor": 1200,
+                      "subtotal_minor": 24000,
+                      "vat_bps": 2000,
+                      "discount_minor": 0,
+                      "net_minor": 20000,
+                      "tax_minor": 4000,
+                      "gross_minor": 24000
+                    }
+                  ],
+                  "receipt_profile": {
+                    "address": "London · United Kingdom",
+                    "merchant_name": "Bếp Bistro · DEMO",
+                    "vat_number": "DEMO"
+                  },
+                  "payment_method": "cash",
+                  "shift_id": "157968f8c41b4c68a2a82c19c3006a43"
+                }
+              },
+              "due_minor": 0,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 0,
+              "lines": [
+                {
+                  "account": "1000",
+                  "debit": 24000,
+                  "credit": 0
+                },
+                {
+                  "account": "4000",
+                  "debit": 0,
+                  "credit": 20000
+                },
+                {
+                  "account": "2100",
+                  "debit": 0,
+                  "credit": 4000
+                },
+                {
+                  "account": "5000",
+                  "debit": 8000,
+                  "credit": 0
+                },
+                {
+                  "account": "1200",
+                  "debit": 0,
+                  "credit": 8000
+                }
+              ]
+            },
+            {
+              "id": "a0ac611e380c4c9784d9081d43e8dd9c",
+              "kind": "expense",
+              "business_date": "2026-11-08",
+              "branch_id": "q1",
+              "actor": "local-owner",
+              "payload": {
+                "kind": "expense",
+                "branch_id": "q1",
+                "date": "2026-11-08",
+                "category": "rent",
+                "net_minor": 10000,
+                "payment": "bank"
+              },
+              "due_minor": 0,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 0,
+              "lines": [
+                {
+                  "account": "5200",
+                  "debit": 10000,
+                  "credit": 0
+                },
+                {
+                  "account": "1010",
+                  "debit": 0,
+                  "credit": 10000
+                }
+              ]
+            },
+            {
+              "id": "03ce9da5a61c475c83a4fd0f089502b0",
+              "kind": "expense",
+              "business_date": "2026-11-08",
+              "branch_id": "q1",
+              "actor": "local-owner",
+              "payload": {
+                "kind": "expense",
+                "branch_id": "q1",
+                "date": "2026-11-08",
+                "category": "other",
+                "net_minor": 3000,
+                "payment": "bank"
+              },
+              "due_minor": 0,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 0,
+              "lines": [
+                {
+                  "account": "5300",
+                  "debit": 3000,
+                  "credit": 0
+                },
+                {
+                  "account": "1010",
+                  "debit": 0,
+                  "credit": 3000
+                }
+              ]
+            },
+            {
+              "id": "3272159a166f413db99a867c967812ef",
+              "kind": "expense",
+              "business_date": "2026-11-30",
+              "branch_id": "q1",
+              "actor": "manager-demo",
+              "payload": {
+                "kind": "expense",
+                "branch_id": "q1",
+                "date": "2026-11-30",
+                "category": "labor",
+                "net_minor": 20850,
+                "tax_minor": 0,
+                "payment": "credit",
+                "computed": {
+                  "payroll_id": "305c4d1e538f4f6ca73d3950e6ed0057",
+                  "month": "2026-11",
+                  "basis": "approved_gross_hourly_pay"
+                }
+              },
+              "due_minor": 20850,
+              "reverses_id": null,
+              "created_at": "2026-11-09 11:41:39",
+              "remaining_minor": 20850,
+              "lines": [
+                {
+                  "account": "5100",
+                  "debit": 20850,
+                  "credit": 0
+                },
+                {
+                  "account": "2000",
+                  "debit": 0,
+                  "credit": 20850
+                }
+              ]
+            }
+          ],
+          "closed_periods": []
+        },
+        "payroll": {
+          "month": "2026-11",
+          "employees": [
+            {
+              "employee_id": "e1",
+              "name": "Minh Anh",
+              "paid_seconds": 27000,
+              "days": {
+                "2026-11-08": 27000
+              },
+              "gross_minor": 11250
+            },
+            {
+              "employee_id": "e2",
+              "name": "Hoàng Nam",
+              "paid_seconds": 21600,
+              "days": {
+                "2026-11-08": 21600
+              },
+              "gross_minor": 9600
+            }
+          ],
+          "gross_minor": 20850,
+          "blocked_shift_ids": [],
+          "shift_ids": [
+            "157968f8c41b4c68a2a82c19c3006a43",
+            "5eeffcf4eaa04a4795bf4e0a473e88b1"
+          ],
+          "accrued": {
+            "document_id": "3272159a166f413db99a867c967812ef",
+            "gross_minor": 20850,
+            "month": "2026-11",
+            "payroll_id": "305c4d1e538f4f6ca73d3950e6ed0057",
+            "shift_ids": [
+              "157968f8c41b4c68a2a82c19c3006a43",
+              "5eeffcf4eaa04a4795bf4e0a473e88b1"
+            ]
+          },
+          "basis": "Gross hourly pay only; no overtime, holiday, pension, NI, income-tax or statutory payroll deductions"
+        },
+        "employees": [
+          {
+            "branch_id": "q1",
+            "employee_id": "e1",
+            "hourly_minor": 1500,
+            "inactive_from": "2026-11-10",
+            "name": "Minh Anh",
+            "updated_at": "2026-11-09T10:00:00+00:00"
+          },
+          {
+            "branch_id": "q1",
+            "employee_id": "e2",
+            "hourly_minor": 1600,
+            "inactive_from": null,
+            "name": "Hoàng Nam",
+            "updated_at": "2026-11-08T09:00:00+00:00"
+          }
+        ],
+        "shifts": [
+          {
+            "branch_id": "q1",
+            "employee_id": "e1",
+            "employee_name": "Minh Anh",
+            "handover_from": null,
+            "hourly_minor": 1500,
+            "opening_cash_minor": 0,
+            "opening_confirmed": true,
+            "shift_id": "5eeffcf4eaa04a4795bf4e0a473e88b1",
+            "started_at": "2026-11-08T09:00:00+00:00",
+            "timezone": "Europe/London",
+            "ended_at": "2026-11-08T17:00:00+00:00",
+            "reviewed": true,
+            "opening_difference_minor": 0,
+            "break_seconds": 1800,
+            "cash_difference_minor": -100,
+            "counted_cash_minor": 95900,
+            "expected_cash_minor": 96000,
+            "handover_to": "e2",
+            "needs_review": false,
+            "note": "Chênh lệch tiền mặt £1 cần đối soát.",
+            "paid_seconds": 27000,
+            "review_reason": "Đã đối chiếu giờ công và bàn giao"
+          },
+          {
+            "branch_id": "q1",
+            "employee_id": "e2",
+            "employee_name": "Hoàng Nam",
+            "handover_from": "5eeffcf4eaa04a4795bf4e0a473e88b1",
+            "hourly_minor": 1600,
+            "opening_cash_minor": 95900,
+            "opening_confirmed": true,
+            "shift_id": "157968f8c41b4c68a2a82c19c3006a43",
+            "started_at": "2026-11-08T17:00:00+00:00",
+            "timezone": "Europe/London",
+            "ended_at": "2026-11-08T23:00:00+00:00",
+            "reviewed": true,
+            "opening_difference_minor": 0,
+            "break_seconds": 0,
+            "cash_difference_minor": 0,
+            "counted_cash_minor": 119900,
+            "expected_cash_minor": 119900,
+            "handover_to": null,
+            "needs_review": false,
+            "note": "",
+            "paid_seconds": 21600,
+            "review_reason": "Đã đối chiếu giờ công và bàn giao"
+          }
+        ],
+        "purchases": [
+          {
+            "document_id": "03d21361c9994934b410594173753c1f",
+            "date": "2026-11-08",
+            "kind": "purchase",
+            "branch_id": "q1",
+            "item_id": "rice",
+            "quantity": 20000,
+            "net_minor": 20000,
+            "payment": "credit",
+            "price_per_kg_minor": 1000
+          },
+          {
+            "document_id": "4ec7e50e7d084fa4a1494e9d160cc3c4",
+            "date": "2026-11-08",
+            "kind": "purchase",
+            "branch_id": "q1",
+            "item_id": "chicken",
+            "quantity": 30000,
+            "net_minor": 60000,
+            "payment": "credit",
+            "price_per_kg_minor": 2000
+          }
+        ],
+        "shopping": [
+          {
+            "item_id": "chicken",
+            "name": "Thịt gà",
+            "current_quantity": 12000,
+            "unit": "g",
+            "today_buy": 8000,
+            "week_buy": 38000,
+            "daily_target": 20000,
+            "minimum": 15000,
+            "weekly_target": 50000
+          },
+          {
+            "item_id": "rice",
+            "name": "Gạo",
+            "current_quantity": 8000,
+            "unit": "g",
+            "today_buy": 12000,
+            "week_buy": 42000,
+            "daily_target": 20000,
+            "minimum": 15000,
+            "weekly_target": 50000
+          }
+        ],
+        "campaigns": [
+          {
+            "branch_id": "q1",
+            "campaign_id": "lunch",
+            "discount_bps": 2000,
+            "enabled": true,
+            "ends_at": "2026-11-08T17:00:00+00:00",
+            "name": "Ưu đãi bữa trưa",
+            "starts_at": "2026-11-08T09:00:00+00:00"
+          }
+        ],
+        "grants": [
+          {
+            "branch_id": "q1",
+            "campaign_fingerprint": "5224669d0970c91755288eca13b32163e4392f8e70f0af0bba37ceccee89ee3f",
+            "campaign_id": "lunch",
+            "employee_id": "e1",
+            "expires_at": "2026-11-08T09:15:00+00:00",
+            "grant_id": "3113602316364878820ac24ae73f6e66",
+            "used": true
+          }
+        ],
+        "daily_gross_hours_minor": 0,
+        "estimated_daily_profit_after_hours_minor": 0,
+        "estimated_tax_minor": 3630,
+        "estimated_after_tax_minor": 14520,
+        "tax_basis": "Owner-configured scenario only; not statutory corporation-tax calculation",
+        "unposted_payroll_gross_minor": 0,
+        "staffing_notice": "Inactive dates stop new check-ins only. Past shifts and wages remain payable. Staffing changes affect costs/profit, not sales revenue."
+      },
+      {
+        "currency": "GBP",
+        "minor_digits": 2,
+        "branch_id": "td",
+        "month": "2026-11",
+        "day": "2026-12-01",
+        "timezone": "Europe/London",
+        "receipt_profile": {},
+        "catalog": [
+          {
+            "id": "rice_chicken",
+            "name": "Cơm gà",
+            "names": {
+              "vi": "Cơm gà",
+              "en": "Chicken rice",
+              "fr": "Riz au poulet",
+              "de": "Hähnchen mit Reis"
+            },
+            "price_minor": 1200,
+            "vat_bps": 0,
+            "category": "main",
+            "icon": "rice",
+            "active": true,
+            "components": [],
+            "recipe": [
+              {
+                "item_id": "chicken",
+                "quantity": 150
+              },
+              {
+                "item_id": "rice",
+                "quantity": 100
+              }
+            ]
+          }
+        ],
+        "tables": [],
+        "financial": {
+          "liabilities_breakdown": {
+            "payroll_payable_minor": 0,
+            "other_payable_minor": 0
+          },
+          "integrity": {
+            "verified": true,
+            "signed_documents": 10,
+            "checks": [
+              "master_data_hmac",
+              "document_hmac_chain",
+              "journal_balance",
+              "stock_reconciliation",
+              "period_locks"
+            ],
+            "limits": "Does not detect rollback to an earlier valid full database snapshot; use separately protected external anchors and backups."
+          },
+          "currency": "GBP",
+          "jurisdiction": "GB",
+          "minor_digits": 2,
+          "branch_id": "td",
+          "from": "2026-11-01",
+          "as_of": "2026-11-30",
+          "pnl": {
+            "revenue_minor": 0,
+            "food_minor": 0,
+            "labor_minor": 0,
+            "rent_minor": 0,
+            "other_minor": 0,
+            "operating_profit_before_depreciation_minor": 0,
+            "depreciation_minor": 0,
+            "profit_before_interest_tax_minor": 0
+          },
+          "liquidity": {
+            "cash_minor": 0,
+            "bank_minor": 0,
+            "reserve_target_minor": 0,
+            "liquidity_after_reserve_minor": 0
+          },
+          "trial_balance": [
+            {
+              "account": "1000",
+              "name": "Tiền mặt",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1010",
+              "name": "Ngân hàng",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1100",
+              "name": "Phải thu khách hàng",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1200",
+              "name": "Kho nguyên liệu",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1300",
+              "name": "Thuế đầu vào chờ đối soát",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1500",
+              "name": "Tài sản thiết bị",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1590",
+              "name": "Khấu hao lũy kế",
+              "kind": "contra_asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "2000",
+              "name": "Phải trả nhà cung cấp",
+              "kind": "liability",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "2100",
+              "name": "Thuế đầu ra chờ đối soát",
+              "kind": "liability",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "3000",
+              "name": "Vốn góp",
+              "kind": "equity",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "4000",
+              "name": "Doanh thu thuần",
+              "kind": "income",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5000",
+              "name": "Giá vốn món ăn",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5100",
+              "name": "Nhân sự",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5200",
+              "name": "Thuê mặt bằng",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5300",
+              "name": "Vận hành khác",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5400",
+              "name": "Khấu hao",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            }
+          ],
+          "balanced": true,
+          "stock": [],
+          "assets": [],
+          "documents": [],
+          "closed_periods": []
+        },
+        "daily": {
+          "liabilities_breakdown": {
+            "payroll_payable_minor": 0,
+            "other_payable_minor": 0
+          },
+          "integrity": {
+            "verified": true,
+            "signed_documents": 10,
+            "checks": [
+              "master_data_hmac",
+              "document_hmac_chain",
+              "journal_balance",
+              "stock_reconciliation",
+              "period_locks"
+            ],
+            "limits": "Does not detect rollback to an earlier valid full database snapshot; use separately protected external anchors and backups."
+          },
+          "currency": "GBP",
+          "jurisdiction": "GB",
+          "minor_digits": 2,
+          "branch_id": "td",
+          "from": "2026-12-01",
+          "as_of": "2026-12-01",
+          "pnl": {
+            "revenue_minor": 0,
+            "food_minor": 0,
+            "labor_minor": 0,
+            "rent_minor": 0,
+            "other_minor": 0,
+            "operating_profit_before_depreciation_minor": 0,
+            "depreciation_minor": 0,
+            "profit_before_interest_tax_minor": 0
+          },
+          "liquidity": {
+            "cash_minor": 0,
+            "bank_minor": 0,
+            "reserve_target_minor": 0,
+            "liquidity_after_reserve_minor": 0
+          },
+          "trial_balance": [
+            {
+              "account": "1000",
+              "name": "Tiền mặt",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1010",
+              "name": "Ngân hàng",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1100",
+              "name": "Phải thu khách hàng",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1200",
+              "name": "Kho nguyên liệu",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1300",
+              "name": "Thuế đầu vào chờ đối soát",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1500",
+              "name": "Tài sản thiết bị",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1590",
+              "name": "Khấu hao lũy kế",
+              "kind": "contra_asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "2000",
+              "name": "Phải trả nhà cung cấp",
+              "kind": "liability",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "2100",
+              "name": "Thuế đầu ra chờ đối soát",
+              "kind": "liability",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "3000",
+              "name": "Vốn góp",
+              "kind": "equity",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "4000",
+              "name": "Doanh thu thuần",
+              "kind": "income",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5000",
+              "name": "Giá vốn món ăn",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5100",
+              "name": "Nhân sự",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5200",
+              "name": "Thuê mặt bằng",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5300",
+              "name": "Vận hành khác",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5400",
+              "name": "Khấu hao",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            }
+          ],
+          "balanced": true,
+          "stock": [],
+          "assets": [],
+          "documents": [],
+          "closed_periods": []
+        },
+        "payroll": {
+          "month": "2026-11",
+          "employees": [],
+          "gross_minor": 0,
+          "blocked_shift_ids": [],
+          "shift_ids": [],
+          "accrued": null,
+          "basis": "Gross hourly pay only; no overtime, holiday, pension, NI, income-tax or statutory payroll deductions"
+        },
+        "employees": [],
+        "shifts": [],
+        "purchases": [],
+        "shopping": [],
+        "campaigns": [],
+        "grants": [],
+        "daily_gross_hours_minor": 0,
+        "estimated_daily_profit_after_hours_minor": 0,
+        "estimated_tax_minor": null,
+        "estimated_after_tax_minor": null,
+        "tax_basis": "Owner-configured scenario only; not statutory corporation-tax calculation",
+        "unposted_payroll_gross_minor": 0,
+        "staffing_notice": "Inactive dates stop new check-ins only. Past shifts and wages remain payable. Staffing changes affect costs/profit, not sales revenue."
+      },
+      {
+        "currency": "GBP",
+        "minor_digits": 2,
+        "branch_id": "dn",
+        "month": "2026-11",
+        "day": "2026-12-01",
+        "timezone": "Europe/London",
+        "receipt_profile": {},
+        "catalog": [
+          {
+            "id": "rice_chicken",
+            "name": "Cơm gà",
+            "names": {
+              "vi": "Cơm gà",
+              "en": "Chicken rice",
+              "fr": "Riz au poulet",
+              "de": "Hähnchen mit Reis"
+            },
+            "price_minor": 1200,
+            "vat_bps": 0,
+            "category": "main",
+            "icon": "rice",
+            "active": true,
+            "components": [],
+            "recipe": [
+              {
+                "item_id": "chicken",
+                "quantity": 150
+              },
+              {
+                "item_id": "rice",
+                "quantity": 100
+              }
+            ]
+          }
+        ],
+        "tables": [],
+        "financial": {
+          "liabilities_breakdown": {
+            "payroll_payable_minor": 0,
+            "other_payable_minor": 0
+          },
+          "integrity": {
+            "verified": true,
+            "signed_documents": 10,
+            "checks": [
+              "master_data_hmac",
+              "document_hmac_chain",
+              "journal_balance",
+              "stock_reconciliation",
+              "period_locks"
+            ],
+            "limits": "Does not detect rollback to an earlier valid full database snapshot; use separately protected external anchors and backups."
+          },
+          "currency": "GBP",
+          "jurisdiction": "GB",
+          "minor_digits": 2,
+          "branch_id": "dn",
+          "from": "2026-11-01",
+          "as_of": "2026-11-30",
+          "pnl": {
+            "revenue_minor": 0,
+            "food_minor": 0,
+            "labor_minor": 0,
+            "rent_minor": 0,
+            "other_minor": 0,
+            "operating_profit_before_depreciation_minor": 0,
+            "depreciation_minor": 0,
+            "profit_before_interest_tax_minor": 0
+          },
+          "liquidity": {
+            "cash_minor": 0,
+            "bank_minor": 0,
+            "reserve_target_minor": 0,
+            "liquidity_after_reserve_minor": 0
+          },
+          "trial_balance": [
+            {
+              "account": "1000",
+              "name": "Tiền mặt",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1010",
+              "name": "Ngân hàng",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1100",
+              "name": "Phải thu khách hàng",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1200",
+              "name": "Kho nguyên liệu",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1300",
+              "name": "Thuế đầu vào chờ đối soát",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1500",
+              "name": "Tài sản thiết bị",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1590",
+              "name": "Khấu hao lũy kế",
+              "kind": "contra_asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "2000",
+              "name": "Phải trả nhà cung cấp",
+              "kind": "liability",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "2100",
+              "name": "Thuế đầu ra chờ đối soát",
+              "kind": "liability",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "3000",
+              "name": "Vốn góp",
+              "kind": "equity",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "4000",
+              "name": "Doanh thu thuần",
+              "kind": "income",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5000",
+              "name": "Giá vốn món ăn",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5100",
+              "name": "Nhân sự",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5200",
+              "name": "Thuê mặt bằng",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5300",
+              "name": "Vận hành khác",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5400",
+              "name": "Khấu hao",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            }
+          ],
+          "balanced": true,
+          "stock": [],
+          "assets": [],
+          "documents": [],
+          "closed_periods": []
+        },
+        "daily": {
+          "liabilities_breakdown": {
+            "payroll_payable_minor": 0,
+            "other_payable_minor": 0
+          },
+          "integrity": {
+            "verified": true,
+            "signed_documents": 10,
+            "checks": [
+              "master_data_hmac",
+              "document_hmac_chain",
+              "journal_balance",
+              "stock_reconciliation",
+              "period_locks"
+            ],
+            "limits": "Does not detect rollback to an earlier valid full database snapshot; use separately protected external anchors and backups."
+          },
+          "currency": "GBP",
+          "jurisdiction": "GB",
+          "minor_digits": 2,
+          "branch_id": "dn",
+          "from": "2026-12-01",
+          "as_of": "2026-12-01",
+          "pnl": {
+            "revenue_minor": 0,
+            "food_minor": 0,
+            "labor_minor": 0,
+            "rent_minor": 0,
+            "other_minor": 0,
+            "operating_profit_before_depreciation_minor": 0,
+            "depreciation_minor": 0,
+            "profit_before_interest_tax_minor": 0
+          },
+          "liquidity": {
+            "cash_minor": 0,
+            "bank_minor": 0,
+            "reserve_target_minor": 0,
+            "liquidity_after_reserve_minor": 0
+          },
+          "trial_balance": [
+            {
+              "account": "1000",
+              "name": "Tiền mặt",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1010",
+              "name": "Ngân hàng",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1100",
+              "name": "Phải thu khách hàng",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1200",
+              "name": "Kho nguyên liệu",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1300",
+              "name": "Thuế đầu vào chờ đối soát",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1500",
+              "name": "Tài sản thiết bị",
+              "kind": "asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "1590",
+              "name": "Khấu hao lũy kế",
+              "kind": "contra_asset",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "2000",
+              "name": "Phải trả nhà cung cấp",
+              "kind": "liability",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "2100",
+              "name": "Thuế đầu ra chờ đối soát",
+              "kind": "liability",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "3000",
+              "name": "Vốn góp",
+              "kind": "equity",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "4000",
+              "name": "Doanh thu thuần",
+              "kind": "income",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5000",
+              "name": "Giá vốn món ăn",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5100",
+              "name": "Nhân sự",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5200",
+              "name": "Thuê mặt bằng",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5300",
+              "name": "Vận hành khác",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            },
+            {
+              "account": "5400",
+              "name": "Khấu hao",
+              "kind": "expense",
+              "debit_balance_minor": 0,
+              "credit_balance_minor": 0
+            }
+          ],
+          "balanced": true,
+          "stock": [],
+          "assets": [],
+          "documents": [],
+          "closed_periods": []
+        },
+        "payroll": {
+          "month": "2026-11",
+          "employees": [],
+          "gross_minor": 0,
+          "blocked_shift_ids": [],
+          "shift_ids": [],
+          "accrued": null,
+          "basis": "Gross hourly pay only; no overtime, holiday, pension, NI, income-tax or statutory payroll deductions"
+        },
+        "employees": [],
+        "shifts": [],
+        "purchases": [],
+        "shopping": [],
+        "campaigns": [],
+        "grants": [],
+        "daily_gross_hours_minor": 0,
+        "estimated_daily_profit_after_hours_minor": 0,
+        "estimated_tax_minor": null,
+        "estimated_after_tax_minor": null,
+        "tax_basis": "Owner-configured scenario only; not statutory corporation-tax calculation",
+        "unposted_payroll_gross_minor": 0,
+        "staffing_notice": "Inactive dates stop new check-ins only. Past shifts and wages remain payable. Staffing changes affect costs/profit, not sales revenue."
+      }
+    ],
+    "revenue_minor": 100000,
+    "before_tax_minor": 18150,
+    "estimated_after_tax_minor": null,
+    "estimated_tax_minor": null
+  },
+  "forecast_notice": "Chưa đủ lịch sử đã khóa để dự báo. Không tạo số dự báo giả."
+}

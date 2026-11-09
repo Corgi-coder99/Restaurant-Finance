@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.sqlite3
+.venv/
+backend/data/lakehouse/
+backend/data/connector_staging/
+backend/data/erp_gold/
+.env
+.env.*
+*.key
+secrets/

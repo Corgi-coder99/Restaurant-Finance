@@ -1,0 +1,2 @@
+const assert=require('node:assert/strict');const csv=require('./dist/csv.js');
+assert.equal(csv.cell(-100),'"-100"');assert.equal(csv.cell('  =1+1'),'"\'  =1+1"');assert.equal(csv.cell('\t@SUM(A1)'),'"\'\t@SUM(A1)"');assert.equal(csv.cell('invoice, "A"'),'"invoice, ""A"""');assert.equal(csv.cell(null),'""');assert.throws(()=>csv.cell(NaN));assert.throws(()=>csv.cell(Infinity));assert.equal(csv.serialize([['Profit',-100],['ID','+CMD']]),'"Profit","-100"\r\n"ID","\'+CMD"');console.log('PASS: numeric fidelity, formula-injection protection and CSV escaping');

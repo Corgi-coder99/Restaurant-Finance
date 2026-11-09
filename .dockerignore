@@ -1,0 +1,9 @@
+.git
+.venv
+.env*
+**/__pycache__
+**/*.sqlite3*
+**/*.key
+secrets
+backend/data
+backend/tests

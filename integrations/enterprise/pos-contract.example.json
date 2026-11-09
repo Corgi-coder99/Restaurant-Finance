@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "provider": "laddition_suite",
+  "company_id": "demo-company-not-a-real-account",
+  "sheet": "pos_closes",
+  "max_bytes": 20971520,
+  "max_rows": 100000,
+  "decimal_separator": ",",
+  "closed_status": "closed",
+  "restaurants": {"DEMO-PARIS": "q1"},
+  "columns": {
+    "restaurant_id": "restaurant_id", "close_id": "close_id", "business_date": "business_date",
+    "currency": "currency", "net_sales": "net_sales", "tax": "tax", "gross_sales": "gross_sales", "status": "status"
+  }
+}

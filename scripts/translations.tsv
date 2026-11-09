@@ -1,0 +1,648 @@
+Tổng quan|Overview|Vue d’ensemble|Übersicht
+Chi phí & mặt bằng|Costs & premises|Coûts et locaux|Kosten & Räumlichkeiten
+Thử điều chỉnh giá|Try pricing changes|Simuler les prix|Preise simulieren
+Kế hoạch sắp tới|Planning ahead|Prévisions d’activité|Planung
+Sổ thu chi|Income & expenses|Recettes et dépenses|Einnahmen & Ausgaben
+Giá nguyên liệu|Ingredient prices|Prix des ingrédients|Zutatenpreise
+Thông tin & phương pháp|About & methodology|Informations et méthode|Informationen & Methodik
+Hệ thống vận hành MVP|Operations MVP|Gestion opérationnelle MVP|Betriebsverwaltung MVP
+Ngôn ngữ|Language|Langue|Sprache
+QUẢN LÝ NHÀ HÀNG|RESTAURANT MANAGEMENT|GESTION DU RESTAURANT|RESTAURANTVERWALTUNG
+Không gian nhà hàng của bạn|Your restaurant workspace|Votre espace restaurant|Ihr Restaurantbereich
+Nhà hàng của bạn|Your restaurant|Votre restaurant|Ihr Restaurant
+Bản trải nghiệm|Demo workspace|Espace de démonstration|Demobereich
+Chủ nhà hàng|Restaurant owner|Restaurateur|Restaurantinhaber
+Chế độ demo|Demo mode|Mode démonstration|Demomodus
+Xuất báo cáo|Export report|Exporter le rapport|Bericht exportieren
+Đến nội dung chính|Skip to main content|Aller au contenu principal|Zum Hauptinhalt
+Điều hướng chính|Main navigation|Navigation principale|Hauptnavigation
+Điều hướng trên điện thoại|Mobile navigation|Navigation mobile|Mobile Navigation
+Thêm|More|Plus|Mehr
+Chi phí|Expenses|Dépenses|Ausgaben
+Thử giá|Pricing|Prix|Preise
+Thu chi|Transactions|Transactions|Buchungen
+MỖI NGÀY HIỂU QUÁN HƠN MỘT CHÚT|UNDERSTAND YOUR RESTAURANT A LITTLE BETTER EVERY DAY|MIEUX COMPRENDRE VOTRE RESTAURANT CHAQUE JOUR|IHR RESTAURANT JEDEN TAG BESSER VERSTEHEN
+Hôm nay, quán mình thế nào?|How is your restaurant doing?|Comment va votre restaurant ?|Wie läuft Ihr Restaurant?
+Nhìn rõ tiền thu, tiền chi và phần lợi nhuận còn lại.|See revenue, expenses and the profit left over.|Visualisez les recettes, les dépenses et le bénéfice restant.|Sehen Sie Einnahmen, Ausgaben und den verbleibenden Gewinn.
+Chọn nhà hàng để xem số liệu|Choose a restaurant to view|Choisir un restaurant|Restaurant auswählen
+Tất cả 3 chi nhánh|All 3 locations|Les 3 établissements|Alle 3 Standorte
+Tất cả chi nhánh|All locations|Tous les établissements|Alle Standorte
+Bạn đang khám phá bằng|You are exploring with|Vous explorez avec des|Sie erkunden die App mit
+Dữ liệu mẫu|Sample data|Données de démonstration|Beispieldaten
+dữ liệu mẫu|sample data|données de démonstration|Beispieldaten
+. Giao dịch nhập thử chưa cộng vào báo cáo.|. Trial transactions are not included in reports.|. Les transactions d’essai ne sont pas incluses dans les rapports.|. Testbuchungen sind nicht in den Berichten enthalten.
+Đơn vị: triệu đồng · Lợi nhuận trước khấu hao, lãi vay và thuế.|Unit: million VND · Profit before depreciation, interest and tax.|Unité : millions VND · Bénéfice avant amortissement, intérêts et impôts.|Einheit: Millionen VND · Gewinn vor Abschreibungen, Zinsen und Steuern.
+Cần hướng dẫn?|Need a hand?|Besoin d’aide ?|Brauchen Sie Hilfe?
+QUẢN LÝ QUÁN, NHẸ NHÀNG HƠN|LESS ADMIN, MORE CLARITY|MOINS DE GESTION, PLUS DE CLARTÉ|WENIGER AUFWAND, MEHR KLARHEIT
+Hiểu từng đồng.|Understand every penny.|Comprendre chaque euro.|Jeden Cent verstehen.
+Vững từng quyết định.|Make confident decisions.|Décider avec confiance.|Fundierte Entscheidungen treffen.
+Mình là Bếp Nhỏ. Cùng mình xem quán đang thu bao nhiêu, chi thế nào và còn lại bao nhiêu nhé!|I’m Bếp Nhỏ. Let’s explore your restaurant’s revenue, costs and profit together.|Je suis Bếp Nhỏ. Découvrons ensemble les recettes, les coûts et le bénéfice de votre restaurant.|Ich bin Bếp Nhỏ. Sehen wir uns gemeinsam Umsatz, Kosten und Gewinn Ihres Restaurants an.
+Có mình ở đây rồi!|I’m here to help!|Je suis là pour vous aider !|Ich helfe Ihnen gerne!
+Làm quen cùng Bếp Nhỏ|Get started with Bếp Nhỏ|Découvrir avec Bếp Nhỏ|Einführung mit Bếp Nhỏ
+Thử điều chỉnh giá bán|Try changing your prices|Simuler vos prix de vente|Verkaufspreise simulieren
+Mới · Tự vận hành từ bán hàng đến sổ kế toán|New · From sales to your accounting ledger|Nouveau · Des ventes à la comptabilité|Neu · Vom Verkauf bis zur Buchhaltung
+Xem quy trình mẫu có kho, công nợ, bàn ghế và dự phòng · GBP|Explore inventory, payables, furniture and reserves · GBP|Explorer stocks, dettes, mobilier et réserves · GBP|Lager, Verbindlichkeiten, Möbel und Rücklagen erkunden · GBP
+Những con số cần biết|Your key numbers|Vos chiffres clés|Ihre wichtigsten Kennzahlen
+Tháng 11 · Dữ liệu mẫu|November · Sample data|Novembre · Données de démonstration|November · Beispieldaten
+Doanh thu bán hàng|Sales revenue|Chiffre d’affaires|Verkaufserlöse
+Chi phí vận hành|Operating costs|Charges d’exploitation|Betriebskosten
+Lợi nhuận vận hành|Operating profit|Résultat d’exploitation|Betriebsergebnis
+Tỷ lệ lợi nhuận|Profit margin|Marge bénéficiaire|Gewinnmarge
+Sau giảm giá · chưa gồm VAT|After discounts · excluding VAT|Après remises · hors TVA|Nach Rabatten · ohne MwSt.
+Chưa trừ khấu hao, lãi vay & thuế|Before depreciation, interest & tax|Avant amortissement, intérêts et impôts|Vor Abschreibungen, Zinsen und Steuern
+Số liệu của chi nhánh đang chọn|Figures for the selected location|Chiffres de l’établissement sélectionné|Zahlen des ausgewählten Standorts
+Hiểu hiệu quả từng đồng doanh thu|See what each unit of revenue earns|Comprendre la rentabilité du chiffre d’affaires|Rentabilität des Umsatzes verstehen
+triệu ₫|million VND|millions VND|Mio. VND
+triệu đồng|million VND|millions VND|Millionen VND
+Triệu đồng|Million VND|Millions VND|Millionen VND
+Triệu VND|Million VND|Millions VND|Millionen VND
+Ghi khoản thu, chi|Record a transaction|Saisir une transaction|Buchung erfassen
+Bắt đầu từ một giao dịch|Start with one transaction|Commencez par une transaction|Mit einer Buchung beginnen
+Xem tác động lên lợi nhuận|See the impact on profit|Voir l’effet sur le bénéfice|Auswirkungen auf den Gewinn sehen
+Lên kế hoạch tháng tới|Plan next month|Planifier le mois prochain|Nächsten Monat planen
+Chuẩn bị nhiều kịch bản|Prepare different scenarios|Préparer plusieurs scénarios|Mehrere Szenarien vorbereiten
+Thao tác nhanh|Quick actions|Actions rapides|Schnellaktionen
+Quán đang phát triển thế nào?|How is your restaurant trending?|Comment évolue votre restaurant ?|Wie entwickelt sich Ihr Restaurant?
+Doanh thu và lợi nhuận từ tháng 1 đến tháng 11|Revenue and profit from January to November|Chiffre d’affaires et bénéfice de janvier à novembre|Umsatz und Gewinn von Januar bis November
+Năm {{year}}|Year {{year}}|Année {{year}}|Jahr {{year}}
+Doanh thu|Revenue|Chiffre d’affaires|Umsatz
+Đơn vị: triệu ₫|Unit: million VND|Unité : millions VND|Einheit: Millionen VND
+Biểu đồ doanh thu và lợi nhuận theo tháng|Monthly revenue and profit chart|Graphique mensuel du chiffre d’affaires et du bénéfice|Monatliches Umsatz- und Gewinndiagramm
+Cơ cấu chi phí|Cost breakdown|Répartition des coûts|Kostenstruktur
+Mỗi khoản chi, một góc nhìn|Understand each cost component|Comprendre chaque poste de coût|Jede Kostenart verstehen
+Tỷ trọng chi phí|Cost share|Part des coûts|Kostenanteil
+Nguyên liệu|Ingredients|Ingrédients|Zutaten
+Nhân sự|Staff|Personnel|Personal
+Thuê mặt bằng|Rent|Loyer|Miete
+Vận hành khác|Other operating costs|Autres charges d’exploitation|Sonstige Betriebskosten
+Thuê mặt bằng chiếm|Rent accounts for|Le loyer représente|Die Miete entspricht
+. Theo dõi cùng năng suất bán hàng từng địa điểm.|. Compare this with each location’s sales performance.|. À comparer avec les ventes de chaque établissement.|. Vergleichen Sie dies mit der Verkaufsleistung jedes Standorts.
+Mỗi chi nhánh đang ra sao?|How is each location doing?|Comment va chaque établissement ?|Wie läuft jeder Standort?
+So sánh để biết nơi nào cần quan tâm hơn|Compare locations to see where to focus|Comparez pour savoir où agir|Standorte vergleichen und Handlungsbedarf erkennen
+Chi nhánh|Location|Établissement|Standort
+Tiền thuê|Rent|Loyer|Miete
+Lợi nhuận|Profit|Bénéfice|Gewinn
+Tỷ lệ LN|Margin|Marge|Marge
+Bắt đầu từ việc nhỏ|Small steps to get started|Commencer par de petites actions|Mit kleinen Schritten beginnen
+Một vài điều đáng dành thời gian xem|A few things worth reviewing|Quelques points à examiner|Einige Punkte zum Prüfen
+Hiểu rõ tiền thuê mặt bằng|Understand your rent costs|Comprendre le coût du loyer|Mietkosten verstehen
+Xem cơ cấu chi phí|View cost breakdown|Voir la répartition des coûts|Kostenstruktur ansehen
+Nếu giá bán thay đổi thì sao?|What if you changed your prices?|Et si vous changiez vos prix ?|Was passiert bei anderen Preisen?
+Hãy thử cả trường hợp số đơn giảm khi tăng giá để có góc nhìn thực tế hơn.|Also model fewer orders after a price increase for a more realistic view.|Simulez aussi une baisse des commandes après une hausse des prix.|Simulieren Sie auch weniger Bestellungen nach einer Preiserhöhung.
+Thử một kịch bản|Try a scenario|Tester un scénario|Szenario ausprobieren
+Biết mức doanh thu cần đạt|Know your break-even sales|Connaître le chiffre d’affaires à atteindre|Erforderlichen Umsatz kennen
+Xem cách tính và giả định|View calculations and assumptions|Voir les calculs et hypothèses|Berechnung und Annahmen ansehen
+Có Bếp Nhỏ đồng hành|Bếp Nhỏ is here to help|Bếp Nhỏ vous accompagne|Bếp Nhỏ begleitet Sie
+Chưa quen số liệu?|New to financial figures?|Les chiffres vous semblent complexes ?|Noch ungewohnt mit Finanzzahlen?
+Mình cùng xem từng bước nhé.|Let’s take it step by step.|Avançons pas à pas.|Gehen wir es Schritt für Schritt an.
+Mở hướng dẫn|Open the guide|Ouvrir le guide|Einführung öffnen
+Để mình hướng dẫn nhé!|Let me show you around!|Je vous fais visiter !|Ich zeige Ihnen die App!
+Mở hướng dẫn sử dụng|Open the user guide|Ouvrir le guide d’utilisation|Benutzerhilfe öffnen
+Bếp Nhỏ: mở hướng dẫn sử dụng|Bếp Nhỏ: open the guide|Bếp Nhỏ : ouvrir le guide|Bếp Nhỏ: Einführung öffnen
+Bếp Nhỏ, linh vật hướng dẫn|Bếp Nhỏ, your guide mascot|Bếp Nhỏ, votre mascotte guide|Bếp Nhỏ, Ihr Begleiter
+Bếp Nhỏ đồng hành|Your guide, Bếp Nhỏ|Bếp Nhỏ vous accompagne|Ihr Begleiter Bếp Nhỏ
+Bếp Nhỏ đang vẫy tay hướng dẫn|Bếp Nhỏ waving to guide you|Bếp Nhỏ vous fait signe|Bếp Nhỏ winkt Ihnen zu
+Bếp Nhỏ: chú nồi đầu bếp cầm bảng biểu đồ và vẫy tay|Bếp Nhỏ, a chef pot waving and holding a chart|Bếp Nhỏ, une marmite chef avec un graphique|Bếp Nhỏ, ein winkender Kochtopf mit Diagramm
+Bếp Finance, về trang chủ|Bếp Finance home|Accueil Bếp Finance|Bếp Finance Startseite
+Làm quen với Bếp Finance|Getting started with Bếp Finance|Découvrir Bếp Finance|Einführung in Bếp Finance
+BẾP NHỎ ĐỒNG HÀNH|YOUR GUIDE, BẾP NHỎ|BẾP NHỎ VOUS ACCOMPAGNE|IHR BEGLEITER BẾP NHỎ
+Chào bạn, mình là Bếp Nhỏ!|Hi, I’m Bếp Nhỏ!|Bonjour, je suis Bếp Nhỏ !|Hallo, ich bin Bếp Nhỏ!
+Mình giúp bạn làm quen với Bếp Finance qua 7 bước ngắn. Bạn có thể dừng bất cứ lúc nào và mở lại từ nút có hình mình.|I’ll introduce Bếp Finance in 7 short steps. You can stop anytime and reopen the guide from my button.|Je vous présente Bếp Finance en 7 étapes. Vous pouvez arrêter et rouvrir le guide à tout moment.|Ich stelle Bếp Finance in 7 kurzen Schritten vor. Sie können jederzeit aufhören und die Einführung über meine Schaltfläche erneut öffnen.
+Xem đúng nhà hàng bạn cần|Choose the right restaurant|Choisir le bon établissement|Das richtige Restaurant auswählen
+Bộ chọn chi nhánh giúp bạn xem từng quán hoặc toàn chuỗi. Số liệu và biểu đồ sẽ đổi theo lựa chọn của bạn.|Use the location selector to view one restaurant or the whole chain. Figures and charts follow your selection.|Choisissez un établissement ou toute la chaîne. Les chiffres et graphiques suivent votre sélection.|Wählen Sie ein Restaurant oder die gesamte Kette. Zahlen und Diagramme passen sich an.
+Hiểu 4 con số quan trọng|Understand 4 key figures|Comprendre 4 chiffres clés|Vier wichtige Kennzahlen verstehen
+Bắt đầu với doanh thu, chi phí, lợi nhuận và tỷ lệ lợi nhuận. Bấm dấu hỏi cạnh từng chỉ số để đọc giải thích. Lợi nhuận không đồng nghĩa với tiền mặt còn lại.|Start with revenue, costs, profit and margin. Tap each question mark for an explanation. Profit is not the same as cash available.|Commencez par le chiffre d’affaires, les coûts, le bénéfice et la marge. Touchez les points d’interrogation pour en savoir plus. Le bénéfice n’est pas la trésorerie disponible.|Beginnen Sie mit Umsatz, Kosten, Gewinn und Marge. Fragezeichen erklären die Kennzahlen. Gewinn ist nicht dasselbe wie verfügbare Liquidität.
+Biết tiền đang đi đâu|See where the money goes|Savoir où va l’argent|Sehen, wohin das Geld fließt
+Nguyên liệu, nhân sự, tiền thuê mặt bằng và chi phí khác được tách riêng. Biểu đồ cho bạn biết mỗi khoản chiếm bao nhiêu.|Ingredients, staff, rent and other costs are separated. The chart shows each share.|Ingrédients, personnel, loyer et autres charges sont séparés. Le graphique indique leur part.|Zutaten, Personal, Miete und sonstige Kosten sind getrennt. Das Diagramm zeigt die Anteile.
+Thử trước khi thay đổi giá|Test before changing prices|Tester avant de changer les prix|Vor einer Preisänderung testen
+Kéo thanh giá bán, lượng bán hoặc tiền thuê để xem lợi nhuận thay đổi. Hãy thử giảm lượng bán khi tăng giá: đây là giả định để tham khảo, chưa tự áp dụng vào quán.|Adjust price, sales volume or rent to see the profit impact. Also test lower sales after a price rise. These are scenarios; nothing changes in your restaurant automatically.|Ajustez prix, ventes ou loyer pour voir l’effet sur le bénéfice. Testez aussi moins de ventes après une hausse. Rien n’est appliqué automatiquement au restaurant.|Ändern Sie Preis, Absatz oder Miete, um die Gewinnwirkung zu sehen. Testen Sie auch weniger Absatz nach einer Preiserhöhung. Im Restaurant wird nichts automatisch geändert.
+Thử ghi một khoản thu, chi|Try recording a transaction|Essayer de saisir une transaction|Eine Buchung ausprobieren
+Nhập mã, số tiền, chi nhánh và ngày giao dịch. Bản demo chỉ lưu tại trình duyệt này; giao dịch thử chưa cộng vào báo cáo tổng quan.|Enter a reference, amount, location and date. This demo saves only in this browser; trial transactions do not affect the overview.|Saisissez référence, montant, établissement et date. La démo enregistre dans ce navigateur ; les essais ne modifient pas la vue d’ensemble.|Geben Sie Referenz, Betrag, Standort und Datum ein. Die Demo speichert nur in diesem Browser; Testbuchungen ändern die Übersicht nicht.
+Bạn đã sẵn sàng rồi!|You’re ready to explore!|Vous pouvez commencer !|Sie können loslegen!
+Hãy thử chọn một chi nhánh, xem chi phí rồi mô phỏng giá. Bếp Nhỏ luôn ở nút hướng dẫn khi bạn cần xem lại. Chúc bạn quản lý quán thật nhẹ nhàng!|Choose a location, review costs and try a pricing scenario. You can always reopen my guide. Enjoy managing your restaurant!|Choisissez un établissement, consultez les coûts et simulez les prix. Mon guide reste disponible. Bonne gestion !|Wählen Sie einen Standort, prüfen Sie Kosten und simulieren Sie Preise. Meine Einführung ist jederzeit verfügbar. Viel Erfolg!
+Bắt đầu|Start|Commencer|Starten
+Tiếp theo|Next|Suivant|Weiter
+Quay lại|Back|Retour|Zurück
+Khám phá thôi!|Let’s explore!|C’est parti !|Los geht’s!
+Để sau, mình tự khám phá|Later, I’ll explore on my own|Plus tard, je découvre par moi-même|Später, ich erkunde selbst
+Đóng hướng dẫn|Close the guide|Fermer le guide|Einführung schließen
+Đóng menu|Close menu|Fermer le menu|Menü schließen
+Bạn muốn xem gì?|What would you like to view?|Que souhaitez-vous consulter ?|Was möchten Sie ansehen?
+Bạn có thể mở lại hướng dẫn cùng Bếp Nhỏ bất cứ lúc nào.|You can reopen Bếp Nhỏ’s guide anytime.|Vous pouvez rouvrir le guide à tout moment.|Sie können die Einführung jederzeit erneut öffnen.
+Hiểu con số này|Understand this figure|Comprendre ce chiffre|Diese Kennzahl verstehen
+Mình hiểu rồi|Got it|J’ai compris|Verstanden
+Đóng giải thích|Close explanation|Fermer l’explication|Erklärung schließen
+Giải thích {{label}}|Explain {{label}}|Expliquer : {{label}}|Erklärung: {{label}}
+Doanh thu là gì?|What is revenue?|Qu’est-ce que le chiffre d’affaires ?|Was ist Umsatz?
+Chi phí gồm những gì?|What is included in costs?|Que comprennent les charges ?|Was gehört zu den Kosten?
+Lợi nhuận có phải tiền mặt?|Is profit the same as cash?|Le bénéfice est-il de la trésorerie ?|Ist Gewinn dasselbe wie Bargeld?
+Tỷ lệ lợi nhuận là gì?|What is profit margin?|Qu’est-ce que la marge bénéficiaire ?|Was ist die Gewinnmarge?
+Tiền bán hàng sau giảm giá, chưa gồm VAT. Đây là doanh thu, không nhất thiết là tiền đã thu về tài khoản.|Sales after discounts, excluding VAT. Revenue does not necessarily mean cash already received.|Ventes après remises, hors TVA. Le chiffre d’affaires n’est pas forcément déjà encaissé.|Verkäufe nach Rabatten, ohne MwSt. Umsatz bedeutet nicht unbedingt bereits erhaltenes Geld.
+Gồm nguyên liệu đã sử dụng, nhân sự, thuê mặt bằng và vận hành khác. Tiền mua hàng tồn kho chưa dùng không tự trở thành giá vốn.|Includes ingredients used, staff, rent and other operations. Unused inventory purchases are not automatically cost of sales.|Comprend ingrédients consommés, personnel, loyer et autres charges. Les achats non consommés ne deviennent pas automatiquement un coût des ventes.|Enthält verbrauchte Zutaten, Personal, Miete und sonstigen Betrieb. Nicht verbrauchte Vorräte sind nicht automatisch Umsatzkosten.
+Doanh thu trừ các chi phí vận hành đang hiển thị. Chưa trừ khấu hao, lãi vay và thuế; không phải số tiền mặt có thể rút ra.|Revenue less the operating costs shown. Before depreciation, interest and tax; not cash available to withdraw.|Chiffre d’affaires moins les charges affichées, avant amortissement, intérêts et impôts. Ce n’est pas la trésorerie retirable.|Umsatz abzüglich angezeigter Betriebskosten, vor Abschreibungen, Zinsen und Steuern. Kein frei entnehmbarer Geldbetrag.
+Cứ 100 đồng doanh thu, quán giữ lại bao nhiêu đồng lợi nhuận vận hành. Tỷ lệ cao hơn chỉ có ý nghĩa khi chất lượng dữ liệu và phạm vi chi phí giống nhau.|Operating profit retained per 100 units of revenue. Compare margins only with equivalent data quality and cost coverage.|Résultat d’exploitation conservé pour 100 unités de chiffre d’affaires. Comparez des périmètres et qualités de données équivalents.|Verbleibender Betriebsgewinn je 100 Umsatzeinheiten. Vergleichen Sie nur bei gleicher Datenqualität und gleichem Kostenumfang.
+Tiền của quán đang đi đâu?|Where is your money going?|Où va l’argent du restaurant ?|Wohin fließt Ihr Geld?
+Xem từng khoản chi, từ nguyên liệu đến tiền thuê mặt bằng.|Review every cost, from ingredients to rent.|Examinez chaque charge, des ingrédients au loyer.|Prüfen Sie alle Kosten, von Zutaten bis Miete.
+Chi phí theo nhóm|Costs by category|Charges par catégorie|Kosten nach Kategorie
+Tỷ trọng trên tổng chi phí vận hành|Share of total operating costs|Part des charges d’exploitation|Anteil an den gesamten Betriebskosten
+Giá vốn nguyên liệu = tồn đầu kỳ + nhập trong kỳ − tồn cuối kỳ. Các số liệu mẫu đã giả định điều chỉnh tồn kho.|Ingredient cost = opening inventory + purchases − closing inventory. Sample figures assume inventory adjustments.|Coût des ingrédients = stock initial + achats − stock final. Les exemples supposent un ajustement des stocks.|Zutatenkosten = Anfangsbestand + Einkäufe − Endbestand. Bestandskorrekturen sind in den Beispielen angenommen.
+Mặt bằng & nghĩa vụ hợp đồng|Premises & lease commitments|Locaux et engagements locatifs|Räumlichkeiten & Mietverpflichtungen
+Địa điểm|Location|Établissement|Standort
+Tiền thuê / tháng|Monthly rent|Loyer mensuel|Monatliche Miete
+Tỷ lệ doanh thu|Share of revenue|Part du chiffre d’affaires|Umsatzanteil
+Giả định hợp đồng|Lease assumptions|Hypothèses du bail|Mietannahmen
+Chi phí phân bổ tháng · chưa gồm tiền cọc|Monthly charge · excluding deposit|Charge mensuelle · hors dépôt de garantie|Monatlicher Aufwand · ohne Kaution
+Tiền cọc không ghi nhận ngay vào chi phí thuê. Bản triển khai thật cần theo dõi trả trước, lịch tăng giá, công nợ và dòng tiền thanh toán.|Deposits are not immediately rent expense. Production use needs prepayments, rent increases, liabilities and payment cash flows.|Le dépôt n’est pas immédiatement une charge locative. Il faut suivre avances, hausses, dettes et paiements.|Kautionen sind nicht sofort Mietaufwand. Vorauszahlungen, Erhöhungen, Verbindlichkeiten und Zahlungen müssen erfasst werden.
+Thử thay đổi, rồi hãy quyết định|Test a change before deciding|Simuler avant de décider|Erst simulieren, dann entscheiden
+Kéo thanh điều chỉnh để xem lợi nhuận có thể thay đổi thế nào.|Move the sliders to explore potential profit changes.|Déplacez les curseurs pour voir l’effet possible sur le bénéfice.|Bewegen Sie die Regler, um mögliche Gewinnänderungen zu sehen.
+Điều chỉnh kế hoạch của bạn|Adjust your plan|Ajuster votre plan|Plan anpassen
+Thay đổi giả định, kết quả cập nhật tức thì|Change assumptions to update results instantly|Les résultats suivent immédiatement vos hypothèses|Annahmen ändern, Ergebnisse sofort sehen
+Đặt lại|Reset|Réinitialiser|Zurücksetzen
+Thay đổi giá bán|Selling price change|Variation du prix de vente|Änderung des Verkaufspreises
+Áp dụng đồng đều cho giá bán bình quân.|Applied uniformly to the average selling price.|Appliqué uniformément au prix de vente moyen.|Einheitlich auf den durchschnittlichen Verkaufspreis angewendet.
+Thay đổi lượng bán|Sales volume change|Variation du volume vendu|Änderung der Absatzmenge
+Giả định độc lập: tăng giá có thể làm giảm số đơn.|Independent assumption: higher prices may reduce orders.|Hypothèse indépendante : une hausse peut réduire les commandes.|Unabhängige Annahme: Höhere Preise können Bestellungen reduzieren.
+Biến động giá nguyên liệu|Ingredient price change|Variation du prix des ingrédients|Änderung der Zutatenpreise
+Giữ nguyên định lượng và chất lượng món ăn.|Portion sizes and food quality remain unchanged.|Quantités et qualité des plats inchangées.|Rezeptmengen und Qualität bleiben unverändert.
+Tiền thuê mặt bằng / tháng|Monthly premises rent|Loyer mensuel des locaux|Monatliche Raummiete
+Chi phí cố định, không tự giảm khi lượng bán giảm.|Fixed cost; it does not fall automatically with sales.|Charge fixe, qui ne diminue pas automatiquement avec les ventes.|Fixkosten, die nicht automatisch mit dem Absatz sinken.
+Thay đổi chi phí nhân sự|Staff cost change|Variation du coût du personnel|Änderung der Personalkosten
+Cần bảo đảm nhân sự tối thiểu khi áp dụng thực tế.|Maintain minimum staffing levels in practice.|Maintenez les effectifs minimaux en pratique.|Mindestbesetzung im Betrieb sicherstellen.
+Kết quả kịch bản|Scenario results|Résultats du scénario|Szenarioergebnisse
+Lợi nhuận vận hành dự kiến / tháng|Estimated monthly operating profit|Résultat d’exploitation mensuel estimé|Geschätzter monatlicher Betriebsgewinn
+Lưu kịch bản trên thiết bị|Save scenario on this device|Enregistrer sur cet appareil|Szenario auf diesem Gerät speichern
+Mở kịch bản đã lưu|Open saved scenario|Ouvrir le scénario enregistré|Gespeichertes Szenario öffnen
+Điều gì đứng sau con số?|What drives these numbers?|Que signifient ces chiffres ?|Was steckt hinter den Zahlen?
+Doanh thu = doanh thu gốc × hệ số giá × hệ số lượng bán.|Revenue = baseline revenue × price factor × volume factor.|Chiffre d’affaires = référence × facteur prix × facteur volume.|Umsatz = Basisumsatz × Preisfaktor × Absatzfaktor.
+Nguyên liệu thay đổi theo giá mua và lượng bán. 40% chi phí khác biến đổi theo lượng bán; 60% còn lại cố định. Thuê mặt bằng và nhân sự cố định theo giả định bạn chọn.|Ingredients vary with purchase prices and volume. Other costs are 40% variable and 60% fixed. Rent and staff follow your assumptions.|Les ingrédients varient selon prix et volume. Les autres coûts sont variables à 40 % et fixes à 60 %. Loyer et personnel suivent vos hypothèses.|Zutaten variieren mit Einkaufspreis und Absatz. Sonstige Kosten sind zu 40 % variabel und 60 % fix. Miete und Personal folgen Ihren Annahmen.
+Đây là phân tích độ nhạy, chưa phải tối ưu bằng OR-Tools. Không tự áp dụng giá hoặc cắt giảm nhân sự.|This is sensitivity analysis, not OR-Tools optimisation. It does not apply prices or staffing cuts.|Il s’agit d’une analyse de sensibilité, pas d’une optimisation OR-Tools. Aucun prix ni effectif n’est modifié.|Dies ist eine Sensitivitätsanalyse, keine OR-Tools-Optimierung. Preise und Personal werden nicht automatisch geändert.
+Chỉ số|Metric|Indicateur|Kennzahl
+Hiện tại|Current|Actuel|Aktuell
+Kịch bản|Scenario|Scénario|Szenario
+Tổng chi phí|Total costs|Total des charges|Gesamtkosten
+Biên lợi nhuận (%)|Profit margin (%)|Marge bénéficiaire (%)|Gewinnmarge (%)
+Biên lợi nhuận %|Profit margin %|Marge bénéficiaire %|Gewinnmarge %
+Doanh thu hòa vốn|Break-even revenue|Seuil de rentabilité|Gewinnschwellenumsatz
+Không đạt|Not achievable|Non atteignable|Nicht erreichbar
+Lợi nhuận trước khấu hao, lãi vay và thuế. Không đồng nghĩa với dòng tiền.|Profit before depreciation, interest and tax. Not the same as cash flow.|Résultat avant amortissement, intérêts et impôts. À distinguer de la trésorerie.|Gewinn vor Abschreibungen, Zinsen und Steuern. Nicht gleich Cashflow.
+Tăng|Increase|Hausse|Anstieg
+Giảm|Decrease|Baisse|Rückgang
+Cùng chuẩn bị cho tháng tới|Prepare for next month|Préparer le mois prochain|Auf den nächsten Monat vorbereiten
+Khám phá các kịch bản để chủ động hơn trong kinh doanh.|Explore scenarios to plan your business proactively.|Explorez des scénarios pour anticiper votre activité.|Szenarien erkunden und vorausschauend planen.
+Lên kế hoạch theo nhiều khả năng|Plan for different outcomes|Prévoir plusieurs possibilités|Für verschiedene Entwicklungen planen
+Kịch bản mùa vụ minh họa; chưa huấn luyện mô hình dự báo trên dữ liệu nhà hàng thật.|Illustrative seasonal scenarios, not a model trained on real restaurant data.|Scénarios saisonniers illustratifs, sans entraînement sur des données réelles.|Beispielhafte saisonale Szenarien, kein mit echten Restaurantdaten trainiertes Modell.
+Doanh thu & lợi nhuận theo mùa|Seasonal revenue & profit|Chiffre d’affaires et bénéfice saisonniers|Saisonaler Umsatz & Gewinn
+Tháng 1–11 minh họa; tháng 12 là kịch bản|January–November samples; December is a scenario|Janvier à novembre : exemples ; décembre : scénario|Januar–November: Beispiele; Dezember: Szenario
+Kịch bản dự báo|Forecast scenario|Scénario prévisionnel|Prognoseszenario
+Cơ sở|Base case|Scénario central|Basisszenario
+Thận trọng: lượng bán −10%|Cautious: sales volume −10%|Prudent : volume −10 %|Vorsichtig: Absatz −10 %
+Thuận lợi: lượng bán +10%|Optimistic: sales volume +10%|Favorable : volume +10 %|Günstig: Absatz +10 %
+Kế hoạch 3 tháng gần tới|Next 3 months|Les 3 prochains mois|Die nächsten 3 Monate
+Tháng|Month|Mois|Monat
+Giả định lượng bán so với T11|Volume assumption vs November|Volume supposé par rapport à novembre|Absatzannahme gegenüber November
+Chi phí thuê|Rent cost|Charge locative|Mietkosten
+Chưa có khoảng tin cậy thống kê: ba kịch bản là giả định của người lập kế hoạch. Bước tiếp theo: dữ liệu POS, ngày lễ và kiểm định dự báo theo thời gian.|No statistical confidence interval: these three scenarios are planning assumptions. Next steps need POS data, holidays and time-based validation.|Pas d’intervalle de confiance statistique : ces scénarios sont des hypothèses. Prochaines étapes : données de caisse, jours fériés et validation temporelle.|Kein statistisches Konfidenzintervall: Die drei Szenarien sind Planungsannahmen. Nächste Schritte: Kassendaten, Feiertage und zeitbasierte Validierung.
+Theo dõi giá nguyên liệu|Track ingredient prices|Suivre les prix des ingrédients|Zutatenpreise verfolgen
+Chọn khu vực để khám phá giá tham khảo bằng dữ liệu mẫu.|Choose a region to explore sample reference prices.|Choisissez une région pour consulter des prix d’exemple.|Wählen Sie eine Region für beispielhafte Referenzpreise.
+Chọn khu vực khảo sát|Choose a region|Choisir une région|Region auswählen
+Sơ đồ vị trí minh họa · Việt Nam|Illustrative location map · Vietnam|Carte illustrative · Vietnam|Beispielhafte Standortkarte · Vietnam
+Sơ đồ khu vực Việt Nam|Illustrative map of Vietnam|Carte illustrative du Vietnam|Beispielkarte von Vietnam
+Sơ đồ minh họa, không dùng để dẫn đường|Illustrative map, not for navigation|Carte illustrative, non destinée à la navigation|Beispielkarte, nicht zur Navigation
+Khu vực|Region|Région|Region
+Dữ liệu giả lập · VNĐ/kg · không phải báo giá trực tiếp|Synthetic data · VND/kg · not a live quote|Données fictives · VND/kg · pas de cotation en direct|Synthetische Daten · VND/kg · kein Live-Angebot
+Giá mẫu|Sample price|Prix d’exemple|Beispielpreis
+Biến động mẫu / tuần|Sample weekly change|Variation hebdomadaire fictive|Beispielhafte Wochenänderung
+Thịt bò|Beef|Bœuf|Rindfleisch
+Thịt heo|Pork|Porc|Schweinefleisch
+Thịt gà|Chicken|Poulet|Hähnchen
+Gạo|Rice|Riz|Reis
+Rau cải|Leafy greens|Légumes-feuilles|Blattgemüse
+Nguồn: bộ dữ liệu minh họa của demo. Chưa kết nối nhà cung cấp; chưa gồm thuế, vận chuyển hoặc quy cách phẩm cấp. Chưa hỗ trợ giá thời gian thực toàn cầu.|Source: demo sample data. No supplier connection; excludes tax, delivery and grade specifications. No global real-time prices.|Source : données fictives. Aucun fournisseur connecté ; taxes, transport et qualité exclus. Pas de prix mondiaux en temps réel.|Quelle: Demodaten. Keine Lieferantenverbindung; ohne Steuern, Transport und Qualitätsangaben. Keine weltweiten Echtzeitpreise.
+Ghi lại khoản thu, khoản chi|Record income and expenses|Saisir recettes et dépenses|Einnahmen und Ausgaben erfassen
+Thử ghi một giao dịch. Dữ liệu được lưu trên thiết bị này.|Try a transaction. Data stays on this device.|Essayez une transaction. Les données restent sur cet appareil.|Probieren Sie eine Buchung. Die Daten bleiben auf diesem Gerät.
+Ghi nhận giao dịch thử nghiệm|Record a trial transaction|Saisir une transaction d’essai|Testbuchung erfassen
+Chỉ lưu tại trình duyệt; chưa đưa vào báo cáo tổng quan.|Saved in this browser only; excluded from the overview.|Enregistré uniquement dans ce navigateur, hors vue d’ensemble.|Nur in diesem Browser gespeichert; nicht in der Übersicht enthalten.
+Mã hóa đơn|Invoice reference|Référence de facture|Rechnungsreferenz
+Loại giao dịch|Transaction type|Type de transaction|Buchungsart
+Số tiền (VND)|Amount (VND)|Montant (VND)|Betrag (VND)
+Ngày giao dịch|Transaction date|Date de transaction|Buchungsdatum
+Lưu giao dịch mẫu|Save trial transaction|Enregistrer l’essai|Testbuchung speichern
+Chưa hỗ trợ OCR ảnh/PDF hoặc đồng bộ POS. Bản thật sẽ có bước xác nhận và đối soát trước khi ghi sổ.|Image/PDF OCR and POS sync are not available yet. Production needs verification and reconciliation before posting.|OCR image/PDF et synchronisation caisse non disponibles. La production nécessite validation et rapprochement avant comptabilisation.|Bild-/PDF-OCR und Kassensynchronisierung noch nicht verfügbar. Vor Buchungen sind Prüfung und Abstimmung erforderlich.
+Nguyên tắc ghi nhận dữ liệu|Data recording principles|Principes d’enregistrement|Grundsätze der Datenerfassung
+Nhận dữ liệu|Receive data|Recevoir les données|Daten empfangen
+Hóa đơn nhà cung cấp, doanh số POS, bảng lương và hợp đồng thuê.|Supplier invoices, POS sales, payroll and leases.|Factures fournisseurs, ventes de caisse, paie et baux.|Lieferantenrechnungen, Kassenumsätze, Lohnabrechnung und Mietverträge.
+Kiểm tra & đối soát|Validate & reconcile|Contrôler et rapprocher|Prüfen & abstimmen
+Phát hiện trùng số hóa đơn, kiểm tra thuế và phân bổ đúng chi nhánh.|Detect duplicate invoices, check tax and assign the right location.|Détecter les doublons, vérifier les taxes et affecter le bon établissement.|Rechnungsduplikate erkennen, Steuern prüfen und richtigen Standort zuordnen.
+Ghi sổ & truy vết|Post & trace|Comptabiliser et tracer|Buchen & nachvollziehen
+Phân quyền duyệt, lưu chứng từ gốc và lịch sử thay đổi trong bản triển khai thật.|Production needs approval permissions, original documents and change history.|La production nécessite droits de validation, pièces d’origine et historique.|Im Produktivbetrieb sind Freigaberechte, Originalbelege und Änderungshistorie nötig.
+Giao dịch đã nhập trên thiết bị|Transactions saved on this device|Transactions enregistrées sur cet appareil|Auf diesem Gerät gespeicherte Buchungen
+CSV giao dịch|Transactions CSV|CSV des transactions|Buchungen als CSV
+Mã|Reference|Référence|Referenz
+Ngày|Date|Date|Datum
+Loại|Type|Type|Art
+Số tiền|Amount|Montant|Betrag
+Chưa có giao dịch. Hãy thử nhập hóa đơn đầu tiên.|No transactions yet. Try entering your first invoice.|Aucune transaction. Essayez de saisir une première facture.|Noch keine Buchungen. Erfassen Sie eine erste Rechnung.
+Vui lòng nhập mã hóa đơn.|Please enter an invoice reference.|Veuillez saisir une référence de facture.|Bitte eine Rechnungsreferenz eingeben.
+Mã hóa đơn đã tồn tại tại chi nhánh này.|This invoice reference already exists at this location.|Cette référence existe déjà pour cet établissement.|Diese Rechnungsreferenz existiert an diesem Standort bereits.
+Đã lưu. Giao dịch thử nghiệm chưa cộng vào báo cáo.|Saved. Trial transactions are not included in reports.|Enregistré. Les essais ne sont pas inclus dans les rapports.|Gespeichert. Testbuchungen sind nicht in den Berichten enthalten.
+Không lưu được: bộ nhớ thiết bị không khả dụng.|Could not save: device storage is unavailable.|Enregistrement impossible : stockage indisponible.|Speichern fehlgeschlagen: Gerätespeicher nicht verfügbar.
+Đã lưu kịch bản trên thiết bị này.|Scenario saved on this device.|Scénario enregistré sur cet appareil.|Szenario auf diesem Gerät gespeichert.
+Trình duyệt không cho phép lưu dữ liệu.|This browser does not allow local storage.|Ce navigateur n’autorise pas le stockage local.|Dieser Browser erlaubt keine lokale Speicherung.
+Chưa có kịch bản đã lưu.|No saved scenario yet.|Aucun scénario enregistré.|Noch kein gespeichertes Szenario.
+Đã mở kịch bản đã lưu.|Saved scenario opened.|Scénario enregistré ouvert.|Gespeichertes Szenario geöffnet.
+Không thể đọc kịch bản đã lưu.|Could not read the saved scenario.|Impossible de lire le scénario enregistré.|Gespeichertes Szenario konnte nicht gelesen werden.
+Đã xuất báo cáo CSV. Đơn vị: triệu VND.|CSV exported. Unit: million VND.|CSV exporté. Unité : millions VND.|CSV exportiert. Einheit: Millionen VND.
+Thông tin & phương pháp|About & methodology|Informations et méthode|Informationen & Methodik
+Nguồn mở đã kiểm tra và lộ trình phát triển hệ thống tài chính.|Reviewed open-source foundations and the development roadmap.|Bases open source examinées et feuille de route.|Geprüfte Open-Source-Grundlagen und Entwicklungsplan.
+Thành phần mã nguồn mở đã kiểm tra|Reviewed open-source components|Composants open source examinés|Geprüfte Open-Source-Komponenten
+Kế toán, hóa đơn, kho, nhà cung cấp, quản lý tài sản. Phù hợp làm nền tảng nghiệp vụ phía máy chủ.|Accounting, invoicing, inventory, suppliers and assets. A potential backend foundation.|Comptabilité, factures, stocks, fournisseurs et actifs. Une base possible pour le backend.|Buchhaltung, Rechnungen, Lager, Lieferanten und Anlagen. Mögliche Backend-Grundlage.
+Đã đọc README trực tiếp trên GitHub · cần đánh giá giấy phép khi tích hợp|README checked on GitHub · licence review needed for integration|README consulté sur GitHub · licence à examiner|README auf GitHub geprüft · Lizenzprüfung erforderlich
+Tối ưu tuyến tính, số nguyên và CP-SAT. Ứng dụng cho lịch làm, đặt hàng và phân bổ nguồn lực có ràng buộc.|Linear, integer and CP-SAT optimisation for scheduling, purchasing and constrained resource allocation.|Optimisation linéaire, entière et CP-SAT pour planning, achats et ressources sous contraintes.|Lineare, ganzzahlige und CP-SAT-Optimierung für Planung, Einkauf und Ressourcen mit Nebenbedingungen.
+Đã đọc README trực tiếp · Apache 2.0|README reviewed · Apache 2.0|README consulté · Apache 2.0|README geprüft · Apache 2.0
+Demo tự xây để kiểm chứng trải nghiệm và công thức. Chưa cài ERPNext hoặc OR-Tools; không tuyên bố tối ưu toàn cục.|Custom demo for testing UX and formulas. ERPNext and OR-Tools are not installed; no global optimisation claim.|Démo pour tester l’expérience et les formules. ERPNext et OR-Tools non installés ; aucune optimisation globale annoncée.|Eigene Demo für Bedienung und Formeln. ERPNext und OR-Tools nicht installiert; keine globale Optimierung zugesichert.
+Lộ trình đạt chất lượng vận hành chuyên nghiệp|Roadmap towards professional operation|Feuille de route vers une exploitation professionnelle|Weg zum professionellen Betrieb
+Nền tảng tài chính|Financial foundation|Fondations financières|Finanzielle Grundlagen
+Sổ kép, hệ thống tài khoản, chốt kỳ, tồn kho, khấu hao, thuế, dòng tiền và hợp nhất chi nhánh.|Double entry, chart of accounts, closing, inventory, depreciation, tax, cash flow and consolidation.|Partie double, plan comptable, clôture, stocks, amortissement, taxes, trésorerie et consolidation.|Doppelte Buchführung, Kontenplan, Abschluss, Lager, Abschreibungen, Steuern, Cashflow und Konsolidierung.
+Dữ liệu & kiểm soát|Data & controls|Données et contrôles|Daten & Kontrollen
+POS/OCR, xác nhận chứng từ, phân quyền, nhật ký kiểm toán, sao lưu và khôi phục.|POS/OCR, document validation, permissions, audit logs, backup and recovery.|Caisse/OCR, validation, droits, journal d’audit, sauvegarde et restauration.|Kasse/OCR, Belegprüfung, Rechte, Prüfprotokolle, Sicherung und Wiederherstellung.
+Dự báo & tối ưu|Forecasting & optimisation|Prévisions et optimisation|Prognosen & Optimierung
+Dữ liệu theo ngày, mô hình mùa vụ, kiểm định theo thời gian; ràng buộc chất lượng, nhân sự và công suất bếp.|Daily data, seasonality and time-based validation; quality, staffing and kitchen capacity constraints.|Données quotidiennes, saisonnalité et validation temporelle ; contraintes de qualité, personnel et capacité.|Tagesdaten, Saisonalität und zeitbasierte Validierung; Qualitäts-, Personal- und Küchenkapazitätsgrenzen.
+Vận hành sản phẩm|Product operations|Exploitation du produit|Produktbetrieb
+Đăng nhập, cơ sở dữ liệu máy chủ, kiểm thử bảo mật, giám sát, đối soát kế toán và nguồn giá có hợp đồng.|Sign-in, server database, security tests, monitoring, accounting reconciliation and contracted price sources.|Connexion, base serveur, tests de sécurité, supervision, rapprochement comptable et sources de prix contractuelles.|Anmeldung, Serverdatenbank, Sicherheitstests, Überwachung, Kontenabstimmung und vertragliche Preisquellen.
+Một demo giao diện chưa tương đương hệ thống tài chính đã kiểm toán. Các số hiện tại không dùng để lập báo cáo thuế.|A UI demo is not an audited financial system. These figures must not be used for tax filings.|Une démo n’est pas un système financier audité. Ces chiffres ne servent pas aux déclarations fiscales.|Eine Oberflächendemo ist kein geprüftes Finanzsystem. Die Zahlen sind nicht für Steuererklärungen bestimmt.
+Bếp Finance · Nhẹ việc quản lý, vững chuyện kinh doanh|Bếp Finance · Clear finances, confident decisions|Bếp Finance · Une gestion claire et sereine|Bếp Finance · Klar verwalten, sicher entscheiden
+Bếp Finance · Vận hành nhà hàng|Bếp Finance · Restaurant operations|Bếp Finance · Gestion du restaurant|Bếp Finance · Restaurantbetrieb
+BẾP FINANCE · HỆ THỐNG VẬN HÀNH MVP|BẾP FINANCE · OPERATIONS MVP|BẾP FINANCE · GESTION OPÉRATIONNELLE MVP|BẾP FINANCE · BETRIEBSVERWALTUNG MVP
+Về trang phân tích|Back to analytics|Retour à l’analyse|Zurück zur Analyse
+Từ một đơn hàng,|From a single order,|D’une simple commande,|Von einer einzigen Bestellung
+đến bức tranh tài chính.|to your financial picture.|à votre vision financière.|zum finanziellen Gesamtbild.
+Bán hàng, kho, công nợ và kế toán cùng đi trên một quy trình.|Sales, inventory, receivables, payables and accounting in one workflow.|Ventes, stocks, créances, dettes et comptabilité dans un même processus.|Verkauf, Lager, Forderungen, Verbindlichkeiten und Buchhaltung in einem Ablauf.
+Đang tải quy trình mẫu…|Loading the sample workflow…|Chargement du processus d’exemple…|Beispielablauf wird geladen…
+Kết nối backend local|Connect local backend|Connecter le backend local|Lokales Backend verbinden
+Về dữ liệu mẫu|Return to sample data|Revenir aux données d’exemple|Zurück zu Beispieldaten
+Bản minh họa không phát hành hóa đơn thuế, thu tiền thật hoặc gửi tờ khai.|This demo does not issue tax invoices, collect real payments or file returns.|Cette démo n’émet pas de factures fiscales, n’encaisse pas et ne dépose pas de déclarations.|Diese Demo erstellt keine steuerlichen Rechnungen, zieht kein echtes Geld ein und übermittelt keine Erklärungen.
+Cùng đi qua 10 bước vận hành|Explore 10 operational steps|Parcourir 10 étapes opérationnelles|10 Betriebsschritte erkunden
+Mỗi bước là kết quả đã tính thật bằng Python và SQL.|Each step was calculated using Python and SQL.|Chaque étape a été calculée avec Python et SQL.|Jeder Schritt wurde mit Python und SQL berechnet.
+Bạn muốn xem ở bước nào?|Which step would you like to view?|Quelle étape souhaitez-vous voir ?|Welchen Schritt möchten Sie ansehen?
+Bước trước|Previous step|Étape précédente|Vorheriger Schritt
+Bước tiếp theo|Next step|Étape suivante|Nächster Schritt
+Các phân hệ vận hành|Operations modules|Modules de gestion|Betriebsmodule
+Ghi nghiệp vụ|Record transactions|Saisir des opérations|Geschäftsvorfälle buchen
+Kho nguyên liệu|Ingredient inventory|Stock d’ingrédients|Zutatenlager
+Tài sản & dự phòng|Assets & reserves|Actifs et réserves|Anlagen & Rücklagen
+Sổ kế toán|Accounting ledger|Grand livre|Hauptbuch
+Xuất báo cáo JSON|Export JSON report|Exporter le rapport JSON|JSON-Bericht exportieren
+Phiên bản MVP · Mỗi sổ dùng một đồng tiền và một quốc gia · Chưa chứng nhận thuế UK/EU.|MVP · One currency and jurisdiction per ledger · Not tax-certified for the UK/EU.|MVP · Une devise et un pays par livre · Non certifié fiscalement au Royaume-Uni/UE.|MVP · Eine Währung und ein Land pro Buch · Keine Steuerzertifizierung für UK/EU.
+Backend Python/SQL có ghi nghiệp vụ thật khi tự triển khai. Bản online đang xem lại quy trình mẫu.|The self-hosted Python/SQL backend records real transactions. This online page replays sample steps.|Le backend Python/SQL auto-hébergé enregistre les opérations. Cette page rejoue un exemple.|Das selbst betriebene Python/SQL-Backend speichert echte Buchungen. Online wird ein Beispielablauf gezeigt.
+Kết nối backend của bạn|Connect your backend|Connecter votre backend|Ihr Backend verbinden
+Chỉ dùng khi trang này được mở từ máy chủ Python đã cấu hình. Token được giữ trong bộ nhớ của tab, không lưu vào trình duyệt.|Use only when this page is served by your configured Python server. The token stays in tab memory, not browser storage.|À utiliser depuis votre serveur Python configuré. Le jeton reste en mémoire dans l’onglet, sans stockage navigateur.|Nur auf dem konfigurierten Python-Server verwenden. Das Token bleibt im Tab-Speicher und wird nicht im Browser gespeichert.
+Access token của backend|Backend access token|Jeton d’accès du backend|Backend-Zugriffstoken
+Đóng|Close|Fermer|Schließen
+Kết nối|Connect|Connecter|Verbinden
+Xem quy trình mẫu · không ghi giao dịch online|Sample replay · no online transaction posting|Exemple en lecture seule · aucune écriture en ligne|Beispielwiedergabe · keine Online-Buchungen
+Dữ liệu mẫu. Tiền thuế được nhập minh họa, không phải cấu hình thuế UK/EU. Các bước được tính thật bằng Python/SQL; chưa phải giao dịch trên máy chủ online.|Sample data. Tax amounts are illustrative, not UK/EU tax settings. Steps were calculated with Python/SQL, not posted on an online server.|Données fictives. Les taxes sont illustratives, sans configuration fiscale UK/UE. Étapes calculées en Python/SQL, sans écritures sur serveur en ligne.|Beispieldaten. Steuerbeträge sind illustrativ, keine UK/EU-Steuerkonfiguration. Mit Python/SQL berechnet, nicht auf einem Online-Server gebucht.
+Góp vốn|Capital contribution|Apport en capital|Kapitaleinlage
+Nhập nguyên liệu|Receive ingredients|Réception d’ingrédients|Zutaten einlagern
+Bán món|Sell a dish|Vendre un plat|Gericht verkaufen
+Trả nhà cung cấp|Pay supplier|Payer le fournisseur|Lieferanten bezahlen
+Thu nợ khách hàng|Collect receivable|Encaisser une créance|Forderung einziehen
+Ghi chi phí|Record expense|Comptabiliser une charge|Aufwand buchen
+Mua tài sản|Purchase asset|Acheter un actif|Anlage kaufen
+Khấu hao tài sản|Depreciate asset|Amortir un actif|Anlage abschreiben
+Mục tiêu dự phòng|Reserve target|Objectif de réserve|Rücklagenziel
+Đảo chi phí công nợ|Reverse unpaid accrued expense|Contrepasser une charge impayée|Unbezahlten Aufwand stornieren
+Khóa kỳ kế toán|Close accounting period|Clôturer la période|Buchungsperiode schließen
+Góp vốn ban đầu vào ngân hàng|Initial capital paid into the bank|Apport initial en banque|Anfangskapital auf das Bankkonto einzahlen
+Nhập gạo và ghi công nợ nhà cung cấp|Receive rice and record the supplier payable|Réceptionner le riz et constater la dette fournisseur|Reis einlagern und Verbindlichkeit buchen
+Nhập thịt gà và ghi công nợ|Receive chicken and record the payable|Réceptionner le poulet et constater la dette|Hähnchen einlagern und Verbindlichkeit buchen
+Thanh toán tiền gạo qua ngân hàng|Pay for rice by bank transfer|Régler le riz par virement|Reis per Banküberweisung bezahlen
+Thanh toán tiền thịt gà|Pay for chicken|Régler le poulet|Hähnchen bezahlen
+Bán 10 phần cơm gà: ghi doanh thu và giá vốn|Sell 10 chicken rice meals: post revenue and cost of sales|Vendre 10 plats de poulet au riz : recettes et coût des ventes|10 Portionen Hähnchenreis verkaufen: Umsatz und Wareneinsatz buchen
+Ghi chi phí thuê mặt bằng|Record premises rent|Comptabiliser le loyer|Raummiete buchen
+Mua bàn ghế: ghi tài sản và dòng tiền chi|Buy furniture: record the asset and cash outflow|Acheter du mobilier : actif et décaissement|Möbel kaufen: Anlage und Geldabfluss buchen
+Khấu hao bàn ghế tháng đầu|First month’s furniture depreciation|Premier mois d’amortissement du mobilier|Erste monatliche Möbelabschreibung
+Đặt mục tiêu dự phòng tiền mặt|Set a cash reserve target|Définir un objectif de trésorerie de réserve|Liquiditätsrücklagenziel festlegen
+Doanh thu thuần|Net revenue|Chiffre d’affaires net|Nettoumsatz
+Không gồm thuế đầu ra|Excluding output tax|Hors taxe collectée|Ohne Umsatzsteuer
+Lợi nhuận trước lãi vay, thuế|Profit before interest and tax|Résultat avant intérêts et impôts|Gewinn vor Zinsen und Steuern
+Đã tính khấu hao|Includes depreciation|Amortissement inclus|Abschreibungen enthalten
+Tiền mặt + ngân hàng|Cash + bank|Caisse et banque|Kasse + Bank
+Số dư, không phải lợi nhuận|Balance, not profit|Solde, pas bénéfice|Saldo, nicht Gewinn
+Sau mục tiêu dự phòng|After reserve target|Après objectif de réserve|Nach Rücklagenziel
+Chưa trừ nghĩa vụ chưa thanh toán|Before outstanding obligations|Avant les obligations impayées|Vor offenen Verpflichtungen
+Từ doanh thu đến lợi nhuận|From revenue to profit|Du chiffre d’affaires au bénéfice|Vom Umsatz zum Gewinn
+Giá vốn món đã bán|Cost of meals sold|Coût des plats vendus|Wareneinsatz verkaufter Gerichte
+Lợi nhuận trước khấu hao|Profit before depreciation|Résultat avant amortissement|Gewinn vor Abschreibungen
+Khấu hao|Depreciation|Amortissement|Abschreibungen
+Mua nguyên liệu chưa dùng nằm trong kho. Mua bàn ghế được ghi tài sản; khấu hao mới đi vào chi phí từng kỳ.|Unused ingredients stay in inventory. Furniture is an asset; depreciation becomes a periodic expense.|Les ingrédients non utilisés restent en stock. Le mobilier est un actif ; l’amortissement est une charge périodique.|Nicht verbrauchte Zutaten bleiben im Lager. Möbel werden als Anlage erfasst; die Abschreibung ist periodischer Aufwand.
+Tiền và nghĩa vụ thanh toán|Cash and payment obligations|Trésorerie et obligations de paiement|Liquidität und Zahlungsverpflichtungen
+Tiền mặt|Cash|Caisse|Kasse
+Ngân hàng|Bank|Banque|Bank
+Phải thu khách hàng|Trade receivables|Créances clients|Forderungen aus Lieferungen und Leistungen
+Phải trả nhà cung cấp|Supplier payables|Dettes fournisseurs|Lieferantenverbindlichkeiten
+Mục tiêu giữ dự phòng|Reserve target|Objectif de réserve|Rücklagenziel
+Tiền sau mục tiêu dự phòng|Cash after reserve target|Trésorerie après objectif de réserve|Liquidität nach Rücklagenziel
+Mục tiêu dự phòng không phải chi phí hay tiền đã chuyển sang một quỹ riêng. Con số còn lại chưa phải số tiền được phép phân phối: còn phải xem công nợ và nghĩa vụ khác.|The reserve target is not an expense or a transfer to a separate fund. Remaining cash is not distributable profit; payables and other obligations still matter.|L’objectif de réserve n’est ni une charge ni un virement vers un fonds. La trésorerie restante n’est pas un bénéfice distribuable ; les dettes restent à considérer.|Das Rücklagenziel ist weder Aufwand noch Umbuchung in einen Fonds. Verbleibende Liquidität ist kein ausschüttbarer Gewinn; Verbindlichkeiten und weitere Pflichten sind zu beachten.
+Mặt bằng|Premises|Locaux|Räumlichkeiten
+Khác|Other|Autres|Sonstiges
+Nguyên liệu còn trong kho|Ingredients in stock|Ingrédients en stock|Zutatenbestand
+Giá trị tồn theo nguyên giá mua; giá xuất dùng bình quân di động, tính theo đơn vị tiền nhỏ nhất.|Inventory at purchase cost; consumption uses moving average cost in minor currency units.|Stock au coût d’achat ; sorties au coût moyen mobile, en unités monétaires mineures.|Bestand zu Einkaufskosten; Verbrauch zum gleitenden Durchschnitt in kleinsten Währungseinheiten.
+Chưa nhập nguyên liệu.|No ingredients received yet.|Aucun ingrédient réceptionné.|Noch keine Zutaten eingelagert.
+Khi bán món, nguyên liệu tự trừ theo định lượng. Thiếu một nguyên liệu sẽ từ chối toàn bộ đơn, không ghi doanh thu hoặc trừ kho dở dang.|Selling a dish consumes its recipe ingredients. A shortage rejects the whole order without partial stock or revenue postings.|La vente consomme les ingrédients de la recette. Un manque rejette toute la commande, sans écriture partielle.|Ein Verkauf verbraucht die Rezeptzutaten. Bei Mangel wird die gesamte Bestellung ohne Teilbuchung abgelehnt.
+Định lượng minh họa|Sample recipe|Recette d’exemple|Beispielrezept
+Danh mục mẫu hiện có một món và hai nguyên liệu; quản trị danh mục tùy chỉnh cần phát triển tiếp.|The sample catalogue has one dish and two ingredients; custom catalogue management is still to be built.|Le catalogue d’exemple contient un plat et deux ingrédients ; sa gestion personnalisée reste à développer.|Der Beispielkatalog enthält ein Gericht und zwei Zutaten; individuelle Katalogverwaltung ist noch zu entwickeln.
+Gạo / phần|Rice per serving|Riz par portion|Reis je Portion
+Thịt gà / phần|Chicken per serving|Poulet par portion|Hähnchen je Portion
+Mua hàng tạo kho và công nợ. Thanh toán nhà cung cấp giảm công nợ và tiền; không cộng giá vốn lần thứ hai.|Purchases create inventory and a payable. Supplier payments reduce cash and payables, without recording cost of sales again.|L’achat crée stock et dette. Le règlement réduit trésorerie et dette, sans doubler le coût des ventes.|Einkäufe erhöhen Lager und Verbindlichkeiten. Zahlungen verringern Geld und Verbindlichkeiten, ohne doppelten Wareneinsatz.
+Tái đầu tư & tài sản|Reinvestment & assets|Réinvestissement et actifs|Reinvestitionen & Anlagen
+Nguyên giá|Acquisition cost|Coût d’acquisition|Anschaffungskosten
+Đã khấu hao|Depreciation to date|Amortissement cumulé|Bisherige Abschreibung
+Giá trị còn lại|Net book value|Valeur nette comptable|Restbuchwert
+Chưa ghi nhận tài sản.|No assets recorded yet.|Aucun actif enregistré.|Noch keine Anlagen erfasst.
+MVP tính khấu hao đường thẳng theo tháng mua, không giá trị thu hồi; đây là giả định quản trị, chưa phải chính sách kế toán/thuế của từng nước.|The MVP uses straight-line depreciation from the purchase month, with no residual value. This is a management assumption, not a national accounting or tax policy.|Le MVP amortit linéairement dès le mois d’achat, sans valeur résiduelle. Hypothèse de gestion, pas règle comptable ou fiscale nationale.|Das MVP schreibt ab Kaufmonat linear ohne Restwert ab. Dies ist eine Managementannahme, keine länderspezifische Bilanzierungs- oder Steuerregel.
+Dự phòng tiền mặt|Cash reserve|Réserve de trésorerie|Liquiditätsrücklage
+Tiền mặt và ngân hàng|Cash and bank|Caisse et banque|Kasse und Bank
+Tiền sau mục tiêu|Cash after target|Trésorerie après objectif|Liquidität nach Ziel
+Tách tiền dự phòng ra khỏi lợi nhuận giúp tránh hiểu nhầm quán có lãi là có thể chi hết số tiền đó.|Separating reserves from profit helps avoid assuming that a profitable restaurant can spend all its cash.|Séparer réserve et bénéfice évite de croire que tout l’argent d’un restaurant rentable peut être dépensé.|Die Trennung von Rücklage und Gewinn verhindert die Annahme, dass ein rentables Restaurant sein gesamtes Geld ausgeben kann.
+Chưa xử lý dự phòng kế toán cho các nghĩa vụ ước tính. Đây chỉ là mục tiêu thanh khoản do chủ quán đặt.|Accounting provisions for estimated obligations are not implemented. This is only an owner-defined liquidity target.|Les provisions comptables ne sont pas gérées. Il s’agit uniquement d’un objectif de liquidité du propriétaire.|Bilanzielle Rückstellungen sind nicht umgesetzt. Dies ist nur ein vom Inhaber gesetztes Liquiditätsziel.
+Bảng cân đối số dư tài khoản|Trial balance|Balance des comptes|Saldenbilanz
+Nợ = Có|Debits = credits|Débits = crédits|Soll = Haben
+Cần kiểm tra|Needs review|À vérifier|Prüfung erforderlich
+Tài khoản quản trị|Management account|Compte de gestion|Verwaltungskonto
+Dư Nợ|Debit balance|Solde débiteur|Sollsaldo
+Dư Có|Credit balance|Solde créditeur|Habensaldo
+Tổng cộng|Total|Total|Summe
+Hệ thống tài khoản quản trị mẫu; chưa ánh xạ báo cáo pháp định UK/EU. Cân bằng Nợ/Có không tự chứng minh chứng từ là đầy đủ hoặc hợp lệ.|Sample management accounts, not mapped to statutory UK/EU reporting. Balanced entries alone do not prove completeness or validity.|Plan de gestion d’exemple, non adapté aux états légaux UK/UE. L’équilibre débit/crédit ne prouve pas l’exhaustivité ni la validité.|Beispielkontenplan ohne gesetzliche UK/EU-Berichtszuordnung. Ausgeglichene Buchungen belegen nicht allein Vollständigkeit oder Gültigkeit.
+Truy vết từng chứng từ|Trace every document|Tracer chaque pièce|Jeden Beleg nachvollziehen
+Kỳ đã khóa|Closed periods|Périodes clôturées|Geschlossene Perioden
+Chưa khóa kỳ nào.|No periods closed yet.|Aucune période clôturée.|Noch keine Perioden geschlossen.
+Đã ghi nhận|Posted|Comptabilisé|Gebucht
+Nợ|Debit|Débit|Soll
+Có|Credit|Crédit|Haben
+Tài khoản|Account|Compte|Konto
+Nghiệp vụ quản lý, không tạo dòng Nợ/Có.|Management action, without debit/credit entries.|Action de gestion sans écriture débit/crédit.|Verwaltungsvorgang ohne Soll-/Haben-Buchung.
+Ghi nghiệp vụ mới|Record a new transaction|Saisir une nouvelle opération|Neuen Geschäftsvorfall buchen
+Giao dịch được ghi vào SQLite phía backend, có kiểm tra cân đối và quyền theo vai trò.|Transactions are stored in backend SQLite with balancing and role checks.|Les opérations sont enregistrées dans SQLite avec contrôles d’équilibre et de rôle.|Buchungen werden im Backend-SQLite mit Salden- und Rollenprüfung gespeichert.
+Bạn đang xem quy trình mẫu. Muốn ghi nghiệp vụ thật, cần chạy backend Python và kết nối tài khoản trên máy chủ đó.|You are viewing a sample replay. To post real transactions, run the Python backend and connect to that server.|Vous consultez un exemple. Pour enregistrer, exécutez le backend Python et connectez-vous à ce serveur.|Sie sehen einen Beispielablauf. Für echte Buchungen starten Sie das Python-Backend und verbinden sich mit diesem Server.
+Loại nghiệp vụ|Transaction kind|Type d’opération|Art des Geschäftsvorfalls
+Kiểm tra & ghi sổ|Validate & post|Vérifier et comptabiliser|Prüfen & buchen
+Cần backend để ghi nghiệp vụ|Backend required to post|Backend requis pour comptabiliser|Backend zum Buchen erforderlich
+Chứng từ đang có|Recorded documents|Pièces enregistrées|Erfasste Belege
+Ngày nghiệp vụ|Business date|Date d’opération|Geschäftsdatum
+Nhận vào|Receive into|Recevoir sur|Einzahlen auf
+Thanh toán|Payment|Paiement|Zahlung
+Mua chịu / công nợ|On account / payable|À crédit / dette|Auf Ziel / Verbindlichkeit
+Khách mua chịu|Customer credit|Vente à crédit|Kundenkredit
+Khách thanh toán|Customer payment|Paiement du client|Kundenzahlung
+Số lượng (g)|Quantity (g)|Quantité (g)|Menge (g)
+Nhóm chi phí|Expense category|Catégorie de charge|Aufwandskategorie
+Tên tài sản|Asset name|Nom de l’actif|Anlagenbezeichnung
+Thời gian khấu hao (tháng)|Useful life (months)|Durée d’amortissement (mois)|Nutzungsdauer (Monate)
+Món bán|Dish|Plat|Gericht
+Số phần|Servings|Portions|Portionen
+Chứng từ còn nợ|Outstanding invoice|Pièce restant due|Offener Beleg
+Tài khoản thanh toán|Payment account|Compte de paiement|Zahlungskonto
+Tài sản|Asset|Actif|Anlage
+Chi phí công nợ chưa trả|Unpaid accrued expense|Charge impayée|Unbezahlter Aufwand
+Khóa tháng của ngày đã chọn cho chi nhánh hiện tại. MVP chưa có chức năng mở lại kỳ.|Closes the selected month for this location. The MVP cannot reopen periods.|Clôture le mois sélectionné pour cet établissement. Le MVP ne peut pas rouvrir les périodes.|Schließt den gewählten Monat dieses Standorts. Das MVP kann Perioden nicht wieder öffnen.
+Bán món sẽ tự ghi doanh thu và giá vốn, trừ kho theo định lượng. Thiếu nguyên liệu sẽ từ chối toàn bộ đơn.|Selling posts revenue and cost of sales and consumes ingredients. Shortages reject the entire order.|La vente comptabilise recettes et coût, puis déduit les ingrédients. Un manque rejette toute la commande.|Ein Verkauf bucht Umsatz und Wareneinsatz und verbraucht Zutaten. Bei Mangel wird die gesamte Bestellung abgelehnt.
+Khấu hao từng tháng liên tiếp từ tháng mua. Mỗi tài sản chỉ ghi một lần mỗi tháng.|Depreciate consecutive months from purchase, once per asset per month.|Amortissez chaque mois consécutif depuis l’achat, une seule fois par actif et par mois.|Monatlich fortlaufend ab Kauf abschreiben, je Anlage höchstens einmal pro Monat.
+Số tiền thuế do bạn nhập chỉ dùng mô phỏng sổ; chưa có engine thuế UK/EU. Nghiệp vụ cần ghi theo thứ tự ngày.|Entered tax is for ledger simulation; no UK/EU tax engine is implemented. Post in date order.|La taxe saisie sert à la simulation ; aucun moteur fiscal UK/UE. Saisissez les opérations dans l’ordre des dates.|Eingegebene Steuern dienen der Simulation; keine UK/EU-Steuerlogik. Buchungen chronologisch erfassen.
+Số tiền quá lớn|Amount is too large|Montant trop élevé|Betrag zu groß
+Không ghi được nghiệp vụ|Could not post transaction|Échec de comptabilisation|Buchung fehlgeschlagen
+Không tải được báo cáo|Could not load report|Impossible de charger le rapport|Bericht konnte nicht geladen werden
+Không tải được dữ liệu mẫu|Could not load sample data|Impossible de charger les données d’exemple|Beispieldaten konnten nicht geladen werden
+Chứng từ đã ghi nhưng tải lại báo cáo gặp lỗi. Thử lại giữ cùng khóa để tránh ghi trùng.|The transaction was posted but report refresh failed. Retry with the same key to avoid duplicates.|L’opération est comptabilisée mais l’actualisation a échoué. Réessayez avec la même clé pour éviter un doublon.|Die Buchung wurde gespeichert, aber der Bericht nicht aktualisiert. Mit gleichem Schlüssel erneut versuchen, um Duplikate zu vermeiden.
+Đã ngắt kết nối trong tab. Dữ liệu backend vẫn được giữ.|Disconnected in this tab. Backend data is retained.|Déconnexion dans cet onglet. Les données du backend sont conservées.|In diesem Tab getrennt. Die Backend-Daten bleiben erhalten.
+Backend Python/SQL · đang kết nối|Python/SQL backend · connected|Backend Python/SQL · connecté|Python/SQL-Backend · verbunden
+Nghiệp vụ sẽ ghi thật vào cơ sở dữ liệu của backend bạn đang dùng. Chưa cấu hình báo cáo/thuế pháp định.|Transactions will be written to your backend database. Statutory reporting and tax are not configured.|Les opérations seront écrites dans votre base backend. États légaux et fiscalité non configurés.|Buchungen werden in Ihre Backend-Datenbank geschrieben. Gesetzliche Berichte und Steuern sind nicht konfiguriert.
+Đã kết nối backend.|Backend connected.|Backend connecté.|Backend verbunden.
+Dữ liệu backend|Backend data|Données du backend|Backend-Daten
+Thuế đầu vào chờ đối soát|Input tax pending reconciliation|Taxe déductible à rapprocher|Vorsteuer zur Abstimmung
+Tài sản thiết bị|Equipment assets|Équipements immobilisés|Sachanlagen
+Khấu hao lũy kế|Accumulated depreciation|Amortissement cumulé|Kumulierte Abschreibungen
+Thuế đầu ra chờ đối soát|Output tax pending reconciliation|Taxe collectée à rapprocher|Umsatzsteuer zur Abstimmung
+Vốn góp|Contributed capital|Capital apporté|Eingebrachtes Kapital
+Giá vốn món ăn|Meal cost of sales|Coût des plats vendus|Wareneinsatz der Gerichte
+Vận hành khác|Other operating costs|Autres charges d’exploitation|Sonstige Betriebskosten
+Trong đó tiền thuê: {{amount}} triệu|Rent included: {{amount}} million VND|Dont loyer : {{amount}} millions VND|Davon Miete: {{amount}} Mio. VND
+100₫ doanh thu giữ lại {{amount}}₫|{{amount}} VND retained per 100 VND revenue|{{amount}} VND conservés pour 100 VND de recettes|{{amount}} VND verbleiben je 100 VND Umsatz
+{{amount}} triệu ₫|{{amount}} million VND|{{amount}} millions VND|{{amount}} Mio. VND
+{{amount}} triệu|{{amount}} million VND|{{amount}} millions VND|{{amount}} Mio. VND
+{{amount}}% lợi nhuận|{{amount}}% profit margin|{{amount}} % de marge|{{amount}} % Gewinnmarge
+{{amount}}% doanh thu|{{amount}}% of revenue|{{amount}} % du chiffre d’affaires|{{amount}} % des Umsatzes
+Tiền thuê chiếm {{amount}}% doanh thu đang xem. Cùng kiểm tra khoản chi cố định này nhé.|Rent is {{amount}}% of the revenue shown. Let’s review this fixed cost.|Le loyer représente {{amount}} % des recettes affichées. Examinons cette charge fixe.|Die Miete beträgt {{amount}} % des angezeigten Umsatzes. Prüfen wir diese Fixkosten.
+Theo giả định hiện tại, doanh thu hòa vốn khoảng {{amount}} triệu/tháng.|Under current assumptions, break-even revenue is about {{amount}} million VND per month.|Selon les hypothèses actuelles, le seuil est d’environ {{amount}} millions VND par mois.|Nach aktuellen Annahmen liegt die Gewinnschwelle bei etwa {{amount}} Mio. VND pro Monat.
+Tăng {{amount}} triệu ₫ so với hiện tại|Increase of {{amount}} million VND vs current|Hausse de {{amount}} millions VND par rapport à l’actuel|Anstieg um {{amount}} Mio. VND gegenüber aktuell
+Giảm {{amount}} triệu ₫ so với hiện tại|Decrease of {{amount}} million VND vs current|Baisse de {{amount}} millions VND par rapport à l’actuel|Rückgang um {{amount}} Mio. VND gegenüber aktuell
+Tháng {{month}}: doanh thu {{revenue}} triệu; lợi nhuận {{profit}} triệu|Month {{month}}: revenue {{revenue}} million VND; profit {{profit}} million VND|Mois {{month}} : recettes {{revenue}} millions VND ; bénéfice {{profit}} millions VND|Monat {{month}}: Umsatz {{revenue}} Mio. VND; Gewinn {{profit}} Mio. VND
+Giá tham khảo · {{region}}|Reference prices · {{region}}|Prix de référence · {{region}}|Referenzpreise · {{region}}
+Làm quen với Bếp Finance · {{step}}|Getting started with Bếp Finance · {{step}}|Découvrir Bếp Finance · {{step}}|Einführung in Bếp Finance · {{step}}
+{{number}} g còn lại|{{number}} g remaining|{{number}} g restants|{{number}} g verbleibend
+Cơm gà · giá thuần {{amount}}|Chicken rice · net price {{amount}}|Poulet au riz · prix net {{amount}}|Hähnchenreis · Nettopreis {{amount}}
+Cơm gà · giá thuần|Chicken rice · net price|Poulet au riz · prix net|Hähnchenreis · Nettopreis
+Ngày mua {{date}} · {{months}} tháng khấu hao|Purchased {{date}} · {{months}} months depreciation|Acheté le {{date}} · {{months}} mois d’amortissement|Gekauft am {{date}} · {{months}} Monate Abschreibung
+Người ghi nhận: {{actor}} · ID {{id}}|Posted by: {{actor}} · ID {{id}}|Saisi par : {{actor}} · ID {{id}}|Gebucht von: {{actor}} · ID {{id}}
+Còn nợ {{amount}}|Outstanding {{amount}}|Reste dû {{amount}}|Offen {{amount}}
+Đã ghi nhận chứng từ {{id}}. Sổ và báo cáo đã được cập nhật.|Document {{id}} posted. Ledger and reports updated.|Pièce {{id}} comptabilisée. Livre et rapports actualisés.|Beleg {{id}} gebucht. Hauptbuch und Berichte aktualisiert.
+Số tiền góp vốn ({{currency}})|Capital contribution ({{currency}})|Apport en capital ({{currency}})|Kapitaleinlage ({{currency}})
+Giá trị thuần ({{currency}})|Net amount ({{currency}})|Montant net ({{currency}})|Nettobetrag ({{currency}})
+Tiền thuế nhập thử ({{currency}})|Illustrative tax amount ({{currency}})|Taxe illustrative ({{currency}})|Beispielsteuerbetrag ({{currency}})
+Tiền thuế cho cả đơn ({{currency}})|Tax for the whole order ({{currency}})|Taxe de la commande ({{currency}})|Steuer für die gesamte Bestellung ({{currency}})
+Số thanh toán ({{currency}})|Payment amount ({{currency}})|Montant du paiement ({{currency}})|Zahlungsbetrag ({{currency}})
+Mục tiêu dự phòng ({{currency}})|Reserve target ({{currency}})|Objectif de réserve ({{currency}})|Rücklagenziel ({{currency}})
+{{index}}. {{title}}|{{index}}. {{title}}|{{index}}. {{title}}|{{index}}. {{title}}
+Nhập số tiền không có dấu phân cách hàng nghìn, tối đa {{digits}} chữ số thập phân|Enter amounts without thousands separators, with at most {{digits}} decimal places|Saisissez sans séparateur de milliers, avec au plus {{digits}} décimales|Beträge ohne Tausendertrennzeichen und mit höchstens {{digits}} Dezimalstellen eingeben
+BẾP FINANCE - DỮ LIỆU MINH HỌA|BẾP FINANCE - SAMPLE DATA|BẾP FINANCE - DONNÉES D’EXEMPLE|BẾP FINANCE - BEISPIELDATEN
+Đơn vị|Unit|Unité|Einheit
+Ghi chú|Notes|Notes|Hinweise
+Số tiền VND|Amount VND|Montant VND|Betrag VND
+Chi phí khác|Other costs|Autres charges|Sonstige Kosten
+Lợi nhuận vận hành trước khấu hao, lãi vay, thuế|Operating profit before depreciation, interest and tax|Résultat avant amortissement, intérêts et impôts|Betriebsgewinn vor Abschreibungen, Zinsen und Steuern
+Giao dịch nhập tay chưa đưa vào báo cáo; không phải dự báo được huấn luyện.|Manually entered transactions are excluded; not a trained forecast.|Les saisies manuelles sont exclues ; ce n’est pas une prévision entraînée.|Manuelle Buchungen sind ausgeschlossen; keine trainierte Prognose.
+Không đủ tiền trong tài khoản thanh toán tại ngày ghi nhận|Insufficient funds in the payment account on the posting date|Fonds insuffisants sur le compte à la date de l’opération|Unzureichendes Guthaben am Buchungsdatum
+Không đủ nguyên liệu để bán món|Insufficient ingredients for this sale|Ingrédients insuffisants pour cette vente|Unzureichende Zutaten für diesen Verkauf
+Kỳ kế toán đã khóa|Accounting period is closed|La période comptable est clôturée|Die Buchungsperiode ist geschlossen
+Số thanh toán vượt công nợ còn lại|Payment exceeds the outstanding balance|Le paiement dépasse le solde dû|Zahlung übersteigt den offenen Betrag
+Vai trò hiện tại không được thực hiện nghiệp vụ này|Your role cannot perform this transaction|Votre rôle ne permet pas cette opération|Ihre Rolle darf diesen Vorgang nicht ausführen
+Chi nhánh không hợp lệ|Invalid location|Établissement invalide|Ungültiger Standort
+MVP yêu cầu ghi nghiệp vụ theo thứ tự ngày; cần quy trình điều chỉnh cho ngày quá khứ|The MVP requires chronological postings; backdating needs a separate adjustment workflow|Le MVP exige l’ordre chronologique ; les dates passées nécessitent une correction dédiée|Das MVP verlangt chronologische Buchungen; Rückdatierungen benötigen einen Korrekturablauf
+Không tìm thấy chứng từ|Document not found|Pièce introuvable|Beleg nicht gefunden
+Chứng từ không thuộc chi nhánh|Document belongs to another location|La pièce appartient à un autre établissement|Beleg gehört zu einem anderen Standort
+Thanh toán không được trước ngày chứng từ|Payment cannot precede the document date|Le paiement ne peut précéder la pièce|Zahlung darf nicht vor dem Belegdatum liegen
+Chưa đến kỳ khấu hao|Depreciation is not due yet|L’amortissement n’est pas encore dû|Abschreibung noch nicht fällig
+Tài sản đã khấu hao hết|Asset is fully depreciated|L’actif est entièrement amorti|Anlage vollständig abgeschrieben
+Khấu hao phải theo từng tháng liên tiếp từ tháng mua tài sản|Depreciation must follow consecutive months from acquisition|L’amortissement doit suivre les mois consécutifs depuis l’achat|Abschreibung muss ab Kauf monatlich fortlaufend erfolgen
+Xung đột chứng từ, kỳ khấu hao trùng hoặc ràng buộc dữ liệu|Document conflict, duplicate depreciation period or data constraint|Conflit de pièce, amortissement en double ou contrainte de données|Belegkonflikt, doppelte Abschreibungsperiode oder Datenbedingung
+Chưa có nghiệp vụ.|No transactions yet.|Aucune opération.|Noch keine Geschäftsvorfälle.
+Bức tranh kinh doanh của bạn|Your business overview|Vue d’ensemble de votre activité|Ihr Geschäftsüberblick
+Chi phí minh bạch là khởi đầu của lợi nhuận bền vững.|Clear costs are the foundation of sustainable profit.|Des coûts clairs sont la base d’un bénéfice durable.|Klare Kosten bilden die Grundlage für nachhaltigen Gewinn.
+Chuẩn bị cho những tháng sắp tới|Prepare for the coming months|Préparer les prochains mois|Auf die kommenden Monate vorbereiten
+Dự báo kinh doanh|Business forecast|Prévisions d’activité|Geschäftsprognose
+Ghi nhận giao dịch thử nghiệm, sẵn sàng cho bước tích hợp dữ liệu.|Try recording transactions before connecting data sources.|Tester la saisie avant de connecter les sources.|Buchungen vor dem Anschluss der Datenquellen ausprobieren.
+Góc nhìn thị trường nguyên liệu|Ingredient market overview|Vue du marché des ingrédients|Überblick über Zutatenmärkte
+Hiểu rõ từng khoản chi|Understand every expense|Comprendre chaque dépense|Jede Ausgabe verstehen
+Khám phá các phương án kinh doanh trước khi đưa ra quyết định.|Explore business options before making decisions.|Explorez vos options avant de décider.|Geschäftsoptionen vor Entscheidungen erkunden.
+Lập kế hoạch từ những giả định rõ ràng, có thể điều chỉnh.|Plan with clear, adjustable assumptions.|Planifier avec des hypothèses claires et ajustables.|Mit klaren, anpassbaren Annahmen planen.
+Mô phỏng lợi nhuận|Profit simulation|Simulation du bénéfice|Gewinnsimulation
+Nền tảng & phương pháp|Foundations & methodology|Fondations et méthode|Grundlagen & Methodik
+Nền tảng cho những quyết định tốt|Foundations for better decisions|Des bases pour mieux décider|Grundlagen für bessere Entscheidungen
+So sánh giá theo khu vực và theo dõi chi phí mua hàng.|Compare regional prices and monitor purchasing costs.|Comparer les prix régionaux et suivre les achats.|Regionale Preise vergleichen und Einkaufskosten verfolgen.
+Sổ giao dịch|Transaction ledger|Journal des transactions|Buchungsjournal
+Sổ giao dịch của nhà hàng|Restaurant transaction ledger|Journal du restaurant|Buchungsjournal des Restaurants
+Thị trường nguyên liệu|Ingredient market|Marché des ingrédients|Zutatenmarkt
+Thử một thay đổi. Thấy ngay tác động.|Try a change. See the impact.|Essayez un changement. Voyez son effet.|Änderung testen. Wirkung sehen.
+Từ doanh thu đến lợi nhuận, mọi con số đều có câu chuyện.|From revenue to profit, every number tells a story.|Du chiffre d’affaires au bénéfice, chaque chiffre raconte une histoire.|Vom Umsatz zum Gewinn erzählt jede Zahl eine Geschichte.
+Bếp Finance giúp chủ nhà hàng hiểu doanh thu, chi phí và lợi nhuận. Cùng Bếp Nhỏ làm quen từng bước.|Bếp Finance helps restaurant owners understand revenue, costs and profit. Get started step by step with Bếp Nhỏ.|Bếp Finance aide à comprendre recettes, coûts et bénéfice. Découvrez l’application avec Bếp Nhỏ.|Bếp Finance hilft Restaurantinhabern, Umsatz, Kosten und Gewinn zu verstehen. Schritt für Schritt mit Bếp Nhỏ.
+Đã kiểm tra toàn vẹn dữ liệu|Data integrity checked|Intégrité des données vérifiée|Datenintegrität geprüft
+Chữ ký giao dịch, cân đối sổ, tồn kho và khóa kỳ đã được đối soát khi tạo báo cáo. Bản replay chỉ phản ánh lần kiểm tra dữ liệu mẫu.|Transaction signatures, ledger balances, stock and period locks were checked when this report was generated. Replay reflects only the sample check.|Signatures, soldes, stocks et clôtures ont été vérifiés à la création du rapport. La démo reflète uniquement ce contrôle d’exemple.|Signaturen, Salden, Lager und Periodensperren wurden bei Berichtserstellung geprüft. Die Wiedergabe zeigt nur die Beispielprüfung.
+Kiểm định dự báo bằng dữ liệu mẫu|Forecast validation on sample data|Validation prévisionnelle sur données d’exemple|Prognoseprüfung mit Beispieldaten
+Đang tải kết quả kiểm định…|Loading validation results…|Chargement des résultats de validation…|Validierungsergebnisse werden geladen…
+Chọn một chi nhánh để xem sai số kiểm định riêng.|Select a location to see its validation errors.|Sélectionnez un établissement pour voir ses erreurs de validation.|Wählen Sie einen Standort für dessen Validierungsfehler.
+Các biểu đồ bên dưới vẫn là mô phỏng giả định, không phải dự báo đã huấn luyện trên dữ liệu thật của quán.|Charts below remain hypothetical scenarios, not forecasts trained on real restaurant data.|Les graphiques restent des scénarios hypothétiques, pas des prévisions entraînées sur les données réelles.|Die Diagramme bleiben hypothetische Szenarien, keine auf echten Restaurantdaten trainierten Prognosen.
+Minh họa lịch sử: 2024–2025 · Mốc dự báo: 01/01/2026 · Không phải dự báo hiện tại.|Historical sample: 2024–2025 · Forecast origin: 1 January 2026 · Not a current forecast.|Exemple historique : 2024–2025 · Origine : 1 janvier 2026 · Pas une prévision actuelle.|Historisches Beispiel: 2024–2025 · Prognosestart: 1. Januar 2026 · Keine aktuelle Prognose.
+Số tháng đã xác nhận|Approved history months|Mois historiques validés|Bestätigte historische Monate
+Số tháng kiểm tra riêng|Untouched holdout months|Mois de test indépendants|Unberührte Testmonate
+Sai số tuyệt đối doanh thu (triệu VND)|Revenue MAE (million VND)|Erreur absolue moyenne des recettes (millions VND)|Mittlerer absoluter Umsatzfehler (Mio. VND)
+Sai số doanh thu WAPE|Revenue WAPE|Erreur WAPE des recettes|Umsatz-WAPE
+Sai số tuyệt đối lợi nhuận (triệu VND)|Profit MAE (million VND)|Erreur absolue moyenne du bénéfice (millions VND)|Mittlerer absoluter Gewinnfehler (Mio. VND)
+Không xác định|Undefined|Non défini|Nicht definiert
+So sánh mô hình tháng gần nhất, trung bình 3 tháng và cùng kỳ năm trước. Tập kiểm tra cuối không dùng để chọn mô hình. Sai số quá khứ không bảo đảm kết quả tương lai.|Compares last-month, 3-month mean and year-ago models. The final test set is excluded from model selection. Historical errors do not guarantee future accuracy.|Compare dernier mois, moyenne sur 3 mois et année précédente. Le test final ne sert pas au choix du modèle. Les erreurs passées ne garantissent pas l’avenir.|Vergleicht letzten Monat, 3-Monats-Mittel und Vorjahr. Der letzte Testsatz wird nicht zur Modellauswahl verwendet. Historische Fehler garantieren keine künftige Genauigkeit.
+Chưa tải được bằng chứng kiểm định. Không sử dụng kết quả chưa xác nhận.|Validation evidence could not be loaded. Do not use unverified results.|Les preuves de validation n’ont pas pu être chargées. N’utilisez pas de résultats non vérifiés.|Validierungsnachweise konnten nicht geladen werden. Ungeprüfte Ergebnisse nicht verwenden.
+Thu ngân · Quản lý · Chủ|Cashier · Manager · Owner|Caisse · Responsable · Propriétaire|Kasse · Leitung · Inhaber
+Thu ngân|Cashier|Caissier|Kassenpersonal
+Quản lý cơ sở|Branch manager|Responsable de site|Standortleitung
+Chủ doanh nghiệp|Business owner|Propriétaire|Unternehmensinhaber
+Bán hàng · Giờ công · Bàn giao|Sales · Attendance · Handover|Ventes · Pointage · Relève|Verkauf · Arbeitszeit · Übergabe
+Kho · Nhân sự · Khuyến mãi|Stock · Staff · Promotions|Stock · Personnel · Promotions|Lager · Personal · Aktionen
+Toàn chuỗi · Lợi nhuận · Dự báo|All branches · Profit · Forecasts|Réseau · Résultat · Prévisions|Alle Standorte · Gewinn · Prognosen
+Một hệ thống.|One system.|Un système.|Ein System.
+Ba không gian làm việc.|Three workspaces.|Trois espaces de travail.|Drei Arbeitsbereiche.
+Ca làm rõ ràng, bàn giao liền mạch, quản lý đúng phạm vi.|Clear shifts, smooth handovers, scoped management.|Des services clairs, des relèves fluides, des droits adaptés.|Klare Schichten, reibungslose Übergaben, passende Rechte.
+Đăng nhập backend|Sign in to backend|Connexion au serveur|Am Backend anmelden
+Thoát phiên|Sign out|Déconnexion|Abmelden
+Giờ ca làm việc|Shift time|Durée du service|Schichtdauer
+Đang tính theo giờ máy chủ, chưa trừ thời gian nghỉ.|Server time, before breaks.|Heure du serveur, avant déduction des pauses.|Serverzeit, vor Abzug der Pausen.
+Ca đã kết thúc. Mở lại khu vực làm việc sẽ bắt đầu ca mới.|Shift ended. Reopening the workspace starts a new shift.|Service terminé. Rouvrir cet espace démarre un nouveau service.|Schicht beendet. Erneutes Öffnen startet eine neue Schicht.
+Ca trên backend|Backend shift|Service sur le serveur|Schicht auf dem Server
+Giờ công minh họa|Sample attendance|Pointage fictif|Beispielarbeitszeit
+Quầy bán hàng|Sales counter|Caisse|Verkaufskasse
+Xác nhận tiền đầu ca|Confirm opening cash|Confirmer le fond de caisse|Anfangsbestand bestätigen
+Tiền mặt đếm được|Counted cash|Espèces comptées|Gezähltes Bargeld
+Tiền thuế cho cả đơn|Tax for the order|Taxe de la commande|Steuer für die Bestellung
+Chìa khóa khuyến mãi (nếu có)|Promotion key (optional)|Clé promotionnelle (facultative)|Aktionsschlüssel (optional)
+Ghi bán hàng & tạo phiếu|Record sale & create receipt|Enregistrer la vente et créer le reçu|Verkauf buchen und Beleg erstellen
+In phiếu cho khách|Print customer receipt|Imprimer le reçu client|Kundenbeleg drucken
+Kết thúc / bàn giao ca|End / hand over shift|Terminer / passer le service|Schicht beenden / übergeben
+Đếm tiền và kết thúc ca|Count cash and end shift|Compter la caisse et terminer|Kasse zählen und Schicht beenden
+Tiền mặt đếm cuối ca|Counted closing cash|Espèces comptées en clôture|Gezählter Endbestand
+Tổng phút nghỉ|Total break minutes|Total des pauses en minutes|Pausenminuten insgesamt
+Nhân viên nhận bàn giao|Handover recipient|Employé prenant la relève|Empfänger der Übergabe
+Kết thúc không bàn giao|End without handover|Terminer sans relève|Ohne Übergabe beenden
+Ghi chú bàn giao|Handover notes|Notes de relève|Übergabenotizen
+Ca và giao dịch của tôi|My shifts and transactions|Mes services et transactions|Meine Schichten und Buchungen
+Đang làm việc|Working|En service|Im Dienst
+Ca đang mở|Open shift|Service en cours|Offene Schicht
+Tiền mặt quầy dự kiến|Expected till cash|Espèces attendues en caisse|Erwarteter Kassenbestand
+Chênh lệch bàn giao|Handover difference|Écart de relève|Übergabedifferenz
+PHIẾU BÁN HÀNG MINH HỌA|SAMPLE SALES RECEIPT|REÇU DE VENTE FICTIF|BEISPIELVERKAUFSBELEG
+Không phải hóa đơn thuế đã được chứng nhận.|Not a certified tax invoice.|Ce document n’est pas une facture fiscale certifiée.|Keine zertifizierte Steuerrechnung.
+Giảm giá|Discount|Remise|Rabatt
+Tổng thanh toán|Total payment|Total à payer|Gesamtzahlung
+Nhân viên|Employee|Employé|Mitarbeiter
+Giờ được ghi|Recorded hours|Heures enregistrées|Erfasste Stunden
+Lương gộp|Gross pay|Salaire brut|Bruttolohn
+Doanh thu ngày|Daily revenue|Chiffre d’affaires du jour|Tagesumsatz
+Lãi ngày sau phân bổ giờ công|Daily profit after earned wages|Résultat du jour après salaires acquis|Tagesgewinn nach erfassten Löhnen
+Ước tính từ ca đã kết thúc|Estimate from ended shifts|Estimation des services terminés|Schätzung aus beendeten Schichten
+Lương gộp trong tháng|Monthly gross pay|Salaires bruts du mois|Monatlicher Bruttolohn
+Không làm thay đổi doanh thu|Does not change revenue|Ne modifie pas le chiffre d’affaires|Ändert nicht den Umsatz
+Giờ công chờ duyệt|Shifts awaiting approval|Services à approuver|Schichten zur Freigabe
+Cần duyệt trước khi chốt lương|Approval required before payroll posting|Approbation requise avant comptabilisation|Freigabe vor Lohnbuchung erforderlich
+Vận hành và chi phí tháng|Monthly operations and costs|Exploitation et coûts du mois|Monatlicher Betrieb und Kosten
+Ghi chi phí chi trả|Record expenses|Enregistrer les charges|Ausgaben buchen
+Giá trị thuần|Net value|Montant net|Nettobetrag
+Tiền thuế nhập thử|Test tax amount|Montant de taxe de démonstration|Beispielsteuerbetrag
+Bảng lương và giờ công|Payroll and attendance|Paie et pointage|Löhne und Arbeitszeiten
+Ghi sổ lương tháng đã hoàn tất|Post payroll for a completed month|Comptabiliser un mois terminé|Lohn eines abgeschlossenen Monats buchen
+Ngày ghi sổ trong tháng|Posting date within the month|Date comptable dans le mois|Buchungsdatum im Monat
+Ghi sổ lương đã duyệt|Post approved payroll|Comptabiliser la paie approuvée|Freigegebenen Lohn buchen
+Tồn cuối ngày & danh sách mua|Closing stock & shopping list|Stock de clôture et achats|Endbestand und Einkaufsliste
+Còn (g)|Remaining (g)|Restant (g)|Bestand (g)
+Mua hôm nay (g)|Buy today (g)|À acheter aujourd’hui (g)|Heute kaufen (g)
+Mua tuần (g)|Buy this week (g)|À acheter cette semaine (g)|Diese Woche kaufen (g)
+Đặt ngưỡng nhập hàng|Set reorder thresholds|Définir les seuils de réapprovisionnement|Bestellgrenzen festlegen
+Ngưỡng tối thiểu (g)|Minimum threshold (g)|Seuil minimum (g)|Mindestbestand (g)
+Mục tiêu ngày (g)|Daily target (g)|Cible du jour (g)|Tagesziel (g)
+Mục tiêu tuần (g)|Weekly target (g)|Cible de la semaine (g)|Wochenziel (g)
+Nhập thêm nguyên liệu|Receive ingredients|Réceptionner des ingrédients|Zutaten einbuchen
+Nhập kho & ghi công nợ|Receive stock & record payable|Réceptionner et comptabiliser la dette|Lagerzugang und Verbindlichkeit buchen
+Giá hàng nhập gần đây|Recent purchase prices|Prix d’achat récents|Letzte Einkaufspreise
+Nhân sự tại cơ sở|Branch staff|Personnel du site|Personal am Standort
+Đang được xếp ca|Available for scheduling|Disponible pour les services|Für Schichten verfügbar
+Thêm / điều chỉnh nhân viên|Add / update employee|Ajouter / modifier un employé|Mitarbeiter hinzufügen / ändern
+Mã nhân viên|Employee ID|Identifiant employé|Mitarbeiterkennung
+Tên nhân viên|Employee name|Nom de l’employé|Mitarbeitername
+Lương gộp mỗi giờ|Gross hourly rate|Taux horaire brut|Bruttostundenlohn
+Ngừng xếp ca từ ngày (không bắt buộc)|Stop scheduling from (optional)|Fin de planification à partir du (facultatif)|Keine neuen Schichten ab (optional)
+Duyệt ca và bàn giao|Review shifts and handovers|Valider les services et relèves|Schichten und Übergaben prüfen
+Đã duyệt|Approved|Approuvé|Freigegeben
+Chờ quản lý duyệt|Awaiting manager approval|En attente de validation|Wartet auf Freigabe
+Duyệt giờ công|Approve hours|Approuver les heures|Arbeitszeit freigeben
+Lý do duyệt giờ công|Reason for approving hours|Motif de validation des heures|Grund für die Stundenfreigabe
+Khuyến mãi có chìa khóa quản lý|Manager-authorized promotions|Promotions autorisées par le responsable|Aktionen mit Freigabeschlüssel
+Đang bật|Enabled|Activé|Aktiviert
+Đang tắt|Disabled|Désactivé|Deaktiviert
+Tạo / bật tắt chương trình|Create / enable or disable promotion|Créer / activer ou désactiver une promotion|Aktion erstellen / aktivieren oder deaktivieren
+Mã chương trình|Promotion ID|Identifiant de promotion|Aktionskennung
+Tên chương trình|Promotion name|Nom de la promotion|Aktionsname
+Giảm giá (%)|Discount (%)|Remise (%)|Rabatt (%)
+Bắt đầu (giờ UTC)|Start (UTC)|Début (UTC)|Beginn (UTC)
+Kết thúc (giờ UTC)|End (UTC)|Fin (UTC)|Ende (UTC)
+Cấp chìa khóa dùng một lần|Issue single-use key|Émettre une clé à usage unique|Einmalschlüssel ausstellen
+Chương trình|Promotion|Promotion|Aktion
+Thu ngân được cấp|Authorized cashier|Caissier autorisé|Berechtigtes Kassenpersonal
+Hạn dùng (phút)|Validity (minutes)|Validité (minutes)|Gültigkeit (Minuten)
+Cấp chìa khóa|Issue key|Émettre la clé|Schlüssel ausstellen
+Doanh thu toàn chuỗi|Chain revenue|Chiffre d’affaires du réseau|Umsatz aller Standorte
+Lợi nhuận trước thuế|Profit before tax|Résultat avant impôt|Gewinn vor Steuern
+Theo sổ đã ghi nhận|As posted to the ledger|Selon les écritures comptables|Laut gebuchten Daten
+Thuế ước tính|Estimated tax|Impôt estimé|Geschätzte Steuer
+Kịch bản do chủ cấu hình|Owner-configured scenario|Scénario défini par le propriétaire|Vom Inhaber festgelegtes Szenario
+Lợi nhuận sau thuế ước tính|Estimated profit after tax|Résultat estimé après impôt|Geschätzter Gewinn nach Steuern
+Không phải kết quả kê khai thuế|Not a tax filing result|Ne constitue pas une déclaration fiscale|Kein Ergebnis einer Steuererklärung
+So sánh các cơ sở|Compare branches|Comparer les sites|Standorte vergleichen
+Trước và sau thuế|Before and after tax|Avant et après impôt|Vor und nach Steuern
+Cấu hình kịch bản thuế của cơ sở|Configure branch tax scenario|Configurer le scénario fiscal du site|Steuerszenario des Standorts festlegen
+Thuế trên lợi nhuận (%)|Tax on profit (%)|Impôt sur le résultat (%)|Gewinnsteuer (%)
+Lưu kịch bản thuế|Save tax scenario|Enregistrer le scénario fiscal|Steuerszenario speichern
+Kiểm tra dự báo các tháng tới|Check forecasts for coming months|Vérifier les prévisions des prochains mois|Prognosen für kommende Monate prüfen
+Kiểm tra khả năng dự báo|Check forecast readiness|Vérifier la possibilité de prévision|Prognosefähigkeit prüfen
+Xem / điều chỉnh cơ sở|View / adjust branch|Voir / modifier le site|Standort ansehen / ändern
+Múi giờ của cơ sở|Branch timezone|Fuseau horaire du site|Zeitzone des Standorts
+Múi giờ IANA|IANA timezone|Fuseau horaire IANA|IANA-Zeitzone
+Lưu thay đổi|Save changes|Enregistrer|Änderungen speichern
+Đăng nhập đúng vai trò|Sign in with your role|Connexion selon votre rôle|Mit Ihrer Rolle anmelden
+Mã cơ sở được cấp quyền|Authorized branch ID|Identifiant du site autorisé|Kennung des berechtigten Standorts
+Đăng nhập|Sign in|Connexion|Anmelden
+Backend đã xác thực · quyền theo tài khoản|Authenticated backend · account permissions|Serveur authentifié · droits du compte|Authentifiziertes Backend · Kontorechte
+Ba vai trò minh họa · chỉ xem|Three sample roles · read only|Trois rôles fictifs · lecture seule|Drei Beispielrollen · nur lesbar
+Dữ liệu giả lập · GBP|Synthetic data · GBP|Données fictives · GBP|Synthetische Daten · GBP
+Chấm công, bàn giao, kho và lương theo đúng vai trò|Attendance, handovers, inventory and payroll by role|Pointage, relèves, stock et paie selon le rôle|Arbeitszeit, Übergaben, Lager und Lohn je Rolle
+Phải trả lương|Wages payable|Salaires à payer|Lohnverbindlichkeiten
+Phải trả khác|Other payables|Autres dettes|Sonstige Verbindlichkeiten
+Đóng app không tự dừng tính giờ.|Closing the app does not stop the clock.|Fermer l’application n’arrête pas le pointage.|Das Schließen der App beendet die Zeiterfassung nicht.
+In sổ giao ca|Print handover report|Imprimer le rapport de relève|Übergabebericht drucken
+BẾP FINANCE · ĐÚNG NGƯỜI, ĐÚNG QUYỀN|BẾP FINANCE · THE RIGHT ACCESS FOR EACH ROLE|BẾP FINANCE · LES DROITS ADAPTÉS À CHAQUE RÔLE|BẾP FINANCE · PASSENDE RECHTE FÜR JEDE ROLLE
+Bản mẫu chỉ xem. Chấm công thật bắt đầu khi nhân viên đã đăng nhập mở khu vực làm việc trên backend.|Read-only demo. Actual attendance starts when authenticated staff open the backend workspace.|Démo en lecture seule. Le pointage réel commence à l’ouverture de l’espace serveur après connexion.|Nur lesbare Demo. Echte Zeiterfassung beginnt nach Anmeldung beim Öffnen des Backend-Arbeitsbereichs.
+Vai trò và cơ sở được lấy từ backend, không từ nút chọn giao diện mẫu.|Role and branch permissions come from the backend account.|Le rôle et les sites autorisés proviennent du compte serveur.|Rolle und Standorte werden vom Backend-Konto bestimmt.
+Xác nhận tiền đầu ca trước khi bán. Không cần cấp quyền xem lợi nhuận cho thu ngân.|Confirm opening cash before selling. Cashiers do not need profit access.|Confirmez le fond de caisse avant de vendre. L’accès au résultat n’est pas nécessaire pour les caissiers.|Anfangsbestand vor dem Verkauf bestätigen. Kassenpersonal benötigt keinen Gewinnzugriff.
+Đóng app không tự dừng tính giờ. Ca bất thường và giờ công chờ duyệt chưa được chốt lương.|Closing the app does not stop attendance. Unusual or unapproved shifts cannot be posted to payroll.|Fermer l’application n’arrête pas le pointage. Les services inhabituels ou non approuvés ne sont pas comptabilisés en paie.|Das Schließen der App stoppt die Zeiterfassung nicht. Auffällige oder nicht freigegebene Schichten werden nicht als Lohn gebucht.
+Đơn giá mới áp dụng từ ca tiếp theo. Ngừng xếp ca không xóa giờ công hay lương đã phát sinh.|New rates apply from the next shift. Stopping scheduling preserves earned hours and wages.|Les nouveaux taux s’appliquent au prochain service. L’arrêt de planification conserve les heures et salaires acquis.|Neue Sätze gelten ab der nächsten Schicht. Bereits erfasste Stunden und Löhne bleiben erhalten.
+Danh sách dựa trên ngưỡng và tồn mục tiêu do quản lý đặt, chưa phải dự báo nhu cầu bằng AI.|The list uses manager-set stock thresholds and targets; it is not an AI demand forecast.|La liste utilise les seuils et cibles de stock définis par le responsable, sans prévision de demande par IA.|Die Liste basiert auf festgelegten Lagergrenzen und Zielbeständen, ohne KI-Nachfrageprognose.
+Lương theo giờ gộp, chưa tính tăng ca, nghỉ phép, NI, hưu trí hoặc khấu trừ thuế. Giờ công phải được duyệt trước khi ghi sổ lương.|Gross hourly pay excludes overtime, leave, NI, pensions and tax deductions. Hours require approval before posting.|Le salaire horaire brut exclut les heures supplémentaires, congés, NI, retraites et retenues fiscales. Les heures doivent être approuvées avant comptabilisation.|Bruttostundenlohn ohne Überstunden, Urlaub, NI, Altersvorsorge und Steuerabzüge. Stunden müssen vor der Buchung freigegeben werden.
+Các cơ sở trong báo cáo này dùng cùng đồng tiền của một sổ. Không tự cộng GBP với EUR.|These branches share one ledger currency. GBP and EUR are not added together.|Ces sites partagent la devise du même livre. GBP et EUR ne sont pas additionnés.|Diese Standorte verwenden dieselbe Buchwährung. GBP und EUR werden nicht zusammengerechnet.
+Không tự áp một mức thuế chung cho Anh/EU. Số sau thuế chỉ xuất hiện khi cơ sở đã có cấu hình.|No common UK/EU tax rate is assumed. After-tax figures require branch configuration.|Aucun taux commun Royaume-Uni/UE n’est présumé. Les chiffres après impôt nécessitent un paramétrage du site.|Kein einheitlicher UK/EU-Steuersatz wird angenommen. Nachsteuerwerte erfordern eine Standortkonfiguration.
+Dự báo dùng lịch sử đã khóa và kiểm định mô hình. Thiếu dữ liệu sẽ bị từ chối, không tạo số dự báo giả.|Forecasts require closed history and model validation. Insufficient data is rejected.|Les prévisions exigent un historique clôturé et une validation du modèle. Les données insuffisantes sont refusées.|Prognosen erfordern abgeschlossene historische Daten und Modellprüfung. Unzureichende Daten werden abgelehnt.
+Đã lưu và kiểm tra quyền truy cập.|Saved with permission checks.|Enregistré après vérification des droits.|Nach Berechtigungsprüfung gespeichert.
+Đã ghi bán hàng. Có thể in phiếu cho khách.|Sale recorded. The receipt is ready to print.|Vente enregistrée. Le reçu est prêt à imprimer.|Verkauf gebucht. Der Beleg kann gedruckt werden.

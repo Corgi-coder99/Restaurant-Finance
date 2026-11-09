@@ -1,0 +1,17 @@
+// Create these as individual measures on fact_monthly_pnl.
+Doanh thu = SUM(fact_monthly_pnl[revenue_vnd])
+Chi phí nguyên liệu = SUM(fact_monthly_pnl[food_vnd])
+Chi phí nhân sự = SUM(fact_monthly_pnl[labor_vnd])
+Thuê mặt bằng = SUM(fact_monthly_pnl[rent_vnd])
+Chi phí khác = SUM(fact_monthly_pnl[other_vnd])
+Tổng chi phí = [Chi phí nguyên liệu] + [Chi phí nhân sự] + [Thuê mặt bằng] + [Chi phí khác]
+Lợi nhuận vận hành = [Doanh thu] - [Tổng chi phí]
+Biên lợi nhuận = DIVIDE([Lợi nhuận vận hành], [Doanh thu])
+Tỷ lệ thuê trên doanh thu = DIVIDE([Thuê mặt bằng], [Doanh thu])
+Tỷ trọng thuê trong chi phí = DIVIDE([Thuê mặt bằng], [Tổng chi phí])
+// Format ratios as Percentage; do not average row-level percentages.
+// Optional disconnected calculated table for cost-composition charts:
+Nhóm chi phí = DATATABLE("Nhóm", STRING, {{"Nguyên liệu"},{"Nhân sự"},{"Thuê mặt bằng"},{"Khác"}})
+// Then add these measures:
+Chi phí theo nhóm = SWITCH(SELECTEDVALUE('Nhóm chi phí'[Nhóm]), "Nguyên liệu", [Chi phí nguyên liệu], "Nhân sự", [Chi phí nhân sự], "Thuê mặt bằng", [Thuê mặt bằng], "Khác", [Chi phí khác])
+Tỷ trọng nhóm = DIVIDE([Chi phí theo nhóm], [Tổng chi phí])
