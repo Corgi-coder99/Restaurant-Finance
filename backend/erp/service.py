@@ -30,7 +30,7 @@ def number(value,minimum=1,maximum=1_000_000_000_000):
 def iso(value):
     try:
         if date.fromisoformat(value).isoformat()!=value:raise ValueError()
-    except (ValueError,TypeError):raise ERPError('Ngày phải theo YYYY-MM-DD')
+    except (ValueError,TypeError):raise ERPError('Date must use YYYY-MM-DD')
     return value
 
 class ERP:
@@ -61,10 +61,10 @@ class ERP:
     def balance(self,c,account,branch,asof='9999-12-31'):
         return c.execute('SELECT COALESCE(SUM(l.debit-l.credit),0) FROM erp_lines l JOIN erp_documents d ON d.id=l.document_id WHERE l.account=? AND d.branch_id=? AND d.business_date<=?',(account,branch,asof)).fetchone()[0]
     def liquid_guard(self,c,account,branch,amount,business_date):
-        if self.balance(c,account,branch,business_date)<amount:raise ERPError('Không đủ tiền trong tài khoản thanh toán tại ngày ghi nhận')
+        if self.balance(c,account,branch,business_date)<amount:raise ERPError('Insufficient funds in the payment account on the posting date')
     def remaining(self,c,doc_id):
         row=c.execute('SELECT due_minor FROM erp_documents WHERE id=?',(doc_id,)).fetchone()
-        if not row:raise ERPError('Không tìm thấy chứng từ')
+        if not row:raise ERPError('Document not found')
         reversed_=c.execute('SELECT 1 FROM erp_documents WHERE reverses_id=?',(doc_id,)).fetchone()
         if reversed_:return 0
         paid=c.execute('SELECT COALESCE(SUM(amount_minor),0) FROM erp_settlements WHERE invoice_id=?',(doc_id,)).fetchone()[0]
@@ -76,7 +76,7 @@ class ERP:
         for key in ['kind','branch_id','date','payment','category','item_id','invoice_id','asset_id','document_id','name']:
             if key in p and not isinstance(p[key],str):raise ERPError('Invalid text field: '+key)
         kind=p.get('kind');branch=p.get('branch_id');day=iso(p.get('date'))
-        if kind not in ALLOWED.get(role,set()):raise PermissionError('Vai trò hiện tại không được thực hiện nghiệp vụ này')
+        if kind not in ALLOWED.get(role,set()):raise PermissionError('This role cannot perform the transaction')
         fields={'capital':{'amount_minor','payment'},'purchase':{'item_id','quantity','net_minor','tax_minor','payment'},
             'sale':{'items','tax_minor','payment'},'collect':{'invoice_id','amount_minor','payment'},'pay':{'invoice_id','amount_minor','payment'},
             'expense':{'category','net_minor','tax_minor','payment'},'asset':{'name','net_minor','tax_minor','life_months','payment'},
@@ -89,29 +89,29 @@ class ERP:
             verify_ledger(c,self.audit_key)
             old=c.execute('SELECT id,payload_hash FROM erp_documents WHERE request_key=?',(request_key,)).fetchone()
             if old:
-                if old['payload_hash']!=digest:raise ERPError('Idempotency-Key đã dùng cho nội dung khác')
+                if old['payload_hash']!=digest:raise ERPError('Idempotency key was already used for a different payload')
                 c.rollback();return {'document_id':old['id'],'status':'already_posted'}
-            if not c.execute('SELECT 1 FROM erp_branches WHERE id=?',(branch,)).fetchone():raise ERPError('Chi nhánh không hợp lệ')
-            if c.execute('SELECT 1 FROM erp_periods WHERE branch_id=? AND month=?',(branch,day[:7])).fetchone():raise ERPError('Kỳ kế toán đã khóa')
+            if not c.execute('SELECT 1 FROM erp_branches WHERE id=?',(branch,)).fetchone():raise ERPError('Invalid branch')
+            if c.execute('SELECT 1 FROM erp_periods WHERE branch_id=? AND month=?',(branch,day[:7])).fetchone():raise ERPError('The accounting period is closed')
             context=prepare(c,p) if prepare else {}
             latest=c.execute("SELECT MAX(business_date) FROM erp_documents WHERE branch_id=? AND kind NOT IN ('reserve','close_period')",(branch,)).fetchone()[0]
-            if latest and day<latest and kind not in ('reserve','close_period') and not (kind=='expense' and context.get('payroll_id')):raise ERPError('MVP yêu cầu ghi nghiệp vụ theo thứ tự ngày; cần quy trình điều chỉnh cho ngày quá khứ')
+            if latest and day<latest and kind not in ('reserve','close_period') and not (kind=='expense' and context.get('payroll_id')):raise ERPError('Transactions must be posted in chronological order. Use an adjustment for an earlier date.')
             doc=uuid.uuid4().hex;lines=[];moves=[];asset=None;dep=None;settle=None;reverse=None;due=0
             def line(account,debit=0,credit=0):
                 if debit or credit:lines.append((account,debit,credit))
             def funding_account(default='bank'):
                 key=p.get('payment',default)
                 mapping={'cash':'1000','bank':'1010','credit':'2000'}
-                if key not in mapping:raise ERPError('Phương thức thanh toán không hợp lệ')
+                if key not in mapping:raise ERPError('Invalid payment method')
                 return mapping[key]
             def stock(item,qty,value):
-                if not c.execute('SELECT 1 FROM erp_items WHERE id=?',(item,)).fetchone():raise ERPError('Nguyên liệu không hợp lệ')
+                if not c.execute('SELECT 1 FROM erp_items WHERE id=?',(item,)).fetchone():raise ERPError('Invalid ingredient')
                 c.execute('INSERT OR IGNORE INTO erp_stock VALUES(?,?,0,0)',(branch,item))
                 c.execute('UPDATE erp_stock SET quantity=quantity+?,value_minor=value_minor+? WHERE branch_id=? AND item_id=?',(qty,value,branch,item))
                 moves.append((item,qty,value))
             if kind=='capital':
                 amount=number(p.get('amount_minor'));account=funding_account()
-                if account=='2000':raise ERPError('Vốn góp phải vào tiền mặt hoặc ngân hàng')
+                if account=='2000':raise ERPError('Capital contributions must go to cash or bank')
                 line(account,amount);line('3000',credit=amount)
             elif kind in ('purchase','expense','asset'):
                 net=number(p.get('net_minor'));tax=number(p.get('tax_minor',0),0);gross=net+tax;account=funding_account('credit' if kind=='purchase' else 'bank')
@@ -123,31 +123,31 @@ class ERP:
                 elif kind=='expense':
                     if role=='manager' and p.get('category')=='labor' and not context.get('payroll_id'):raise PermissionError('Use reviewed payroll accrual for manager salary postings')
                     debit_account={'rent':'5200','labor':'5100','other':'5300'}.get(p.get('category'))
-                    if not debit_account:raise ERPError('Nhóm chi phí không hợp lệ')
+                    if not debit_account:raise ERPError('Invalid expense category')
                 else:
                     months=number(p.get('life_months'),1,600)
-                    if months>net:raise ERPError('Nguyên giá theo đơn vị tiền nhỏ nhất phải đủ phân bổ cho số tháng đã chọn')
+                    if months>net:raise ERPError('Asset cost in minor units must cover the selected depreciation months')
                     name=str(p.get('name','')).strip()
-                    if not name or len(name)>160:raise ERPError('Tên tài sản bắt buộc, tối đa 160 ký tự')
+                    if not name or len(name)>160:raise ERPError('Asset name is required and must be at most 160 characters')
                     asset=(doc,doc,name,net,months);debit_account='1500'
                 line(debit_account,net);line('1300',tax);line(account,credit=gross)
             elif kind=='sale':
                 order=p.get('items')
-                if not isinstance(order,list) or not 1<=len(order)<=50:raise ERPError('Đơn phải có 1..50 dòng món')
+                if not isinstance(order,list) or not 1<=len(order)<=50:raise ERPError('An order must have between 1 and 50 items')
                 needs={};net=0;sale_lines=[]
                 for item in order:
-                    if not isinstance(item,dict) or set(item)!={'product_id','quantity'} or not isinstance(item.get('product_id'),str):raise ERPError('Dòng món ăn không hợp lệ')
+                    if not isinstance(item,dict) or set(item)!={'product_id','quantity'} or not isinstance(item.get('product_id'),str):raise ERPError('Invalid order item')
                     product=(lambda p:(p['price_minor'],p['name']) if p else None)(context['catalog'].get(item['product_id'])) if 'catalog' in context else c.execute('SELECT price_minor,name FROM erp_products WHERE id=?',(item.get('product_id'),)).fetchone()
-                    if not product:raise ERPError('Món ăn không hợp lệ')
+                    if not product:raise ERPError('Invalid menu item')
                     qty=number(item.get('quantity'),1,10000);net+=product[0]*qty
                     sale_lines.append({'product_id':item['product_id'],'name':product[1],'quantity':qty,'unit_price_minor':product[0],'subtotal_minor':product[0]*qty})
                     recipe=[(r['item_id'],r['quantity']) for r in context['catalog'][item['product_id']]['recipe']] if 'catalog' in context else c.execute('SELECT item_id,quantity FROM erp_recipes WHERE product_id=?',(item['product_id'],)).fetchall()
-                    if not recipe and 'catalog' not in context:raise ERPError('Món chưa có định lượng')
+                    if not recipe and 'catalog' not in context:raise ERPError('The menu item has no recipe')
                     for ingredient in recipe:needs[ingredient[0]]=needs.get(ingredient[0],0)+ingredient[1]*qty
                 cost=0
                 for item,qty in needs.items():
                     available=c.execute('SELECT quantity,value_minor FROM erp_stock WHERE branch_id=? AND item_id=?',(branch,item)).fetchone()
-                    if not available or available[0]<qty:raise ERPError('Không đủ nguyên liệu để bán món')
+                    if not available or available[0]<qty:raise ERPError('Insufficient ingredients to complete the sale')
                     value=available[1] if qty==available[0] else available[1]*qty//available[0]
                     stock(item,-qty,-value);cost+=value
                 subtotal=net;discount_bps=number(context.get('discount_bps',0),0,10000)
@@ -156,7 +156,7 @@ class ERP:
                 if context.get('pos_quote'):
                     q=context['pos_quote'];net=q['net_minor'];tax=q['tax_minor'];gross=q['gross_minor'];sale_lines=q['sale_lines'];subtotal=q['subtotal_minor'];discount=q['discount_minor'];p['tax_minor']=tax
                 method=p.get('payment','cash');account={'cash':'1000','bank':'1010','credit':'1100','ticket_restaurant':'1100'}.get(method)
-                if not account:raise ERPError('Phương thức bán hàng không hợp lệ')
+                if not account:raise ERPError('Invalid sales payment method')
                 due=gross if method in ('credit','ticket_restaurant') else 0
                 p['computed']={'net_minor':net,'tax_minor':tax,'gross_minor':gross,'cost_minor':cost,'subtotal_minor':subtotal,'discount_minor':discount,'discount_bps':discount_bps,'sale_lines':sale_lines}
                 if context.get('promotion_id'):p['computed']['promotion_id']=context['promotion_id']
@@ -167,51 +167,51 @@ class ERP:
                 line(account,gross);line('4000',credit=net);line('2100',credit=tax);line('5000',cost);line('1200',credit=cost)
             elif kind in ('pay','collect'):
                 reference=p.get('invoice_id');invoice=c.execute('SELECT * FROM erp_documents WHERE id=?',(reference,)).fetchone()
-                if not invoice or invoice['branch_id']!=branch:raise ERPError('Chứng từ không thuộc chi nhánh')
-                if day<invoice['business_date']:raise ERPError('Thanh toán không được trước ngày chứng từ')
-                if kind=='pay' and invoice['kind'] not in ('purchase','expense','asset'):raise ERPError('Chỉ thanh toán chứng từ mua/chi phí/tài sản')
-                if kind=='collect' and invoice['kind']!='sale':raise ERPError('Chỉ thu nợ của đơn bán hàng')
+                if not invoice or invoice['branch_id']!=branch:raise ERPError('The document does not belong to this branch')
+                if day<invoice['business_date']:raise ERPError('Payment cannot precede the document date')
+                if kind=='pay' and invoice['kind'] not in ('purchase','expense','asset'):raise ERPError('Only purchase, expense, or asset documents can be paid')
+                if kind=='collect' and invoice['kind']!='sale':raise ERPError('Collections apply to sales receivables only')
                 amount=number(p.get('amount_minor'))
-                if amount>self.remaining(c,reference):raise ERPError('Số thanh toán vượt công nợ còn lại')
+                if amount>self.remaining(c,reference):raise ERPError('Payment exceeds the outstanding balance')
                 account=funding_account()
-                if account=='2000':raise ERPError('Chọn tài khoản tiền để thanh toán')
+                if account=='2000':raise ERPError('Select a cash or bank account for payment')
                 if kind=='pay':self.liquid_guard(c,account,branch,amount,day);line('2000',amount);line(account,credit=amount)
                 else:line(account,amount);line('1100',credit=amount)
                 settle=(doc,reference,amount)
             elif kind=='depreciate':
                 asset_id=p.get('asset_id');row=c.execute('SELECT a.*,d.branch_id,d.business_date FROM erp_assets a JOIN erp_documents d ON a.document_id=d.id WHERE a.id=?',(asset_id,)).fetchone()
-                if not row or row['branch_id']!=branch:raise ERPError('Tài sản không thuộc chi nhánh')
-                if day<row['business_date']:raise ERPError('Chưa đến kỳ khấu hao')
+                if not row or row['branch_id']!=branch:raise ERPError('The asset does not belong to this branch')
+                if day<row['business_date']:raise ERPError('The depreciation period has not started')
                 latest_month=c.execute('SELECT MAX(month) FROM erp_depreciation WHERE asset_id=?',(asset_id,)).fetchone()[0]
                 if latest_month:
                     year,month=map(int,latest_month.split('-'));expected=f'{year+(month==12):04d}-{month%12+1:02d}'
                 else:expected=row['business_date'][:7]
-                if day[:7]!=expected:raise ERPError('Khấu hao phải theo từng tháng liên tiếp từ tháng mua tài sản')
+                if day[:7]!=expected:raise ERPError('Post depreciation for each consecutive month starting with the purchase month')
                 used=c.execute('SELECT COALESCE(SUM(amount_minor),0) FROM erp_depreciation WHERE asset_id=?',(asset_id,)).fetchone()[0]
                 installments=c.execute('SELECT COUNT(*) FROM erp_depreciation WHERE asset_id=?',(asset_id,)).fetchone()[0]
-                if installments>=row['life_months']:raise ERPError('Tài sản đã khấu hao hết')
+                if installments>=row['life_months']:raise ERPError('The asset is fully depreciated')
                 amount=row['cost_minor']//row['life_months']+(1 if installments<row['cost_minor']%row['life_months'] else 0)
-                if amount<=0:raise ERPError('Tài sản đã khấu hao hết')
+                if amount<=0:raise ERPError('The asset is fully depreciated')
                 dep=(asset_id,day[:7],doc,amount);line('5400',amount);line('1590',credit=amount)
             elif kind=='reserve':
                 number(p.get('target_minor'),0)
                 # Liquidity target, neither an expense nor a cash transfer.
             elif kind=='reverse_expense':
                 ref=p.get('document_id');row=c.execute('SELECT * FROM erp_documents WHERE id=?',(ref,)).fetchone()
-                if not row or row['kind']!='expense' or row['branch_id']!=branch:raise ERPError('Chỉ đảo chứng từ chi phí cùng chi nhánh')
-                if day<row['business_date']:raise ERPError('Ngày đảo không được trước ngày gốc')
-                if c.execute('SELECT 1 FROM erp_settlements WHERE invoice_id=?',(ref,)).fetchone():raise ERPError('Chi phí đã thanh toán cần quy trình hoàn tiền riêng')
-                if c.execute("SELECT 1 FROM erp_lines WHERE document_id=? AND account IN ('1000','1010')",(ref,)).fetchone():raise ERPError('Chi phí tiền mặt/ngân hàng cần quy trình hoàn tiền riêng')
+                if not row or row['kind']!='expense' or row['branch_id']!=branch:raise ERPError('Only expense documents in the same branch can be reversed')
+                if day<row['business_date']:raise ERPError('The reversal date cannot precede the original date')
+                if c.execute('SELECT 1 FROM erp_settlements WHERE invoice_id=?',(ref,)).fetchone():raise ERPError('Paid expenses require a separate refund workflow')
+                if c.execute("SELECT 1 FROM erp_lines WHERE document_id=? AND account IN ('1000','1010')",(ref,)).fetchone():raise ERPError('Cash or bank expenses require a separate refund workflow')
                 reverse=ref
                 for row in c.execute('SELECT account,debit,credit FROM erp_lines WHERE document_id=?',(ref,)):line(row[0],row[2],row[1])
             elif kind=='close_period':
                 # Exact day locks the corresponding branch month, not other branches.
                 balance=c.execute('SELECT COALESCE(SUM(l.debit-l.credit),0) FROM erp_lines l JOIN erp_documents d ON d.id=l.document_id WHERE d.branch_id=? AND substr(d.business_date,1,7)=?',(branch,day[:7])).fetchone()[0]
-                if balance:raise ERPError('Sổ chưa cân đối')
+                if balance:raise ERPError('The ledger is out of balance')
                 c.execute('INSERT INTO erp_periods(branch_id,month,closed_by) VALUES(?,?,?)',(branch,day[:7],actor))
-            else:raise ERPError('Nghiệp vụ không hỗ trợ')
-            if sum(x[1] for x in lines)!=sum(x[2] for x in lines):raise ERPError('Bút toán không cân bằng')
-            if not lines and kind not in ('reserve','close_period'):raise ERPError('Bút toán rỗng')
+            else:raise ERPError('Unsupported transaction')
+            if sum(x[1] for x in lines)!=sum(x[2] for x in lines):raise ERPError('The journal entry is out of balance')
+            if not lines and kind not in ('reserve','close_period'):raise ERPError('The journal entry is empty')
             if context.get('payroll_id'):p['computed']={'payroll_id':context['payroll_id'],'month':context['month'],'basis':'approved_gross_hourly_pay'}
             c.execute('INSERT INTO erp_documents(id,request_key,payload_hash,kind,business_date,branch_id,actor,payload,due_minor,reverses_id) VALUES(?,?,?,?,?,?,?,?,?,?)',
                 (doc,request_key,digest,kind,day,branch,actor,json.dumps(p,ensure_ascii=False),due,reverse))
@@ -223,17 +223,17 @@ class ERP:
             append(c,self.audit_key,doc)
             if finalize:finalize(c,doc,p,context)
             c.commit();return {'document_id':doc,'status':'posted','debit_minor':sum(x[1] for x in lines),'credit_minor':sum(x[2] for x in lines)}
-        except sqlite3.IntegrityError as exc:c.rollback();raise ERPError('Xung đột chứng từ, kỳ khấu hao trùng hoặc ràng buộc dữ liệu') from exc
+        except sqlite3.IntegrityError as exc:c.rollback();raise ERPError('Document conflict, duplicate depreciation period, or data constraint violation') from exc
         except Exception:c.rollback();raise
         finally:c.close()
     def report(self,branch='q1',start='0001-01-01',end='9999-12-31',connection=None):
         iso(start);iso(end)
-        if start>end:raise ERPError('Ngày bắt đầu phải trước ngày kết thúc')
+        if start>end:raise ERPError('Start date must not be after end date')
         c=connection if connection is not None else self.connect()
         try:
             if connection is None:c.execute('BEGIN')
             integrity=verify_ledger(c,self.audit_key)
-            if not c.execute('SELECT 1 FROM erp_branches WHERE id=?',(branch,)).fetchone():raise ERPError('Chi nhánh không hợp lệ')
+            if not c.execute('SELECT 1 FROM erp_branches WHERE id=?',(branch,)).fetchone():raise ERPError('Invalid branch')
             trial=[]
             for account,name,kind in ACCOUNTS:
                 value=self.balance(c,account,branch,end)

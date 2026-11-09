@@ -1,8 +1,8 @@
-# Vận hành Bếp Finance
+# Deploy Bếp Finance
 
-Bản chạy chính phục vụ giao diện và API FastAPI trên cùng tên miền. SQLite lưu trên ổ đĩa bền vững. Dữ liệu mẫu phục vụ trải nghiệm thử khi chưa đăng nhập. Sau khi đăng nhập, workspace đọc và ghi dữ liệu theo quyền của tài khoản.
+The Docker image serves the web application and FastAPI from the same origin. A persistent volume holds the operations ledger, account database, and analytics database. Signed-in staff access live data according to their assigned branch and role.
 
-1. Chuẩn bị máy chủ Docker và reverse proxy HTTPS. Lưu cấu hình dưới đây trong tệp `.env` ngoài kho mã. Đặt khóa ngẫu nhiên ít nhất 32 ký tự và giữ nguyên khóa khi cập nhật hoặc khôi phục dữ liệu.
+1. Prepare a Docker host and HTTPS reverse proxy. Keep the following environment file outside the repository. Generate a persistent random audit key of at least 32 characters and retain it for upgrades and recovery.
 
    ```dotenv
    BEP_PUBLIC_URL=https://finance.example.com
@@ -13,7 +13,7 @@ Bản chạy chính phục vụ giao diện và API FastAPI trên cùng tên mi�
    BEP_TRUSTED_PROXY_IPS=<proxy-address-seen-by-the-container>
    ```
 
-2. Tạo image, volume và tài khoản chủ quán. Lệnh tạo tài khoản hỏi mật khẩu tương tác.
+2. Build the image, create a volume, and provision an owner. The CLI prompts for the password.
 
    ```sh
    docker build -t bep-finance .
@@ -24,7 +24,7 @@ Bản chạy chính phục vụ giao diện và API FastAPI trên cùng tên mi�
      -p 127.0.0.1:8000:8000 -v bep-finance-data:/data bep-finance
    ```
 
-3. Trỏ reverse proxy đến `127.0.0.1:8000`. Giữ header Host của tên miền công khai và cấu hình proxy ghi đè `X-Forwarded-Proto: https`. Chỉ tin địa chỉ proxy thực tế. Mở `/workspace/?role=owner&currency=EUR` và đăng nhập. Sổ mới chưa có giao dịch. Cấu hình thực đơn, bàn, nhân viên và thông tin cửa hàng trước khi thử vận hành.
-4. Lưu bản sao SQLite nhất quán và giữ khóa kiểm tra ở nơi riêng. Xem [hướng dẫn sổ vận hành](backend/erp/README.md) để sao lưu và kiểm tra sổ. Cấu hình SMTP theo [hướng dẫn workspace](WORKSPACES.md) nếu cần email khôi phục tài khoản.
+3. Forward traffic to `127.0.0.1:8000`. Preserve the public Host header, overwrite `X-Forwarded-Proto` with `https`, and trust only your proxy address. Open `/workspace/?role=owner&currency=EUR`, sign in, and configure tables, menu items, staff, and business details.
+4. Back up SQLite consistently and keep the audit key separately. Follow the [ledger guide](backend/erp/README.md) for backup and the [workspace guide](WORKSPACES.md) for SMTP recovery settings.
 
-Bản này hỗ trợ ghi nhận giao dịch và lập báo cáo. Thanh toán thẻ, máy in chuyên dụng, gửi hóa đơn tự động và quy trình tuân thủ thu ngân cần được kiểm chứng riêng trước khi đưa vào phục vụ khách. Nút email hóa đơn mở bản nháp trong ứng dụng email.
+Validate payment terminals, dedicated printers, automatic receipt delivery, and applicable fiscal requirements separately before customer service. The current email action opens a receipt draft.
